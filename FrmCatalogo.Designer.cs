@@ -29,13 +29,9 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmCatalogo));
             this.panelencabezado = new System.Windows.Forms.Panel();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
+            this.BtnCerrar = new System.Windows.Forms.PictureBox();
             this.panelmenu = new System.Windows.Forms.Panel();
             this.PanelCentral = new System.Windows.Forms.Panel();
-            this.BtnCerrar = new System.Windows.Forms.PictureBox();
-            this.button1 = new System.Windows.Forms.Button();
-            this.panelmenu = new System.Windows.Forms.Panel();
             this.panelencabezado.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.BtnCerrar)).BeginInit();
             this.SuspendLayout();
@@ -43,23 +39,13 @@
             // panelencabezado
             // 
             this.panelencabezado.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(62)))), ((int)(((byte)(80)))));
-            this.panelencabezado.Controls.Add(this.button2);
             this.panelencabezado.Controls.Add(this.BtnCerrar);
-            this.panelencabezado.Controls.Add(this.button1);
             this.panelencabezado.Dock = System.Windows.Forms.DockStyle.Top;
             this.panelencabezado.Location = new System.Drawing.Point(0, 0);
             this.panelencabezado.Name = "panelencabezado";
             this.panelencabezado.Size = new System.Drawing.Size(894, 42);
             this.panelencabezado.TabIndex = 2;
             // 
-            // button2
-            // 
-            this.button2.Location = new System.Drawing.Point(584, 12);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(127, 23);
-            this.button2.TabIndex = 1;
-            this.button2.Text = "Salir Temporal";
-            this.button2.UseVisualStyleBackColor = true;
             // BtnCerrar
             // 
             this.BtnCerrar.BackColor = System.Drawing.Color.Transparent;
@@ -72,16 +58,6 @@
             this.BtnCerrar.TabStop = false;
             this.BtnCerrar.Click += new System.EventHandler(this.BtnCerrar_Click);
             // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(73, 13);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "Clic";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
-            // 
             // panelmenu
             // 
             this.panelmenu.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(126)))), ((int)(((byte)(34)))));
@@ -92,7 +68,6 @@
             this.panelmenu.TabIndex = 5;
             this.panelmenu.MouseLeave += new System.EventHandler(this.panelmenu_MouseLeave);
             this.panelmenu.MouseHover += new System.EventHandler(this.panelmenu_MouseHover);
-
             // 
             // PanelCentral
             // 
@@ -123,9 +98,7 @@
 
         }
         private System.Windows.Forms.Panel panelencabezado;
-        private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Panel panelmenu;
-        private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Panel PanelCentral;
         private System.Windows.Forms.PictureBox BtnCerrar;
 
