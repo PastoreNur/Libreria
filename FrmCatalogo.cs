@@ -20,16 +20,16 @@ namespace Libreria
             InitializeComponent();
         }
 
-        private void panelmenu_MouseHover(object sender, EventArgs e)
+        private void FrmCatalogo_MouseLeave(object sender, EventArgs e)
         {
-            do
+            panelmenu.Size = new Size(150, 547);
+
+
+            if (panelmenuancho < 50)
             {
-                panelmenuancho = panelmenuancho + 2;
-                panelmenu.Size = new Size(panelmenuancho, 547);
-            } while (panelmenuancho <= 150);
-            
-                
-            
+                panelmenuancho = 150;
+            }
+
         }
 
         private void FrmCatalogo_Load(object sender, EventArgs e)
@@ -41,6 +41,22 @@ namespace Libreria
             } while (panelmenuancho >= 50);
         }
 
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Galeria gale = new Galeria();
+            gale.MdiParent = this;
+            gale.Show();
+        }
+
+        private void panelmenu_MouseHover(object sender, EventArgs e)
+        {
+            do
+            {
+                panelmenuancho = panelmenuancho + 2;
+                panelmenu.Size = new Size(panelmenuancho, 547);
+            } while (panelmenuancho <= 150);
+        }
+
         private void panelmenu_MouseLeave(object sender, EventArgs e)
         {
 
@@ -50,25 +66,6 @@ namespace Libreria
                 panelmenu.Size = new Size(panelmenuancho, 547);
             } while (panelmenuancho >= 50);
 
-        }
-
-        private void FrmCatalogo_MouseLeave(object sender, EventArgs e)
-        {
-            panelmenu.Size = new Size(150, 547);
-     
-            
-                if (panelmenuancho < 50)
-                {
-                    panelmenuancho = 150;
-                }
-            
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-            Galeria gale = new Galeria();
-            gale.MdiParent = this;
-            gale.Show();
         }
     }
 }

@@ -28,32 +28,31 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.panelmenu = new System.Windows.Forms.Panel();
             this.panelencabezado = new System.Windows.Forms.Panel();
-            this.vScrollBar1 = new System.Windows.Forms.VScrollBar();
             this.button1 = new System.Windows.Forms.Button();
+            this.vScrollBar1 = new System.Windows.Forms.VScrollBar();
+            this.panelmenu = new System.Windows.Forms.Panel();
             this.panelencabezado.SuspendLayout();
             this.SuspendLayout();
-            // 
-            // panelmenu
-            // 
-            this.panelmenu.BackColor = System.Drawing.SystemColors.InactiveCaption;
-            this.panelmenu.Dock = System.Windows.Forms.DockStyle.Left;
-            this.panelmenu.Location = new System.Drawing.Point(0, 0);
-            this.panelmenu.Name = "panelmenu";
-            this.panelmenu.Size = new System.Drawing.Size(150, 547);
-            this.panelmenu.TabIndex = 1;
-            this.panelmenu.MouseLeave += new System.EventHandler(this.panelmenu_MouseLeave);
-            this.panelmenu.MouseHover += new System.EventHandler(this.panelmenu_MouseHover);
             // 
             // panelencabezado
             // 
             this.panelencabezado.Controls.Add(this.button1);
             this.panelencabezado.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panelencabezado.Location = new System.Drawing.Point(150, 0);
+            this.panelencabezado.Location = new System.Drawing.Point(0, 0);
             this.panelencabezado.Name = "panelencabezado";
-            this.panelencabezado.Size = new System.Drawing.Size(744, 42);
+            this.panelencabezado.Size = new System.Drawing.Size(894, 42);
             this.panelencabezado.TabIndex = 2;
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(446, 12);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.TabIndex = 0;
+            this.button1.Text = "Clic";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // vScrollBar1
             // 
@@ -64,30 +63,30 @@
             this.vScrollBar1.Size = new System.Drawing.Size(17, 505);
             this.vScrollBar1.TabIndex = 3;
             // 
-            // button1
+            // panelmenu
             // 
-            this.button1.Location = new System.Drawing.Point(73, 13);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "Clic";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.panelmenu.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.panelmenu.Dock = System.Windows.Forms.DockStyle.Left;
+            this.panelmenu.Location = new System.Drawing.Point(0, 42);
+            this.panelmenu.Name = "panelmenu";
+            this.panelmenu.Size = new System.Drawing.Size(134, 505);
+            this.panelmenu.TabIndex = 5;
+            this.panelmenu.MouseLeave += new System.EventHandler(this.panelmenu_MouseLeave);
+            this.panelmenu.MouseHover += new System.EventHandler(this.panelmenu_MouseHover);
             // 
             // FrmCatalogo
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(894, 547);
+            this.Controls.Add(this.panelmenu);
             this.Controls.Add(this.vScrollBar1);
             this.Controls.Add(this.panelencabezado);
-            this.Controls.Add(this.panelmenu);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.IsMdiContainer = true;
             this.Name = "FrmCatalogo";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FrmCatalogo";
-            this.Load += new System.EventHandler(this.FrmCatalogo_Load);
-            this.MouseLeave += new System.EventHandler(this.FrmCatalogo_MouseLeave);
             this.panelencabezado.ResumeLayout(false);
             this.ResumeLayout(false);
 
@@ -95,9 +94,9 @@
 
         #endregion
 
-        private System.Windows.Forms.Panel panelmenu;
         private System.Windows.Forms.Panel panelencabezado;
         private System.Windows.Forms.VScrollBar vScrollBar1;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Panel panelmenu;
     }
 }
