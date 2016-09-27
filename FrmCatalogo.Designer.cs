@@ -32,8 +32,12 @@
             this.BtnCerrar = new System.Windows.Forms.PictureBox();
             this.panelmenu = new System.Windows.Forms.Panel();
             this.PanelCentral = new System.Windows.Forms.Panel();
+            this.PanelCat1 = new System.Windows.Forms.Panel();
+            this.label1 = new System.Windows.Forms.Label();
             this.panelencabezado.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.BtnCerrar)).BeginInit();
+            this.panelmenu.SuspendLayout();
+            this.PanelCat1.SuspendLayout();
             this.SuspendLayout();
             // 
             // panelencabezado
@@ -61,6 +65,7 @@
             // panelmenu
             // 
             this.panelmenu.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(126)))), ((int)(((byte)(34)))));
+            this.panelmenu.Controls.Add(this.PanelCat1);
             this.panelmenu.Dock = System.Windows.Forms.DockStyle.Left;
             this.panelmenu.Location = new System.Drawing.Point(0, 42);
             this.panelmenu.Name = "panelmenu";
@@ -78,6 +83,26 @@
             this.PanelCentral.Size = new System.Drawing.Size(760, 505);
             this.PanelCentral.TabIndex = 7;
             // 
+            // PanelCat1
+            // 
+            this.PanelCat1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(246)))), ((int)(((byte)(71)))), ((int)(((byte)(71)))));
+            this.PanelCat1.Controls.Add(this.label1);
+            this.PanelCat1.Location = new System.Drawing.Point(0, 0);
+            this.PanelCat1.Name = "PanelCat1";
+            this.PanelCat1.Size = new System.Drawing.Size(162, 57);
+            this.PanelCat1.TabIndex = 0;
+            this.PanelCat1.MouseHover += new System.EventHandler(this.panel1_MouseHover);
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(61, 21);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(58, 13);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "Categoria1";
+            this.label1.MouseLeave += new System.EventHandler(this.label1_MouseLeave);
+            // 
             // FrmCatalogo
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -94,6 +119,9 @@
             this.Text = "FrmCatalogo";
             this.panelencabezado.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.BtnCerrar)).EndInit();
+            this.panelmenu.ResumeLayout(false);
+            this.PanelCat1.ResumeLayout(false);
+            this.PanelCat1.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -101,6 +129,8 @@
         private System.Windows.Forms.Panel panelmenu;
         private System.Windows.Forms.Panel PanelCentral;
         private System.Windows.Forms.PictureBox BtnCerrar;
+        private System.Windows.Forms.Panel PanelCat1;
+        private System.Windows.Forms.Label label1;
 
 
     }

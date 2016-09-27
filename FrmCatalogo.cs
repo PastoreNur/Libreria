@@ -74,5 +74,24 @@ namespace Libreria
         {
             Application.Exit();
         }
+
+        private void panel1_MouseHover(object sender, EventArgs e)
+        {
+            do
+            {
+                panelmenuancho = panelmenuancho + 2;
+                panelmenu.Size = new Size(panelmenuancho, 547);
+            } while (panelmenuancho <= 150);
+        }
+
+        private void label1_MouseLeave(object sender, EventArgs e)
+        {
+            while (panelmenuancho >= 50)
+            {
+                panelmenuancho = panelmenuancho - 2;
+                panelmenu.Size = new Size(panelmenuancho, 547);
+            } 
+        }
+
     }
 }
