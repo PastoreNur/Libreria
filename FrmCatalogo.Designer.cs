@@ -30,8 +30,9 @@
         {
             this.panelmenu = new System.Windows.Forms.Panel();
             this.panelencabezado = new System.Windows.Forms.Panel();
-            this.vScrollBar1 = new System.Windows.Forms.VScrollBar();
             this.button1 = new System.Windows.Forms.Button();
+            this.vScrollBar1 = new System.Windows.Forms.VScrollBar();
+            this.button2 = new System.Windows.Forms.Button();
             this.panelencabezado.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -48,21 +49,13 @@
             // 
             // panelencabezado
             // 
+            this.panelencabezado.Controls.Add(this.button2);
             this.panelencabezado.Controls.Add(this.button1);
             this.panelencabezado.Dock = System.Windows.Forms.DockStyle.Top;
             this.panelencabezado.Location = new System.Drawing.Point(150, 0);
             this.panelencabezado.Name = "panelencabezado";
             this.panelencabezado.Size = new System.Drawing.Size(744, 42);
             this.panelencabezado.TabIndex = 2;
-            // 
-            // vScrollBar1
-            // 
-            this.vScrollBar1.Dock = System.Windows.Forms.DockStyle.Right;
-            this.vScrollBar1.LargeChange = 101;
-            this.vScrollBar1.Location = new System.Drawing.Point(877, 42);
-            this.vScrollBar1.Name = "vScrollBar1";
-            this.vScrollBar1.Size = new System.Drawing.Size(17, 505);
-            this.vScrollBar1.TabIndex = 3;
             // 
             // button1
             // 
@@ -73,6 +66,25 @@
             this.button1.Text = "Clic";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // vScrollBar1
+            // 
+            this.vScrollBar1.Dock = System.Windows.Forms.DockStyle.Right;
+            this.vScrollBar1.LargeChange = 101;
+            this.vScrollBar1.Location = new System.Drawing.Point(877, 42);
+            this.vScrollBar1.Name = "vScrollBar1";
+            this.vScrollBar1.Size = new System.Drawing.Size(17, 505);
+            this.vScrollBar1.TabIndex = 3;
+            // 
+            // button2
+            // 
+            this.button2.Location = new System.Drawing.Point(584, 12);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(127, 23);
+            this.button2.TabIndex = 1;
+            this.button2.Text = "Salir Temporal";
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // FrmCatalogo
             // 
@@ -99,5 +111,6 @@
         private System.Windows.Forms.Panel panelencabezado;
         private System.Windows.Forms.VScrollBar vScrollBar1;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button button2;
     }
 }
