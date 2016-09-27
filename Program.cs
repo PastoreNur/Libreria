@@ -15,7 +15,25 @@ namespace Libreria
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Splash());
+            Application.Run(new MyContext());
         }
     }
+    public class MyContext : ApplicationContext
+    {
+        public MyContext()
+        {
+            Application.Idle += new EventHandler(Application_Idle);
+            Splash Splash = new Splash();
+            Splash.Show();
+        }
+
+        void Application_Idle(object sender, EventArgs e)
+        {
+            if (System.Windows.Forms.Application.OpenForms.Count == 0)
+            {
+                Application.Exit();
+            }
+        }
+    }
+
 }

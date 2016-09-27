@@ -31,9 +31,9 @@
             this.panelencabezado = new System.Windows.Forms.Panel();
             this.BtnCerrar = new System.Windows.Forms.PictureBox();
             this.panelmenu = new System.Windows.Forms.Panel();
-            this.PanelCentral = new System.Windows.Forms.Panel();
             this.PanelCat1 = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
+            this.PanelCentral = new System.Windows.Forms.Panel();
             this.panelencabezado.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.BtnCerrar)).BeginInit();
             this.panelmenu.SuspendLayout();
@@ -74,15 +74,6 @@
             this.panelmenu.MouseLeave += new System.EventHandler(this.panelmenu_MouseLeave);
             this.panelmenu.MouseHover += new System.EventHandler(this.panelmenu_MouseHover);
             // 
-            // PanelCentral
-            // 
-            this.PanelCentral.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(240)))), ((int)(((byte)(241)))));
-            this.PanelCentral.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.PanelCentral.Location = new System.Drawing.Point(134, 42);
-            this.PanelCentral.Name = "PanelCentral";
-            this.PanelCentral.Size = new System.Drawing.Size(760, 505);
-            this.PanelCentral.TabIndex = 7;
-            // 
             // PanelCat1
             // 
             this.PanelCat1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(246)))), ((int)(((byte)(71)))), ((int)(((byte)(71)))));
@@ -102,6 +93,15 @@
             this.label1.TabIndex = 0;
             this.label1.Text = "Categoria1";
             this.label1.MouseLeave += new System.EventHandler(this.label1_MouseLeave);
+            // 
+            // PanelCentral
+            // 
+            this.PanelCentral.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(240)))), ((int)(((byte)(241)))));
+            this.PanelCentral.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.PanelCentral.Location = new System.Drawing.Point(134, 42);
+            this.PanelCentral.Name = "PanelCentral";
+            this.PanelCentral.Size = new System.Drawing.Size(760, 505);
+            this.PanelCentral.TabIndex = 7;
             // 
             // FrmCatalogo
             // 

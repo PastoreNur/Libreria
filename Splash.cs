@@ -19,10 +19,12 @@ namespace Libreria
 
         private void AbrirVentana()
         {
-            Application.Run(new FrmCatalogo());
+           // Application.Run(new FrmCatalogo());
+            FrmCatalogo catalogo = new FrmCatalogo();
+            catalogo.Show();
         }
 
-        Thread CerraVentana;
+       // Thread CerraVentana;
     
     
         private void timer1_Tick_1(object sender, EventArgs e)
@@ -37,10 +39,12 @@ namespace Libreria
             else
             {
                 timer1.Enabled = false;
-                this.Dispose();
-                CerraVentana = new Thread(AbrirVentana);
-                CerraVentana.SetApartmentState(ApartmentState.STA);
-                CerraVentana.Start();
+                FrmCatalogo catalogo = new FrmCatalogo();
+                catalogo.Show();
+               // this.Dispose();
+                //CerraVentana = new Thread(AbrirVentana);
+                //CerraVentana.SetApartmentState(ApartmentState.STA);
+                //CerraVentana.Start();
             }
         }
 

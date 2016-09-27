@@ -34,6 +34,7 @@ namespace Libreria
 
         private void FrmCatalogo_Load(object sender, EventArgs e)
         {
+  
             while (panelmenuancho >= 50)
             {
                 panelmenuancho = panelmenuancho - 2;
