@@ -63,5 +63,12 @@ namespace Libreria
                 }
             
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Galeria gal = new Galeria();
+            gal.MdiParent = this.
+            gal.Show();
+        }
     }
 }
