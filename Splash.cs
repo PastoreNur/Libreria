@@ -24,17 +24,29 @@ namespace Libreria
 
         Thread CerraVentana;
     
-        private void button1_Click_1(object sender, EventArgs e)
+    
+        private void timer1_Tick_1(object sender, EventArgs e)
         {
-            this.Dispose();
-            CerraVentana = new Thread(AbrirVentana);
-            CerraVentana.SetApartmentState(ApartmentState.STA);
-            CerraVentana.Start();
+            progressBar1.Minimum = 0;
+            progressBar1.Maximum = 100;
+
+            if (progressBar1.Value < 100)
+            {
+                progressBar1.Value = progressBar1.Value + 5;
+            }
+            else
+            {
+                timer1.Enabled = false;
+                this.Dispose();
+                CerraVentana = new Thread(AbrirVentana);
+                CerraVentana.SetApartmentState(ApartmentState.STA);
+                CerraVentana.Start();
+            }
         }
 
         private void Splash_Load(object sender, EventArgs e)
         {
-            
+            this.timer1.Start();
         }
     }
 }
