@@ -31,5 +31,10 @@ namespace Libreria
             CerraVentana.SetApartmentState(ApartmentState.STA);
             CerraVentana.Start();
         }
+
+        private void Splash_Load(object sender, EventArgs e)
+        {
+            
+        }
     }
 }

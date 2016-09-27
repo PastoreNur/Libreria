@@ -68,6 +68,7 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Splash";
             this.TransparencyKey = System.Drawing.Color.Red;
+            this.Load += new System.EventHandler(this.Splash_Load);
             ((System.ComponentModel.ISupportInitialize)(this.splashimg)).EndInit();
             this.ResumeLayout(false);
 
