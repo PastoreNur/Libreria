@@ -73,7 +73,7 @@ namespace Libreria
 
         private void BtnCerrar_Click(object sender, EventArgs e)
         {
-            Application.Exit();
+            this.Close();
         }
 
         private void panel1_MouseHover(object sender, EventArgs e)
