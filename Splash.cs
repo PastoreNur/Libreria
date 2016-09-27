@@ -21,10 +21,12 @@ namespace Libreria
         //Abre El formulario principal (Catalogo)
         private void AbrirVentana()
         {
-            Application.Run(new FrmCatalogo());
+           Application.Run(new FrmCatalogo());
+            FrmCatalogo catalogo = new FrmCatalogo();
+            catalogo.Show();
         }
 
-        Thread CerraVentana;
+       Thread CerraVentana;
     
         //La función del timer que hace que la progressbar se llene
         private void timer1_Tick_1(object sender, EventArgs e)
@@ -40,10 +42,12 @@ namespace Libreria
             {
                 //Ésto es lo que cierra el splash y llama el metodo de AbrirVentana
                 timer1.Enabled = false;
+
                 CerraVentana = new Thread(AbrirVentana);
                 CerraVentana.SetApartmentState(ApartmentState.STA);
                 CerraVentana.Start();
                 this.Dispose();
+
             }
         }
 
