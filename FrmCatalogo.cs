@@ -60,11 +60,11 @@ namespace Libreria
         private void panelmenu_MouseLeave(object sender, EventArgs e)
         {
 
-            do
+            while (panelmenuancho >= 50)
             {
                 panelmenuancho = panelmenuancho - 2;
                 panelmenu.Size = new Size(panelmenuancho, 547);
-            } while (panelmenuancho >= 50);
+            } 
 
         }
 
