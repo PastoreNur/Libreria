@@ -34,6 +34,7 @@ namespace Libreria
 
         private void FrmCatalogo_Load(object sender, EventArgs e)
         {
+  
             while (panelmenuancho >= 50)
             {
                 panelmenuancho = panelmenuancho - 2;
@@ -92,17 +93,6 @@ namespace Libreria
                 panelmenu.Size = new Size(panelmenuancho, 547);
             } 
         }
-
-        
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-            Galeria galeria = new Galeria();
-            galeria.MdiParent = this;
-            galeria.Show();
-        }
-
-        
 
     }
 }
