@@ -41,6 +41,7 @@ namespace Libreria
                 timer1.Enabled = false;
                 FrmCatalogo catalogo = new FrmCatalogo();
                 catalogo.Show();
+                this.Close();
                // this.Dispose();
                 //CerraVentana = new Thread(AbrirVentana);
                 //CerraVentana.SetApartmentState(ApartmentState.STA);
