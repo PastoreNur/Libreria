@@ -20,7 +20,6 @@
             base.Dispose(disposing);
         }
 
-        #region Windows Form Designer generated code
 
         /// <summary>
         /// Required method for Designer support - do not modify
@@ -28,20 +27,19 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmCatalogo));
             this.panelencabezado = new System.Windows.Forms.Panel();
+            this.BtnCerrar = new System.Windows.Forms.PictureBox();
             this.button1 = new System.Windows.Forms.Button();
             this.vScrollBar1 = new System.Windows.Forms.VScrollBar();
-
             this.panelmenu = new System.Windows.Forms.Panel();
-
-            this.button2 = new System.Windows.Forms.Button();
-
             this.panelencabezado.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.BtnCerrar)).BeginInit();
             this.SuspendLayout();
             // 
             // panelencabezado
             // 
-            this.panelencabezado.Controls.Add(this.button2);
+            this.panelencabezado.Controls.Add(this.BtnCerrar);
             this.panelencabezado.Controls.Add(this.button1);
             this.panelencabezado.Dock = System.Windows.Forms.DockStyle.Top;
             this.panelencabezado.Location = new System.Drawing.Point(0, 0);
@@ -49,13 +47,21 @@
             this.panelencabezado.Size = new System.Drawing.Size(894, 42);
             this.panelencabezado.TabIndex = 2;
             // 
+            // BtnCerrar
+            // 
+            this.BtnCerrar.BackColor = System.Drawing.Color.Transparent;
+            this.BtnCerrar.Image = ((System.Drawing.Image)(resources.GetObject("BtnCerrar.Image")));
+            this.BtnCerrar.Location = new System.Drawing.Point(857, 6);
+            this.BtnCerrar.Name = "BtnCerrar";
+            this.BtnCerrar.Size = new System.Drawing.Size(30, 30);
+            this.BtnCerrar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.BtnCerrar.TabIndex = 2;
+            this.BtnCerrar.TabStop = false;
+            this.BtnCerrar.Click += new System.EventHandler(this.BtnCerrar_Click);
+            // 
             // button1
             // 
-
-            this.button1.Location = new System.Drawing.Point(446, 12);
-
             this.button1.Location = new System.Drawing.Point(73, 13);
-
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
             this.button1.TabIndex = 0;
@@ -72,7 +78,6 @@
             this.vScrollBar1.Size = new System.Drawing.Size(17, 505);
             this.vScrollBar1.TabIndex = 3;
             // 
-
             // panelmenu
             // 
             this.panelmenu.BackColor = System.Drawing.SystemColors.ActiveCaption;
@@ -83,17 +88,6 @@
             this.panelmenu.TabIndex = 5;
             this.panelmenu.MouseLeave += new System.EventHandler(this.panelmenu_MouseLeave);
             this.panelmenu.MouseHover += new System.EventHandler(this.panelmenu_MouseHover);
-
-            // button2
-            // 
-            this.button2.Location = new System.Drawing.Point(584, 12);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(127, 23);
-            this.button2.TabIndex = 1;
-            this.button2.Text = "Salir Temporal";
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
-
             // 
             // FrmCatalogo
             // 
@@ -109,19 +103,19 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FrmCatalogo";
             this.panelencabezado.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.BtnCerrar)).EndInit();
             this.ResumeLayout(false);
 
         }
 
-        #endregion
+        
 
         private System.Windows.Forms.Panel panelencabezado;
         private System.Windows.Forms.VScrollBar vScrollBar1;
         private System.Windows.Forms.Button button1;
 
         private System.Windows.Forms.Panel panelmenu;
-
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.PictureBox BtnCerrar;
 
     }
 }

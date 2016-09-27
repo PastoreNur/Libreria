@@ -68,7 +68,9 @@ namespace Libreria
 
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        
+
+        private void BtnCerrar_Click(object sender, EventArgs e)
         {
             Application.Exit();
         }
