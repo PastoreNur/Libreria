@@ -41,6 +41,7 @@
             this.progressBar1.Size = new System.Drawing.Size(197, 10);
             this.progressBar1.TabIndex = 3;
             this.progressBar1.Visible = false;
+            
             // 
             // timer1
             // 
