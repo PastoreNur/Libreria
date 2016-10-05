@@ -21,7 +21,7 @@ namespace Libreria
         //Abre El formulario principal (Catalogo)
         private void AbrirVentana()
         {
-           Application.Run(new FrmCatalogo());
+           Application.Run(new Principal());
         }
 
        Thread CerraVentana;
