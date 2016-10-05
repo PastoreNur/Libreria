@@ -22,8 +22,6 @@ namespace Libreria
         private void AbrirVentana()
         {
            Application.Run(new FrmCatalogo());
-            FrmCatalogo catalogo = new FrmCatalogo();
-            catalogo.Show();
         }
 
        Thread CerraVentana;
@@ -46,7 +44,7 @@ namespace Libreria
                 CerraVentana = new Thread(AbrirVentana);
                 CerraVentana.SetApartmentState(ApartmentState.STA);
                 CerraVentana.Start();
-                this.Dispose();
+                this.Close();
 
             }
         }
