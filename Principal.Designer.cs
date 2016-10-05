@@ -87,6 +87,7 @@
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(234)))), ((int)(((byte)(237)))), ((int)(((byte)(241)))));
+            this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel2.Controls.Add(this.lblNombreCategoriaBar);
             this.panel2.Controls.Add(this.label1);
             this.panel2.Controls.Add(this.LblUsuario);
@@ -162,17 +163,21 @@
             // 
             // BtnIngresarBar
             // 
+            this.BtnIngresarBar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(58)))), ((int)(((byte)(69)))));
+            this.BtnIngresarBar.FlatAppearance.BorderSize = 5;
             this.BtnIngresarBar.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.BtnIngresarBar.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnIngresarBar.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(234)))), ((int)(((byte)(237)))), ((int)(((byte)(241)))));
             this.BtnIngresarBar.Location = new System.Drawing.Point(174, 160);
             this.BtnIngresarBar.Name = "BtnIngresarBar";
             this.BtnIngresarBar.Size = new System.Drawing.Size(75, 23);
             this.BtnIngresarBar.TabIndex = 2;
             this.BtnIngresarBar.Text = "Ingresar";
-            this.BtnIngresarBar.UseVisualStyleBackColor = true;
+            this.BtnIngresarBar.UseVisualStyleBackColor = false;
             // 
             // txtPAsswordBar
             // 
-            this.txtPAsswordBar.BackColor = System.Drawing.SystemColors.MenuBar;
+            this.txtPAsswordBar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(234)))), ((int)(((byte)(237)))), ((int)(((byte)(241)))));
             this.txtPAsswordBar.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtPAsswordBar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtPAsswordBar.ForeColor = System.Drawing.SystemColors.WindowFrame;
@@ -185,7 +190,7 @@
             // 
             // txtUsuarioBar
             // 
-            this.txtUsuarioBar.BackColor = System.Drawing.SystemColors.Menu;
+            this.txtUsuarioBar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(234)))), ((int)(((byte)(237)))), ((int)(((byte)(241)))));
             this.txtUsuarioBar.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtUsuarioBar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtUsuarioBar.ForeColor = System.Drawing.SystemColors.WindowFrame;
