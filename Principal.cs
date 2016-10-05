@@ -31,6 +31,21 @@ namespace Libreria
             this.WindowState = FormWindowState.Minimized;
         }
 
+        private void BtnUser_Click(object sender, EventArgs e)
+        {
+            if(loginBar.Enabled == true)
+            {
+                loginBar.Size = new Size(width: 280, height: 1);
+                loginBar.Enabled = false;
+            }
+            else if(loginBar.Enabled == false)
+            {
+                loginBar.Enabled = true;
+                loginBar.Size = new Size(width: 280, height: 200);
+                
+            }
+        }
+
 
         /*
          * try

@@ -38,12 +38,17 @@
             this.LblUsuario = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
+            this.loginBar = new System.Windows.Forms.Panel();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.button1 = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.BtnCarrito)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.BtnUser)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.BtnMinimizar)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.BtnCerrar)).BeginInit();
+            this.loginBar.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
@@ -90,6 +95,7 @@
             this.BtnUser.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.BtnUser.TabIndex = 1;
             this.BtnUser.TabStop = false;
+            this.BtnUser.Click += new System.EventHandler(this.BtnUser_Click);
             // 
             // BtnMinimizar
             // 
@@ -140,11 +146,61 @@
             this.label2.TabIndex = 4;
             this.label2.Text = "Nombre de Categoría";
             // 
+            // loginBar
+            // 
+            this.loginBar.BackColor = System.Drawing.Color.Transparent;
+            this.loginBar.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("loginBar.BackgroundImage")));
+            this.loginBar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.loginBar.Controls.Add(this.button1);
+            this.loginBar.Controls.Add(this.textBox2);
+            this.loginBar.Controls.Add(this.textBox1);
+            this.loginBar.Enabled = false;
+            this.loginBar.Location = new System.Drawing.Point(715, 72);
+            this.loginBar.Name = "loginBar";
+            this.loginBar.Size = new System.Drawing.Size(280, 1);
+            this.loginBar.TabIndex = 3;
+            // 
+            // textBox1
+            // 
+            this.textBox1.BackColor = System.Drawing.SystemColors.Menu;
+            this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox1.ForeColor = System.Drawing.SystemColors.WindowFrame;
+            this.textBox1.Location = new System.Drawing.Point(36, 67);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(169, 19);
+            this.textBox1.TabIndex = 0;
+            this.textBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // textBox2
+            // 
+            this.textBox2.BackColor = System.Drawing.SystemColors.MenuBar;
+            this.textBox2.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox2.ForeColor = System.Drawing.SystemColors.WindowFrame;
+            this.textBox2.Location = new System.Drawing.Point(36, 117);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(169, 19);
+            this.textBox2.TabIndex = 1;
+            this.textBox2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBox2.UseSystemPasswordChar = true;
+            // 
+            // button1
+            // 
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.button1.Location = new System.Drawing.Point(174, 160);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.TabIndex = 2;
+            this.button1.Text = "button1";
+            this.button1.UseVisualStyleBackColor = true;
+            // 
             // Principal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1000, 700);
+            this.Controls.Add(this.loginBar);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
@@ -160,6 +216,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.BtnUser)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.BtnMinimizar)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.BtnCerrar)).EndInit();
+            this.loginBar.ResumeLayout(false);
+            this.loginBar.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -175,6 +233,10 @@
         private System.Windows.Forms.PictureBox BtnUser;
         private System.Windows.Forms.PictureBox BtnCarrito;
         private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Panel loginBar;
+        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.Button button1;
 
     }
 }
