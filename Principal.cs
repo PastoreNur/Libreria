@@ -16,6 +16,11 @@ namespace Libreria
             InitializeComponent();
         }
 
+        //Variables para inicio de sesion
+        public string Usuario = "Invitado";
+        public string Nombre = "Invitado";
+        public string contraseña = "1234";
+
         private void Principal_FormClosing(object sender, FormClosingEventArgs e)
         {
             Application.Exit();
@@ -48,8 +53,37 @@ namespace Libreria
 
         private void Principal_Load(object sender, EventArgs e)
         {
-
+            
         }
+
+        private void BtnIngresarBar_Click(object sender, EventArgs e)
+        {
+            if (txtUsuarioBar.Text == Usuario)
+            {
+                if (txtPAsswordBar.Text == contraseña)
+                {
+                    LblUsuario.Text = Nombre + "!";
+                    lblSaludo.Text = "¡Hola";
+                    loginBar.Size = new Size(width: 280, height: 1);
+                    loginBar.Enabled = false;
+                    txtPAsswordBar.Clear();
+                    txtUsuarioBar.Clear();
+
+                }
+                else
+                {
+                    MessageBox.Show("Contraseña Incorrecta", "AVISO", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    txtPAsswordBar.Clear();
+                }
+            }
+            else
+            {
+                MessageBox.Show("Usuario Incorrecto", "AVISO", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                txtUsuarioBar.Clear();
+            }
+        }
+
+       
 
 
         /*

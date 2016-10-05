@@ -34,7 +34,7 @@
             this.BtnCerrar = new System.Windows.Forms.PictureBox();
             this.panel2 = new System.Windows.Forms.Panel();
             this.lblNombreCategoriaBar = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
+            this.lblSaludo = new System.Windows.Forms.Label();
             this.LblUsuario = new System.Windows.Forms.Label();
             this.BtnUser = new System.Windows.Forms.PictureBox();
             this.BtnCarrito = new System.Windows.Forms.PictureBox();
@@ -64,10 +64,11 @@
             // 
             // BtnMinimizar
             // 
+            this.BtnMinimizar.Dock = System.Windows.Forms.DockStyle.Right;
             this.BtnMinimizar.Image = ((System.Drawing.Image)(resources.GetObject("BtnMinimizar.Image")));
-            this.BtnMinimizar.Location = new System.Drawing.Point(939, 2);
+            this.BtnMinimizar.Location = new System.Drawing.Point(940, 0);
             this.BtnMinimizar.Name = "BtnMinimizar";
-            this.BtnMinimizar.Size = new System.Drawing.Size(25, 25);
+            this.BtnMinimizar.Size = new System.Drawing.Size(30, 30);
             this.BtnMinimizar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.BtnMinimizar.TabIndex = 3;
             this.BtnMinimizar.TabStop = false;
@@ -75,10 +76,11 @@
             // 
             // BtnCerrar
             // 
+            this.BtnCerrar.Dock = System.Windows.Forms.DockStyle.Right;
             this.BtnCerrar.Image = ((System.Drawing.Image)(resources.GetObject("BtnCerrar.Image")));
-            this.BtnCerrar.Location = new System.Drawing.Point(969, 2);
+            this.BtnCerrar.Location = new System.Drawing.Point(970, 0);
             this.BtnCerrar.Name = "BtnCerrar";
-            this.BtnCerrar.Size = new System.Drawing.Size(25, 25);
+            this.BtnCerrar.Size = new System.Drawing.Size(30, 30);
             this.BtnCerrar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.BtnCerrar.TabIndex = 2;
             this.BtnCerrar.TabStop = false;
@@ -89,7 +91,7 @@
             this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(234)))), ((int)(((byte)(237)))), ((int)(((byte)(241)))));
             this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel2.Controls.Add(this.lblNombreCategoriaBar);
-            this.panel2.Controls.Add(this.label1);
+            this.panel2.Controls.Add(this.lblSaludo);
             this.panel2.Controls.Add(this.LblUsuario);
             this.panel2.Controls.Add(this.BtnUser);
             this.panel2.Controls.Add(this.BtnCarrito);
@@ -108,14 +110,14 @@
             this.lblNombreCategoriaBar.TabIndex = 4;
             this.lblNombreCategoriaBar.Text = "Nombre de Categoría";
             // 
-            // label1
+            // lblSaludo
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(871, 3);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(35, 13);
-            this.label1.TabIndex = 3;
-            this.label1.Text = "Entrar";
+            this.lblSaludo.AutoSize = true;
+            this.lblSaludo.Location = new System.Drawing.Point(871, 3);
+            this.lblSaludo.Name = "lblSaludo";
+            this.lblSaludo.Size = new System.Drawing.Size(35, 13);
+            this.lblSaludo.TabIndex = 3;
+            this.lblSaludo.Text = "Entrar";
             // 
             // LblUsuario
             // 
@@ -174,6 +176,7 @@
             this.BtnIngresarBar.TabIndex = 2;
             this.BtnIngresarBar.Text = "Ingresar";
             this.BtnIngresarBar.UseVisualStyleBackColor = false;
+            this.BtnIngresarBar.Click += new System.EventHandler(this.BtnIngresarBar_Click);
             // 
             // txtPAsswordBar
             // 
@@ -234,7 +237,7 @@
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.PictureBox BtnMinimizar;
         private System.Windows.Forms.PictureBox BtnCerrar;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label lblSaludo;
         private System.Windows.Forms.Label LblUsuario;
         private System.Windows.Forms.PictureBox BtnUser;
         private System.Windows.Forms.PictureBox BtnCarrito;
