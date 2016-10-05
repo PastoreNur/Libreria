@@ -33,7 +33,7 @@
             this.BtnMinimizar = new System.Windows.Forms.PictureBox();
             this.BtnCerrar = new System.Windows.Forms.PictureBox();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.label2 = new System.Windows.Forms.Label();
+            this.lblNombreCategoriaBar = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.LblUsuario = new System.Windows.Forms.Label();
             this.BtnUser = new System.Windows.Forms.PictureBox();
@@ -53,7 +53,7 @@
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(58)))), ((int)(((byte)(69)))));
             this.panel1.Controls.Add(this.BtnMinimizar);
             this.panel1.Controls.Add(this.BtnCerrar);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
@@ -86,8 +86,8 @@
             // 
             // panel2
             // 
-            this.panel2.BackColor = System.Drawing.SystemColors.ControlLight;
-            this.panel2.Controls.Add(this.label2);
+            this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(234)))), ((int)(((byte)(237)))), ((int)(((byte)(241)))));
+            this.panel2.Controls.Add(this.lblNombreCategoriaBar);
             this.panel2.Controls.Add(this.label1);
             this.panel2.Controls.Add(this.LblUsuario);
             this.panel2.Controls.Add(this.BtnUser);
@@ -98,14 +98,14 @@
             this.panel2.Size = new System.Drawing.Size(1000, 40);
             this.panel2.TabIndex = 2;
             // 
-            // label2
+            // lblNombreCategoriaBar
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(401, 14);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(109, 13);
-            this.label2.TabIndex = 4;
-            this.label2.Text = "Nombre de Categoría";
+            this.lblNombreCategoriaBar.AutoSize = true;
+            this.lblNombreCategoriaBar.Location = new System.Drawing.Point(401, 14);
+            this.lblNombreCategoriaBar.Name = "lblNombreCategoriaBar";
+            this.lblNombreCategoriaBar.Size = new System.Drawing.Size(109, 13);
+            this.lblNombreCategoriaBar.TabIndex = 4;
+            this.lblNombreCategoriaBar.Text = "Nombre de Categoría";
             // 
             // label1
             // 
@@ -233,7 +233,7 @@
         private System.Windows.Forms.Label LblUsuario;
         private System.Windows.Forms.PictureBox BtnUser;
         private System.Windows.Forms.PictureBox BtnCarrito;
-        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label lblNombreCategoriaBar;
         private System.Windows.Forms.Panel loginBar;
         private System.Windows.Forms.TextBox txtPAsswordBar;
         private System.Windows.Forms.TextBox txtUsuarioBar;
