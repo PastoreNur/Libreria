@@ -52,6 +52,7 @@
             this.PanelCategorias = new System.Windows.Forms.Panel();
             this.panel9 = new System.Windows.Forms.Panel();
             this.panel7 = new System.Windows.Forms.Panel();
+            this.richTextBox5 = new System.Windows.Forms.RichTextBox();
             this.LblTituloDescrip6 = new System.Windows.Forms.Label();
             this.Cantidad6 = new System.Windows.Forms.NumericUpDown();
             this.EtiquetaPrecio6 = new System.Windows.Forms.PictureBox();
@@ -60,6 +61,7 @@
             this.TituloLibro6 = new System.Windows.Forms.Label();
             this.pictureBox12 = new System.Windows.Forms.PictureBox();
             this.panel8 = new System.Windows.Forms.Panel();
+            this.richTextBox4 = new System.Windows.Forms.RichTextBox();
             this.LblTituloDescrip3 = new System.Windows.Forms.Label();
             this.Cantidad3 = new System.Windows.Forms.NumericUpDown();
             this.EtiquetaPrecio3 = new System.Windows.Forms.PictureBox();
@@ -68,6 +70,7 @@
             this.TituloLibro3 = new System.Windows.Forms.Label();
             this.pictureBox15 = new System.Windows.Forms.PictureBox();
             this.panel5 = new System.Windows.Forms.Panel();
+            this.richTextBox3 = new System.Windows.Forms.RichTextBox();
             this.LblTituloDescrip5 = new System.Windows.Forms.Label();
             this.Cantidad5 = new System.Windows.Forms.NumericUpDown();
             this.EtiquetaPrecio5 = new System.Windows.Forms.PictureBox();
@@ -85,6 +88,7 @@
             this.TituloLibro4 = new System.Windows.Forms.Label();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.panel6 = new System.Windows.Forms.Panel();
+            this.richTextBox2 = new System.Windows.Forms.RichTextBox();
             this.LblTituloDescrip2 = new System.Windows.Forms.Label();
             this.Cantidad2 = new System.Windows.Forms.NumericUpDown();
             this.EtiquetaPrecio2 = new System.Windows.Forms.PictureBox();
@@ -93,6 +97,7 @@
             this.TituloLibro2 = new System.Windows.Forms.Label();
             this.pictureBox9 = new System.Windows.Forms.PictureBox();
             this.panel3 = new System.Windows.Forms.Panel();
+            this.richTextBox1 = new System.Windows.Forms.RichTextBox();
             this.LblTituloDescrip1 = new System.Windows.Forms.Label();
             this.Cantidad1 = new System.Windows.Forms.NumericUpDown();
             this.EtiquetaPrecio1 = new System.Windows.Forms.PictureBox();
@@ -100,11 +105,6 @@
             this.AgregarCarrito1 = new System.Windows.Forms.PictureBox();
             this.TituloLibro1 = new System.Windows.Forms.Label();
             this.imgLibro1 = new System.Windows.Forms.PictureBox();
-            this.richTextBox1 = new System.Windows.Forms.RichTextBox();
-            this.richTextBox2 = new System.Windows.Forms.RichTextBox();
-            this.richTextBox3 = new System.Windows.Forms.RichTextBox();
-            this.richTextBox4 = new System.Windows.Forms.RichTextBox();
-            this.richTextBox5 = new System.Windows.Forms.RichTextBox();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.BtnMinimizar)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.BtnCerrar)).BeginInit();
@@ -199,9 +199,10 @@
             // lblNombreCategoriaBar
             // 
             this.lblNombreCategoriaBar.AutoSize = true;
-            this.lblNombreCategoriaBar.Location = new System.Drawing.Point(379, 22);
+            this.lblNombreCategoriaBar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblNombreCategoriaBar.Location = new System.Drawing.Point(383, 9);
             this.lblNombreCategoriaBar.Name = "lblNombreCategoriaBar";
-            this.lblNombreCategoriaBar.Size = new System.Drawing.Size(109, 13);
+            this.lblNombreCategoriaBar.Size = new System.Drawing.Size(179, 20);
             this.lblNombreCategoriaBar.TabIndex = 4;
             this.lblNombreCategoriaBar.Text = "Nombre de Categoría";
             // 
@@ -253,7 +254,7 @@
             this.loginBar.Controls.Add(this.txtPAsswordBar);
             this.loginBar.Controls.Add(this.txtUsuarioBar);
             this.loginBar.Enabled = false;
-            this.loginBar.Location = new System.Drawing.Point(711, 75);
+            this.loginBar.Location = new System.Drawing.Point(651, 4);
             this.loginBar.Name = "loginBar";
             this.loginBar.Size = new System.Drawing.Size(280, 0);
             this.loginBar.TabIndex = 3;
@@ -454,14 +455,15 @@
             // panel9
             // 
             this.panel9.Controls.Add(this.panel7);
+            this.panel9.Controls.Add(this.loginBar);
             this.panel9.Controls.Add(this.panel8);
             this.panel9.Controls.Add(this.panel5);
             this.panel9.Controls.Add(this.panel4);
             this.panel9.Controls.Add(this.panel6);
             this.panel9.Controls.Add(this.panel3);
-            this.panel9.Location = new System.Drawing.Point(60, 70);
+            this.panel9.Location = new System.Drawing.Point(60, 69);
             this.panel9.Name = "panel9";
-            this.panel9.Size = new System.Drawing.Size(940, 630);
+            this.panel9.Size = new System.Drawing.Size(940, 631);
             this.panel9.TabIndex = 9;
             // 
             // panel7
@@ -479,6 +481,16 @@
             this.panel7.Name = "panel7";
             this.panel7.Size = new System.Drawing.Size(425, 190);
             this.panel7.TabIndex = 33;
+            // 
+            // richTextBox5
+            // 
+            this.richTextBox5.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.richTextBox5.Location = new System.Drawing.Point(148, 80);
+            this.richTextBox5.Name = "richTextBox5";
+            this.richTextBox5.ReadOnly = true;
+            this.richTextBox5.Size = new System.Drawing.Size(268, 52);
+            this.richTextBox5.TabIndex = 26;
+            this.richTextBox5.Text = "";
             // 
             // LblTituloDescrip6
             // 
@@ -564,6 +576,16 @@
             this.panel8.Size = new System.Drawing.Size(425, 190);
             this.panel8.TabIndex = 32;
             // 
+            // richTextBox4
+            // 
+            this.richTextBox4.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.richTextBox4.Location = new System.Drawing.Point(148, 80);
+            this.richTextBox4.Name = "richTextBox4";
+            this.richTextBox4.ReadOnly = true;
+            this.richTextBox4.Size = new System.Drawing.Size(268, 52);
+            this.richTextBox4.TabIndex = 26;
+            this.richTextBox4.Text = "";
+            // 
             // LblTituloDescrip3
             // 
             this.LblTituloDescrip3.AutoSize = true;
@@ -647,6 +669,16 @@
             this.panel5.Name = "panel5";
             this.panel5.Size = new System.Drawing.Size(425, 190);
             this.panel5.TabIndex = 34;
+            // 
+            // richTextBox3
+            // 
+            this.richTextBox3.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.richTextBox3.Location = new System.Drawing.Point(148, 80);
+            this.richTextBox3.Name = "richTextBox3";
+            this.richTextBox3.ReadOnly = true;
+            this.richTextBox3.Size = new System.Drawing.Size(268, 52);
+            this.richTextBox3.TabIndex = 26;
+            this.richTextBox3.Text = "";
             // 
             // LblTituloDescrip5
             // 
@@ -826,6 +858,16 @@
             this.panel6.Size = new System.Drawing.Size(425, 190);
             this.panel6.TabIndex = 31;
             // 
+            // richTextBox2
+            // 
+            this.richTextBox2.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.richTextBox2.Location = new System.Drawing.Point(148, 80);
+            this.richTextBox2.Name = "richTextBox2";
+            this.richTextBox2.ReadOnly = true;
+            this.richTextBox2.Size = new System.Drawing.Size(268, 52);
+            this.richTextBox2.TabIndex = 26;
+            this.richTextBox2.Text = "";
+            // 
             // LblTituloDescrip2
             // 
             this.LblTituloDescrip2.AutoSize = true;
@@ -910,6 +952,16 @@
             this.panel3.Size = new System.Drawing.Size(425, 190);
             this.panel3.TabIndex = 29;
             // 
+            // richTextBox1
+            // 
+            this.richTextBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.richTextBox1.Location = new System.Drawing.Point(148, 80);
+            this.richTextBox1.Name = "richTextBox1";
+            this.richTextBox1.ReadOnly = true;
+            this.richTextBox1.Size = new System.Drawing.Size(268, 52);
+            this.richTextBox1.TabIndex = 26;
+            this.richTextBox1.Text = "";
+            // 
             // LblTituloDescrip1
             // 
             this.LblTituloDescrip1.AutoSize = true;
@@ -978,63 +1030,12 @@
             this.imgLibro1.TabIndex = 18;
             this.imgLibro1.TabStop = false;
             // 
-            // richTextBox1
-            // 
-            this.richTextBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.richTextBox1.Location = new System.Drawing.Point(148, 80);
-            this.richTextBox1.Name = "richTextBox1";
-            this.richTextBox1.ReadOnly = true;
-            this.richTextBox1.Size = new System.Drawing.Size(268, 52);
-            this.richTextBox1.TabIndex = 26;
-            this.richTextBox1.Text = "";
-            // 
-            // richTextBox2
-            // 
-            this.richTextBox2.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.richTextBox2.Location = new System.Drawing.Point(148, 80);
-            this.richTextBox2.Name = "richTextBox2";
-            this.richTextBox2.ReadOnly = true;
-            this.richTextBox2.Size = new System.Drawing.Size(268, 52);
-            this.richTextBox2.TabIndex = 26;
-            this.richTextBox2.Text = "";
-            // 
-            // richTextBox3
-            // 
-            this.richTextBox3.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.richTextBox3.Location = new System.Drawing.Point(148, 80);
-            this.richTextBox3.Name = "richTextBox3";
-            this.richTextBox3.ReadOnly = true;
-            this.richTextBox3.Size = new System.Drawing.Size(268, 52);
-            this.richTextBox3.TabIndex = 26;
-            this.richTextBox3.Text = "";
-            // 
-            // richTextBox4
-            // 
-            this.richTextBox4.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.richTextBox4.Location = new System.Drawing.Point(148, 80);
-            this.richTextBox4.Name = "richTextBox4";
-            this.richTextBox4.ReadOnly = true;
-            this.richTextBox4.Size = new System.Drawing.Size(268, 52);
-            this.richTextBox4.TabIndex = 26;
-            this.richTextBox4.Text = "";
-            // 
-            // richTextBox5
-            // 
-            this.richTextBox5.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.richTextBox5.Location = new System.Drawing.Point(148, 80);
-            this.richTextBox5.Name = "richTextBox5";
-            this.richTextBox5.ReadOnly = true;
-            this.richTextBox5.Size = new System.Drawing.Size(268, 52);
-            this.richTextBox5.TabIndex = 26;
-            this.richTextBox5.Text = "";
-            // 
             // Principal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1000, 700);
             this.Controls.Add(this.PanelCategorias);
-            this.Controls.Add(this.loginBar);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.panel9);

@@ -83,7 +83,7 @@ namespace Libreria
                 {
                     LblUsuario.Text = Nombre + "!";
                     lblSaludo.Text = "¡Hola";
-                    loginBar.Size = new Size(width: 280, height: 1);
+                    loginBar.Size = new Size(width: 280, height: 0);
                     loginBar.Enabled = false;
                     txtPAsswordBar.Clear();
                     txtUsuarioBar.Clear();
