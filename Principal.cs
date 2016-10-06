@@ -16,6 +16,21 @@ namespace Libreria
             InitializeComponent();
         }
 
+        public void ExtenderLoginBar()
+        {
+            if (loginBar.Enabled == true)
+            {
+                loginBar.Size = new Size(width: 280, height: 0);
+                loginBar.Enabled = false;
+            }
+            else if (loginBar.Enabled == false)
+            {
+                loginBar.Enabled = true;
+                loginBar.Size = new Size(width: 280, height: 200);
+
+            }
+        }
+
         //Variables para inicio de sesion
         public string Usuario = "Invitado";
         public string Nombre = "Invitado";
@@ -38,23 +53,14 @@ namespace Libreria
 
         private void BtnUser_Click(object sender, EventArgs e)
         {
-            if(loginBar.Enabled == true)
-            {
-                loginBar.Size = new Size(width: 280, height: 0);
-                loginBar.Enabled = false;
-            }
-            else if(loginBar.Enabled == false)
-            {
-                loginBar.Enabled = true;
-                loginBar.Size = new Size(width: 280, height: 200);
-                
-            }
+            ExtenderLoginBar();
         }
 
         private void Principal_Load(object sender, EventArgs e)
         {
             PanelGaleria.Size = new Size(width: 0, height: 0);
             PanelGaleria.Visible = false;
+            lblNombreCategoriaBar.Text = "";
         }
 
         private void BtnIngresarBar_Click(object sender, EventArgs e)
@@ -88,16 +94,78 @@ namespace Libreria
         {
             PanelGaleria.Size = new Size(width:0,height:0);
             PanelGaleria.Visible = false;
+            lblNombreCategoriaBar.Text = "";
             
         }
 
-        private void Categoria1_Click(object sender, EventArgs e)
+        private void ocultarLoginBar()
         {
-            
-            PanelGaleria.Visible = true;
-            PanelGaleria.Size = new Size(width: 825, height: 595); 
+            if (loginBar.Enabled == true)
+            {
+                loginBar.Size = new Size(width: 280, height: 0);
+                loginBar.Enabled = false;
+            }
         }
 
+        private void BtnCat1_Click(object sender, EventArgs e)
+        {
+            ocultarLoginBar();
+
+            PanelGaleria.Visible = true;
+            PanelGaleria.Size = new Size(width: 825, height: 595);
+            lblNombreCategoriaBar.Text = BtnCat1.Text;
+
+        }
+
+        private void BtnCat2_Click(object sender, EventArgs e)
+        {
+            ocultarLoginBar();
+            PanelGaleria.Visible = true;
+            PanelGaleria.Size = new Size(width: 825, height: 595);
+            lblNombreCategoriaBar.Text = BtnCat2.Text;
+        }
+
+        private void BtnCat3_Click(object sender, EventArgs e)
+        {
+            ocultarLoginBar();
+            PanelGaleria.Visible = true;
+            PanelGaleria.Size = new Size(width: 825, height: 595);
+            lblNombreCategoriaBar.Text = BtnCat3.Text;
+        }
+
+        private void BtnCat4_Click(object sender, EventArgs e)
+        {
+            ocultarLoginBar();
+            PanelGaleria.Visible = true;
+            PanelGaleria.Size = new Size(width: 825, height: 595);
+            lblNombreCategoriaBar.Text = BtnCat4.Text;
+        }
+
+        private void BtnCat5_Click(object sender, EventArgs e)
+        {
+            ocultarLoginBar();
+            PanelGaleria.Visible = true;
+            PanelGaleria.Size = new Size(width: 825, height: 595);
+            lblNombreCategoriaBar.Text = BtnCat5.Text;
+        }
+
+        private void BtnCat6_Click(object sender, EventArgs e)
+        {
+            ocultarLoginBar();
+            PanelGaleria.Visible = true;
+            PanelGaleria.Size = new Size(width: 825, height: 595);
+            lblNombreCategoriaBar.Text = BtnCat6.Text;
+        }
+
+        private void BtnCat7_Click(object sender, EventArgs e)
+        {
+            ocultarLoginBar();
+            PanelGaleria.Visible = true;
+            PanelGaleria.Size = new Size(width: 825, height: 595);
+            lblNombreCategoriaBar.Text = BtnCat7.Text;
+        }
+
+        
         
 
        

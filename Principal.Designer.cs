@@ -99,10 +99,13 @@
             this.TituloLibro1 = new System.Windows.Forms.Label();
             this.imgLibro1 = new System.Windows.Forms.PictureBox();
             this.PanelCategorias = new System.Windows.Forms.Panel();
-            this.Categoria1 = new System.Windows.Forms.Panel();
-            this.label1 = new System.Windows.Forms.Label();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.BtnCat1 = new System.Windows.Forms.Button();
             this.BtnCat2 = new System.Windows.Forms.Button();
+            this.BtnCat3 = new System.Windows.Forms.Button();
+            this.BtnCat4 = new System.Windows.Forms.Button();
+            this.BtnCat5 = new System.Windows.Forms.Button();
+            this.BtnCat6 = new System.Windows.Forms.Button();
+            this.BtnCat7 = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.BtnMinimizar)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.BtnCerrar)).BeginInit();
@@ -143,8 +146,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.AgregarCarrito1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.imgLibro1)).BeginInit();
             this.PanelCategorias.SuspendLayout();
-            this.Categoria1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
@@ -890,61 +891,144 @@
             // 
             // PanelCategorias
             // 
+            this.PanelCategorias.Controls.Add(this.BtnCat7);
+            this.PanelCategorias.Controls.Add(this.BtnCat6);
+            this.PanelCategorias.Controls.Add(this.BtnCat5);
+            this.PanelCategorias.Controls.Add(this.BtnCat4);
+            this.PanelCategorias.Controls.Add(this.BtnCat3);
             this.PanelCategorias.Controls.Add(this.BtnCat2);
-            this.PanelCategorias.Controls.Add(this.Categoria1);
+            this.PanelCategorias.Controls.Add(this.BtnCat1);
             this.PanelCategorias.Dock = System.Windows.Forms.DockStyle.Left;
             this.PanelCategorias.Location = new System.Drawing.Point(0, 70);
             this.PanelCategorias.Name = "PanelCategorias";
             this.PanelCategorias.Size = new System.Drawing.Size(150, 630);
             this.PanelCategorias.TabIndex = 7;
             // 
-            // Categoria1
+            // BtnCat1
             // 
-            this.Categoria1.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.Categoria1.Controls.Add(this.label1);
-            this.Categoria1.Controls.Add(this.pictureBox1);
-            this.Categoria1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.Categoria1.Location = new System.Drawing.Point(0, 0);
-            this.Categoria1.Name = "Categoria1";
-            this.Categoria1.Size = new System.Drawing.Size(150, 40);
-            this.Categoria1.TabIndex = 0;
-            this.Categoria1.Click += new System.EventHandler(this.Categoria1_Click);
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(43, 12);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(106, 16);
-            this.label1.TabIndex = 1;
-            this.label1.Text = "Ciecia Ficción";
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(3, 2);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(35, 35);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
+            this.BtnCat1.Dock = System.Windows.Forms.DockStyle.Top;
+            this.BtnCat1.FlatAppearance.BorderSize = 0;
+            this.BtnCat1.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.BtnCat1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Silver;
+            this.BtnCat1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.BtnCat1.Image = ((System.Drawing.Image)(resources.GetObject("BtnCat1.Image")));
+            this.BtnCat1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.BtnCat1.Location = new System.Drawing.Point(0, 0);
+            this.BtnCat1.Name = "BtnCat1";
+            this.BtnCat1.Size = new System.Drawing.Size(150, 43);
+            this.BtnCat1.TabIndex = 1;
+            this.BtnCat1.Text = "Ciencia Ficción";
+            this.BtnCat1.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.BtnCat1.UseVisualStyleBackColor = true;
+            this.BtnCat1.Click += new System.EventHandler(this.BtnCat1_Click);
             // 
             // BtnCat2
             // 
+            this.BtnCat2.Dock = System.Windows.Forms.DockStyle.Top;
             this.BtnCat2.FlatAppearance.BorderSize = 0;
             this.BtnCat2.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.BtnCat2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Silver;
             this.BtnCat2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BtnCat2.Image = ((System.Drawing.Image)(resources.GetObject("BtnCat2.Image")));
             this.BtnCat2.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.BtnCat2.Location = new System.Drawing.Point(1, 43);
+            this.BtnCat2.Location = new System.Drawing.Point(0, 43);
             this.BtnCat2.Name = "BtnCat2";
-            this.BtnCat2.Size = new System.Drawing.Size(149, 43);
-            this.BtnCat2.TabIndex = 1;
-            this.BtnCat2.Text = "Ciencia Ficción";
+            this.BtnCat2.Size = new System.Drawing.Size(150, 43);
+            this.BtnCat2.TabIndex = 2;
+            this.BtnCat2.Text = "Terror";
             this.BtnCat2.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.BtnCat2.UseVisualStyleBackColor = true;
+            this.BtnCat2.Click += new System.EventHandler(this.BtnCat2_Click);
+            // 
+            // BtnCat3
+            // 
+            this.BtnCat3.Dock = System.Windows.Forms.DockStyle.Top;
+            this.BtnCat3.FlatAppearance.BorderSize = 0;
+            this.BtnCat3.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.BtnCat3.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Silver;
+            this.BtnCat3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.BtnCat3.Image = ((System.Drawing.Image)(resources.GetObject("BtnCat3.Image")));
+            this.BtnCat3.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.BtnCat3.Location = new System.Drawing.Point(0, 86);
+            this.BtnCat3.Name = "BtnCat3";
+            this.BtnCat3.Size = new System.Drawing.Size(150, 43);
+            this.BtnCat3.TabIndex = 3;
+            this.BtnCat3.Text = "Matemáticas";
+            this.BtnCat3.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.BtnCat3.UseVisualStyleBackColor = true;
+            this.BtnCat3.Click += new System.EventHandler(this.BtnCat3_Click);
+            // 
+            // BtnCat4
+            // 
+            this.BtnCat4.Dock = System.Windows.Forms.DockStyle.Top;
+            this.BtnCat4.FlatAppearance.BorderSize = 0;
+            this.BtnCat4.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.BtnCat4.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Silver;
+            this.BtnCat4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.BtnCat4.Image = ((System.Drawing.Image)(resources.GetObject("BtnCat4.Image")));
+            this.BtnCat4.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.BtnCat4.Location = new System.Drawing.Point(0, 129);
+            this.BtnCat4.Name = "BtnCat4";
+            this.BtnCat4.Size = new System.Drawing.Size(150, 43);
+            this.BtnCat4.TabIndex = 4;
+            this.BtnCat4.Text = "Programación";
+            this.BtnCat4.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.BtnCat4.UseVisualStyleBackColor = true;
+            this.BtnCat4.Click += new System.EventHandler(this.BtnCat4_Click);
+            // 
+            // BtnCat5
+            // 
+            this.BtnCat5.Dock = System.Windows.Forms.DockStyle.Top;
+            this.BtnCat5.FlatAppearance.BorderSize = 0;
+            this.BtnCat5.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.BtnCat5.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Silver;
+            this.BtnCat5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.BtnCat5.Image = ((System.Drawing.Image)(resources.GetObject("BtnCat5.Image")));
+            this.BtnCat5.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.BtnCat5.Location = new System.Drawing.Point(0, 172);
+            this.BtnCat5.Name = "BtnCat5";
+            this.BtnCat5.Size = new System.Drawing.Size(150, 43);
+            this.BtnCat5.TabIndex = 5;
+            this.BtnCat5.Text = "Cocina";
+            this.BtnCat5.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.BtnCat5.UseVisualStyleBackColor = true;
+            this.BtnCat5.Click += new System.EventHandler(this.BtnCat5_Click);
+            // 
+            // BtnCat6
+            // 
+            this.BtnCat6.Dock = System.Windows.Forms.DockStyle.Top;
+            this.BtnCat6.FlatAppearance.BorderSize = 0;
+            this.BtnCat6.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.BtnCat6.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Silver;
+            this.BtnCat6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.BtnCat6.Image = ((System.Drawing.Image)(resources.GetObject("BtnCat6.Image")));
+            this.BtnCat6.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.BtnCat6.Location = new System.Drawing.Point(0, 215);
+            this.BtnCat6.Name = "BtnCat6";
+            this.BtnCat6.Size = new System.Drawing.Size(150, 43);
+            this.BtnCat6.TabIndex = 6;
+            this.BtnCat6.Text = "Ciencia";
+            this.BtnCat6.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.BtnCat6.UseVisualStyleBackColor = true;
+            this.BtnCat6.Click += new System.EventHandler(this.BtnCat6_Click);
+            // 
+            // BtnCat7
+            // 
+            this.BtnCat7.Dock = System.Windows.Forms.DockStyle.Top;
+            this.BtnCat7.FlatAppearance.BorderSize = 0;
+            this.BtnCat7.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.BtnCat7.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Silver;
+            this.BtnCat7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.BtnCat7.Image = ((System.Drawing.Image)(resources.GetObject("BtnCat7.Image")));
+            this.BtnCat7.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.BtnCat7.Location = new System.Drawing.Point(0, 258);
+            this.BtnCat7.Name = "BtnCat7";
+            this.BtnCat7.Size = new System.Drawing.Size(150, 43);
+            this.BtnCat7.TabIndex = 7;
+            this.BtnCat7.Text = "Házlo tu mismo";
+            this.BtnCat7.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.BtnCat7.UseVisualStyleBackColor = true;
+            this.BtnCat7.Click += new System.EventHandler(this.BtnCat7_Click);
             // 
             // Principal
             // 
@@ -1011,9 +1095,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.AgregarCarrito1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.imgLibro1)).EndInit();
             this.PanelCategorias.ResumeLayout(false);
-            this.Categoria1.ResumeLayout(false);
-            this.Categoria1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -1090,10 +1171,13 @@
         private System.Windows.Forms.PictureBox imgLibro1;
         private System.Windows.Forms.PictureBox BtnCerrarGaleria;
         private System.Windows.Forms.Panel PanelCategorias;
-        private System.Windows.Forms.Panel Categoria1;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Button BtnCat1;
+        private System.Windows.Forms.Button BtnCat6;
+        private System.Windows.Forms.Button BtnCat5;
+        private System.Windows.Forms.Button BtnCat4;
+        private System.Windows.Forms.Button BtnCat3;
         private System.Windows.Forms.Button BtnCat2;
+        private System.Windows.Forms.Button BtnCat7;
 
     }
 }
