@@ -18,17 +18,21 @@ namespace Libreria
 
         public void ExtenderLoginBar()
         {
-            if (loginBar.Enabled == true)
+            if (loginBar.Enabled == false)
             {
-                loginBar.Size = new Size(width: 280, height: 0);
-                loginBar.Enabled = false;
-            }
-            else if (loginBar.Enabled == false)
-            {
-                loginBar.Enabled = true;
                 loginBar.Size = new Size(width: 280, height: 200);
+                loginBar.Enabled = true;
+                PopUpCarrito.Size = new Size(width: 0, height: 0);
+                PopUpCarrito.Enabled = false;
+                PopUpCarrito.Visible = false;
+            }
+            else if (loginBar.Enabled == true)
+            {
+                loginBar.Enabled = false;
+                loginBar.Size = new Size(width: 280, height: 0);
 
             }
+            
         }
 
         //Variables para inicio de sesion
@@ -55,17 +59,7 @@ namespace Libreria
             this.WindowState = FormWindowState.Minimized;
         }
 
-        private void BtnUser_Click(object sender, EventArgs e)
-        {
-            if (login)
-            {
-                
-            }else
-	    {
-                ExtenderLoginBar();
-	    }
-            
-        }
+        
 
         private void Principal_Load(object sender, EventArgs e)
         {
@@ -73,6 +67,8 @@ namespace Libreria
             //PanelGaleria.Size = new Size(width: 0, height: 0);
             //PanelGaleria.Visible = false;
             lblNombreCategoriaBar.Text = "";
+            lblSaludo.Text = "¡Aún no haz";
+            LblUsuario.Text = "Iniciado Sesión!";
         }
 
         private void BtnIngresarBar_Click(object sender, EventArgs e)
@@ -217,6 +213,40 @@ namespace Libreria
             {
                 anchopanel = anchopanel - 3;
                 PanelCategorias.Size = new System.Drawing.Size(anchopanel, 630);
+            }
+        }
+
+       
+
+        private void BtnUserBar_Click(object sender, EventArgs e)
+        {
+            if (login)
+            {
+
+            }
+            else
+            {
+                ExtenderLoginBar();
+            }
+        }
+
+        //Botton Carrito
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            if (PopUpCarrito.Enabled == false)
+            {
+                PopUpCarrito.Size = new Size(width: 400, height: 340);
+                PopUpCarrito.Enabled = true;
+                PopUpCarrito.Visible = true;
+                loginBar.Enabled = false;
+                loginBar.Size = new Size(width: 280, height: 0);
+            }
+            else if (PopUpCarrito.Enabled == true)
+            {
+                PopUpCarrito.Size = new Size(width: 0, height: 0);
+                PopUpCarrito.Enabled = false;
+                PopUpCarrito.Visible = false;
             }
         }
 
