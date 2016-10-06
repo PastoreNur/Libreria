@@ -40,7 +40,7 @@ namespace Libreria
         {
             if(loginBar.Enabled == true)
             {
-                loginBar.Size = new Size(width: 280, height: 1);
+                loginBar.Size = new Size(width: 280, height: 0);
                 loginBar.Enabled = false;
             }
             else if(loginBar.Enabled == false)
