@@ -16,6 +16,36 @@ namespace Libreria
             InitializeComponent();
         }
 
+
+        //Método para iniciar sesión
+        public void IniciarSesion()
+        {
+            if (txtUsuarioBar.Text == Usuario)
+            {
+                if (txtPAsswordBar.Text == contraseña)
+                {
+                    LblUsuario.Text = Nombre + "!";
+                    lblSaludo.Text = "¡Hola";
+                    loginBar.Size = new Size(width: 280, height: 0);
+                    loginBar.Enabled = false;
+                    txtPAsswordBar.Clear();
+                    txtUsuarioBar.Clear();
+                    login = true;
+
+                }
+                else
+                {
+                    MessageBox.Show("Contraseña Incorrecta", "AVISO", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    txtPAsswordBar.Clear();
+                }
+            }
+            else
+            {
+                MessageBox.Show("Usuario Incorrecto", "AVISO", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                txtUsuarioBar.Clear();
+            }
+        }
+
         public void ExtenderLoginBar()
         {
             if (loginBar.Enabled == false)
@@ -73,30 +103,7 @@ namespace Libreria
 
         private void BtnIngresarBar_Click(object sender, EventArgs e)
         {
-            if (txtUsuarioBar.Text == Usuario)
-            {
-                if (txtPAsswordBar.Text == contraseña)
-                {
-                    LblUsuario.Text = Nombre + "!";
-                    lblSaludo.Text = "¡Hola";
-                    loginBar.Size = new Size(width: 280, height: 0);
-                    loginBar.Enabled = false;
-                    txtPAsswordBar.Clear();
-                    txtUsuarioBar.Clear();
-                    login = true;
-
-                }
-                else
-                {
-                    MessageBox.Show("Contraseña Incorrecta", "AVISO", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                    txtPAsswordBar.Clear();
-                }
-            }
-            else
-            {
-                MessageBox.Show("Usuario Incorrecto", "AVISO", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                txtUsuarioBar.Clear();
-            }
+            IniciarSesion();
         }
 
         private void BtnCerrarGaleria_Click(object sender, EventArgs e)

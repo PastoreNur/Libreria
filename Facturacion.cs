@@ -15,5 +15,10 @@ namespace Libreria
         {
             InitializeComponent();
         }
+
+        private void BtnCerrar_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

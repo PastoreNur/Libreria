@@ -1365,10 +1365,7 @@
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.PictureBox BtnMinimizar;
         private System.Windows.Forms.PictureBox BtnCerrar;
-        private System.Windows.Forms.Label lblSaludo;
-        private System.Windows.Forms.Label LblUsuario;
         private System.Windows.Forms.Label lblNombreCategoriaBar;
-        private System.Windows.Forms.Panel loginBar;
         private System.Windows.Forms.TextBox txtPAsswordBar;
         private System.Windows.Forms.TextBox txtUsuarioBar;
         private System.Windows.Forms.Button BtnIngresarBar;
@@ -1429,7 +1426,6 @@
         private System.Windows.Forms.RichTextBox richTextBox3;
         private System.Windows.Forms.RichTextBox richTextBox2;
         private System.Windows.Forms.RichTextBox richTextBox1;
-        private System.Windows.Forms.Panel PopUpCarrito;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.NumericUpDown numericUpDown9;
         private System.Windows.Forms.NumericUpDown numericUpDown10;
@@ -1458,6 +1454,10 @@
         private System.Windows.Forms.Button BtnAgregarCarrito4;
         private System.Windows.Forms.Button BtnAgregarCarrito2;
         private System.Windows.Forms.Button BtnAgregarCarrito1;
+        public System.Windows.Forms.Label lblSaludo;
+        public System.Windows.Forms.Label LblUsuario;
+        public System.Windows.Forms.Panel loginBar;
+        public System.Windows.Forms.Panel PopUpCarrito;
 
     }
 }
