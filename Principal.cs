@@ -70,8 +70,8 @@ namespace Libreria
         private void Principal_Load(object sender, EventArgs e)
         {
             PanelCategorias.Size = new System.Drawing.Size(anchopanel, 630); 
-            PanelGaleria.Size = new Size(width: 0, height: 0);
-            PanelGaleria.Visible = false;
+            //PanelGaleria.Size = new Size(width: 0, height: 0);
+            //PanelGaleria.Visible = false;
             lblNombreCategoriaBar.Text = "";
         }
 
@@ -105,8 +105,8 @@ namespace Libreria
 
         private void BtnCerrarGaleria_Click(object sender, EventArgs e)
         {
-            PanelGaleria.Size = new Size(width:0,height:0);
-            PanelGaleria.Visible = false;
+            //PanelGaleria.Size = new Size(width:0,height:0);
+            //PanelGaleria.Visible = false;
             lblNombreCategoriaBar.Text = "";
             
         }
@@ -124,8 +124,8 @@ namespace Libreria
         {
             ocultarLoginBar();
 
-            PanelGaleria.Visible = true;
-            PanelGaleria.Size = new Size(width: 825, height: 595);
+           // PanelGaleria.Visible = true;
+            //PanelGaleria.Size = new Size(width: 825, height: 595);
             lblNombreCategoriaBar.Text = BtnCat1.Text;
 
         }
@@ -133,48 +133,48 @@ namespace Libreria
         private void BtnCat2_Click(object sender, EventArgs e)
         {
             ocultarLoginBar();
-            PanelGaleria.Visible = true;
-            PanelGaleria.Size = new Size(width: 825, height: 595);
+            //PanelGaleria.Visible = true;
+            //PanelGaleria.Size = new Size(width: 825, height: 595);
             lblNombreCategoriaBar.Text = BtnCat2.Text;
         }
 
         private void BtnCat3_Click(object sender, EventArgs e)
         {
             ocultarLoginBar();
-            PanelGaleria.Visible = true;
-            PanelGaleria.Size = new Size(width: 825, height: 595);
+            //PanelGaleria.Visible = true;
+            //PanelGaleria.Size = new Size(width: 825, height: 595);
             lblNombreCategoriaBar.Text = BtnCat3.Text;
         }
 
         private void BtnCat4_Click(object sender, EventArgs e)
         {
             ocultarLoginBar();
-            PanelGaleria.Visible = true;
-            PanelGaleria.Size = new Size(width: 825, height: 595);
+            //PanelGaleria.Visible = true;
+            //PanelGaleria.Size = new Size(width: 825, height: 595);
             lblNombreCategoriaBar.Text = BtnCat4.Text;
         }
 
         private void BtnCat5_Click(object sender, EventArgs e)
         {
             ocultarLoginBar();
-            PanelGaleria.Visible = true;
-            PanelGaleria.Size = new Size(width: 825, height: 595);
+            //PanelGaleria.Visible = true;
+            //PanelGaleria.Size = new Size(width: 825, height: 595);
             lblNombreCategoriaBar.Text = BtnCat5.Text;
         }
 
         private void BtnCat6_Click(object sender, EventArgs e)
         {
             ocultarLoginBar();
-            PanelGaleria.Visible = true;
-            PanelGaleria.Size = new Size(width: 825, height: 595);
+            //PanelGaleria.Visible = true;
+            //PanelGaleria.Size = new Size(width: 825, height: 595);
             lblNombreCategoriaBar.Text = BtnCat6.Text;
         }
 
         private void BtnCat7_Click(object sender, EventArgs e)
         {
             ocultarLoginBar();
-            PanelGaleria.Visible = true;
-            PanelGaleria.Size = new Size(width: 825, height: 595);
+            //PanelGaleria.Visible = true;
+            //PanelGaleria.Size = new Size(width: 825, height: 595);
             lblNombreCategoriaBar.Text = BtnCat7.Text;
         }
 
