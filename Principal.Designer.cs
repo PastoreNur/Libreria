@@ -102,6 +102,7 @@
             this.Categoria1 = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.BtnCat2 = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.BtnMinimizar)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.BtnCerrar)).BeginInit();
@@ -889,6 +890,7 @@
             // 
             // PanelCategorias
             // 
+            this.PanelCategorias.Controls.Add(this.BtnCat2);
             this.PanelCategorias.Controls.Add(this.Categoria1);
             this.PanelCategorias.Dock = System.Windows.Forms.DockStyle.Left;
             this.PanelCategorias.Location = new System.Drawing.Point(0, 70);
@@ -927,6 +929,22 @@
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
+            // 
+            // BtnCat2
+            // 
+            this.BtnCat2.FlatAppearance.BorderSize = 0;
+            this.BtnCat2.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.BtnCat2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Silver;
+            this.BtnCat2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.BtnCat2.Image = ((System.Drawing.Image)(resources.GetObject("BtnCat2.Image")));
+            this.BtnCat2.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.BtnCat2.Location = new System.Drawing.Point(1, 43);
+            this.BtnCat2.Name = "BtnCat2";
+            this.BtnCat2.Size = new System.Drawing.Size(149, 43);
+            this.BtnCat2.TabIndex = 1;
+            this.BtnCat2.Text = "Ciencia Ficción";
+            this.BtnCat2.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.BtnCat2.UseVisualStyleBackColor = true;
             // 
             // Principal
             // 
@@ -1075,6 +1093,7 @@
         private System.Windows.Forms.Panel Categoria1;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Button BtnCat2;
 
     }
 }
