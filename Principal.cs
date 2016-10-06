@@ -53,7 +53,8 @@ namespace Libreria
 
         private void Principal_Load(object sender, EventArgs e)
         {
-            
+            PanelGaleria.Size = new Size(width: 0, height: 0);
+            PanelGaleria.Visible = false;
         }
 
         private void BtnIngresarBar_Click(object sender, EventArgs e)
@@ -82,6 +83,22 @@ namespace Libreria
                 txtUsuarioBar.Clear();
             }
         }
+
+        private void BtnCerrarGaleria_Click(object sender, EventArgs e)
+        {
+            PanelGaleria.Size = new Size(width:0,height:0);
+            PanelGaleria.Visible = false;
+            
+        }
+
+        private void Categoria1_Click(object sender, EventArgs e)
+        {
+            
+            PanelGaleria.Visible = true;
+            PanelGaleria.Size = new Size(width: 825, height: 595); 
+        }
+
+        
 
        
 
