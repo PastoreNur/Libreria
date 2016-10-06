@@ -250,6 +250,35 @@ namespace Libreria
             }
         }
 
+        private void BtnPagar_Click(object sender, EventArgs e)
+        {
+            if (login == false)
+            {
+               DialogResult Mensaje = MessageBox.Show("¡Necesitas Iniciar Sesión!", "AVISO", MessageBoxButtons.OKCancel, MessageBoxIcon.Information);
+
+               if (Mensaje == DialogResult.OK)
+               {
+                   Login loginVentana = new Login();
+                   //loginVentana.MdiParent = this;
+                   PopUpCarrito.Size = new Size(width: 0, height: 0);
+                   PopUpCarrito.Enabled = false;
+                   PopUpCarrito.Visible = false;
+                   loginVentana.Show();
+               }
+           
+
+            }
+            else
+            {
+                Facturacion factura = new Facturacion();
+                //factura.MdiParent = this;
+                PopUpCarrito.Size = new Size(width: 0, height: 0);
+                PopUpCarrito.Enabled = false;
+                PopUpCarrito.Visible = false;
+                factura.Show();
+            }
+        }
+
 
         /*
          * try

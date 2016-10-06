@@ -30,9 +30,12 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Principal));
             this.panel1 = new System.Windows.Forms.Panel();
+            this.TituloProgram = new System.Windows.Forms.Label();
             this.BtnMinimizar = new System.Windows.Forms.PictureBox();
             this.BtnCerrar = new System.Windows.Forms.PictureBox();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.button1 = new System.Windows.Forms.Button();
+            this.BtnUserBar = new System.Windows.Forms.Button();
             this.lblNombreCategoriaBar = new System.Windows.Forms.Label();
             this.lblSaludo = new System.Windows.Forms.Label();
             this.LblUsuario = new System.Windows.Forms.Label();
@@ -70,6 +73,7 @@
             this.Cantidad = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel7 = new System.Windows.Forms.Panel();
+            this.BtnAgregarCarrito6 = new System.Windows.Forms.Button();
             this.richTextBox5 = new System.Windows.Forms.RichTextBox();
             this.LblTituloDescrip6 = new System.Windows.Forms.Label();
             this.Cantidad6 = new System.Windows.Forms.NumericUpDown();
@@ -78,6 +82,7 @@
             this.TituloLibro6 = new System.Windows.Forms.Label();
             this.pictureBox12 = new System.Windows.Forms.PictureBox();
             this.panel8 = new System.Windows.Forms.Panel();
+            this.BtnAgregarCarrito3 = new System.Windows.Forms.Button();
             this.richTextBox4 = new System.Windows.Forms.RichTextBox();
             this.LblTituloDescrip3 = new System.Windows.Forms.Label();
             this.Cantidad3 = new System.Windows.Forms.NumericUpDown();
@@ -86,6 +91,7 @@
             this.TituloLibro3 = new System.Windows.Forms.Label();
             this.pictureBox15 = new System.Windows.Forms.PictureBox();
             this.panel5 = new System.Windows.Forms.Panel();
+            this.BtnAgregarCarrito5 = new System.Windows.Forms.Button();
             this.richTextBox3 = new System.Windows.Forms.RichTextBox();
             this.LblTituloDescrip5 = new System.Windows.Forms.Label();
             this.Cantidad5 = new System.Windows.Forms.NumericUpDown();
@@ -94,6 +100,7 @@
             this.TituloLibro5 = new System.Windows.Forms.Label();
             this.pictureBox6 = new System.Windows.Forms.PictureBox();
             this.panel4 = new System.Windows.Forms.Panel();
+            this.BtnAgregarCarrito4 = new System.Windows.Forms.Button();
             this.txtDescripcion4 = new System.Windows.Forms.RichTextBox();
             this.LblTituloDescrip4 = new System.Windows.Forms.Label();
             this.Cantidad4 = new System.Windows.Forms.NumericUpDown();
@@ -102,6 +109,7 @@
             this.TituloLibro4 = new System.Windows.Forms.Label();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.panel6 = new System.Windows.Forms.Panel();
+            this.BtnAgregarCarrito2 = new System.Windows.Forms.Button();
             this.richTextBox2 = new System.Windows.Forms.RichTextBox();
             this.LblTituloDescrip2 = new System.Windows.Forms.Label();
             this.Cantidad2 = new System.Windows.Forms.NumericUpDown();
@@ -110,6 +118,7 @@
             this.TituloLibro2 = new System.Windows.Forms.Label();
             this.pictureBox9 = new System.Windows.Forms.PictureBox();
             this.panel3 = new System.Windows.Forms.Panel();
+            this.BtnAgregarCarrito1 = new System.Windows.Forms.Button();
             this.richTextBox1 = new System.Windows.Forms.RichTextBox();
             this.LblTituloDescrip1 = new System.Windows.Forms.Label();
             this.Cantidad1 = new System.Windows.Forms.NumericUpDown();
@@ -117,15 +126,6 @@
             this.Precio1 = new System.Windows.Forms.Label();
             this.TituloLibro1 = new System.Windows.Forms.Label();
             this.imgLibro1 = new System.Windows.Forms.PictureBox();
-            this.BtnUserBar = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
-            this.BtnAgregarCarrito1 = new System.Windows.Forms.Button();
-            this.BtnAgregarCarrito4 = new System.Windows.Forms.Button();
-            this.BtnAgregarCarrito2 = new System.Windows.Forms.Button();
-            this.BtnAgregarCarrito3 = new System.Windows.Forms.Button();
-            this.BtnAgregarCarrito5 = new System.Windows.Forms.Button();
-            this.BtnAgregarCarrito6 = new System.Windows.Forms.Button();
-            this.TituloProgram = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.BtnMinimizar)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.BtnCerrar)).BeginInit();
@@ -184,6 +184,17 @@
             this.panel1.Size = new System.Drawing.Size(1000, 30);
             this.panel1.TabIndex = 1;
             // 
+            // TituloProgram
+            // 
+            this.TituloProgram.AutoSize = true;
+            this.TituloProgram.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TituloProgram.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(208)))), ((int)(((byte)(63)))));
+            this.TituloProgram.Location = new System.Drawing.Point(418, 9);
+            this.TituloProgram.Name = "TituloProgram";
+            this.TituloProgram.Size = new System.Drawing.Size(113, 16);
+            this.TituloProgram.TabIndex = 4;
+            this.TituloProgram.Text = "La Casa del Libro";
+            // 
             // BtnMinimizar
             // 
             this.BtnMinimizar.Dock = System.Windows.Forms.DockStyle.Right;
@@ -223,6 +234,34 @@
             this.panel2.Size = new System.Drawing.Size(1000, 40);
             this.panel2.TabIndex = 2;
             // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.Transparent;
+            this.button1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button1.BackgroundImage")));
+            this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button1.FlatAppearance.BorderSize = 0;
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button1.Location = new System.Drawing.Point(962, 5);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(30, 30);
+            this.button1.TabIndex = 6;
+            this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // BtnUserBar
+            // 
+            this.BtnUserBar.BackColor = System.Drawing.Color.Transparent;
+            this.BtnUserBar.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("BtnUserBar.BackgroundImage")));
+            this.BtnUserBar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.BtnUserBar.FlatAppearance.BorderSize = 0;
+            this.BtnUserBar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.BtnUserBar.Location = new System.Drawing.Point(835, 5);
+            this.BtnUserBar.Name = "BtnUserBar";
+            this.BtnUserBar.Size = new System.Drawing.Size(30, 30);
+            this.BtnUserBar.TabIndex = 5;
+            this.BtnUserBar.UseVisualStyleBackColor = false;
+            this.BtnUserBar.Click += new System.EventHandler(this.BtnUserBar_Click);
+            // 
             // lblNombreCategoriaBar
             // 
             this.lblNombreCategoriaBar.AutoSize = true;
@@ -260,7 +299,7 @@
             this.loginBar.Controls.Add(this.txtPAsswordBar);
             this.loginBar.Controls.Add(this.txtUsuarioBar);
             this.loginBar.Enabled = false;
-            this.loginBar.Location = new System.Drawing.Point(653, 4);
+            this.loginBar.Location = new System.Drawing.Point(655, 7);
             this.loginBar.Name = "loginBar";
             this.loginBar.Size = new System.Drawing.Size(280, 0);
             this.loginBar.TabIndex = 3;
@@ -495,7 +534,7 @@
             this.PopUpCarrito.Controls.Add(this.listView1);
             this.PopUpCarrito.Controls.Add(this.pictureBox1);
             this.PopUpCarrito.Enabled = false;
-            this.PopUpCarrito.Location = new System.Drawing.Point(536, 4);
+            this.PopUpCarrito.Location = new System.Drawing.Point(538, 7);
             this.PopUpCarrito.Name = "PopUpCarrito";
             this.PopUpCarrito.Size = new System.Drawing.Size(0, 340);
             this.PopUpCarrito.TabIndex = 35;
@@ -623,6 +662,7 @@
             this.BtnPagar.Text = "Pagar";
             this.BtnPagar.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.BtnPagar.UseVisualStyleBackColor = false;
+            this.BtnPagar.Click += new System.EventHandler(this.BtnPagar_Click);
             // 
             // listView1
             // 
@@ -678,6 +718,19 @@
             this.panel7.Name = "panel7";
             this.panel7.Size = new System.Drawing.Size(425, 190);
             this.panel7.TabIndex = 33;
+            // 
+            // BtnAgregarCarrito6
+            // 
+            this.BtnAgregarCarrito6.BackColor = System.Drawing.Color.Transparent;
+            this.BtnAgregarCarrito6.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("BtnAgregarCarrito6.BackgroundImage")));
+            this.BtnAgregarCarrito6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.BtnAgregarCarrito6.FlatAppearance.BorderSize = 0;
+            this.BtnAgregarCarrito6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.BtnAgregarCarrito6.Location = new System.Drawing.Point(383, 140);
+            this.BtnAgregarCarrito6.Name = "BtnAgregarCarrito6";
+            this.BtnAgregarCarrito6.Size = new System.Drawing.Size(30, 30);
+            this.BtnAgregarCarrito6.TabIndex = 32;
+            this.BtnAgregarCarrito6.UseVisualStyleBackColor = false;
             // 
             // richTextBox5
             // 
@@ -763,6 +816,19 @@
             this.panel8.Size = new System.Drawing.Size(425, 190);
             this.panel8.TabIndex = 32;
             // 
+            // BtnAgregarCarrito3
+            // 
+            this.BtnAgregarCarrito3.BackColor = System.Drawing.Color.Transparent;
+            this.BtnAgregarCarrito3.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("BtnAgregarCarrito3.BackgroundImage")));
+            this.BtnAgregarCarrito3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.BtnAgregarCarrito3.FlatAppearance.BorderSize = 0;
+            this.BtnAgregarCarrito3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.BtnAgregarCarrito3.Location = new System.Drawing.Point(386, 140);
+            this.BtnAgregarCarrito3.Name = "BtnAgregarCarrito3";
+            this.BtnAgregarCarrito3.Size = new System.Drawing.Size(30, 30);
+            this.BtnAgregarCarrito3.TabIndex = 30;
+            this.BtnAgregarCarrito3.UseVisualStyleBackColor = false;
+            // 
             // richTextBox4
             // 
             this.richTextBox4.BorderStyle = System.Windows.Forms.BorderStyle.None;
@@ -846,6 +912,19 @@
             this.panel5.Name = "panel5";
             this.panel5.Size = new System.Drawing.Size(425, 190);
             this.panel5.TabIndex = 34;
+            // 
+            // BtnAgregarCarrito5
+            // 
+            this.BtnAgregarCarrito5.BackColor = System.Drawing.Color.Transparent;
+            this.BtnAgregarCarrito5.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("BtnAgregarCarrito5.BackgroundImage")));
+            this.BtnAgregarCarrito5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.BtnAgregarCarrito5.FlatAppearance.BorderSize = 0;
+            this.BtnAgregarCarrito5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.BtnAgregarCarrito5.Location = new System.Drawing.Point(386, 140);
+            this.BtnAgregarCarrito5.Name = "BtnAgregarCarrito5";
+            this.BtnAgregarCarrito5.Size = new System.Drawing.Size(30, 30);
+            this.BtnAgregarCarrito5.TabIndex = 31;
+            this.BtnAgregarCarrito5.UseVisualStyleBackColor = false;
             // 
             // richTextBox3
             // 
@@ -931,6 +1010,19 @@
             this.panel4.Size = new System.Drawing.Size(425, 190);
             this.panel4.TabIndex = 30;
             // 
+            // BtnAgregarCarrito4
+            // 
+            this.BtnAgregarCarrito4.BackColor = System.Drawing.Color.Transparent;
+            this.BtnAgregarCarrito4.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("BtnAgregarCarrito4.BackgroundImage")));
+            this.BtnAgregarCarrito4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.BtnAgregarCarrito4.FlatAppearance.BorderSize = 0;
+            this.BtnAgregarCarrito4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.BtnAgregarCarrito4.Location = new System.Drawing.Point(383, 141);
+            this.BtnAgregarCarrito4.Name = "BtnAgregarCarrito4";
+            this.BtnAgregarCarrito4.Size = new System.Drawing.Size(30, 30);
+            this.BtnAgregarCarrito4.TabIndex = 28;
+            this.BtnAgregarCarrito4.UseVisualStyleBackColor = false;
+            // 
             // txtDescripcion4
             // 
             this.txtDescripcion4.BorderStyle = System.Windows.Forms.BorderStyle.None;
@@ -1014,6 +1106,19 @@
             this.panel6.Name = "panel6";
             this.panel6.Size = new System.Drawing.Size(425, 190);
             this.panel6.TabIndex = 31;
+            // 
+            // BtnAgregarCarrito2
+            // 
+            this.BtnAgregarCarrito2.BackColor = System.Drawing.Color.Transparent;
+            this.BtnAgregarCarrito2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("BtnAgregarCarrito2.BackgroundImage")));
+            this.BtnAgregarCarrito2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.BtnAgregarCarrito2.FlatAppearance.BorderSize = 0;
+            this.BtnAgregarCarrito2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.BtnAgregarCarrito2.Location = new System.Drawing.Point(386, 140);
+            this.BtnAgregarCarrito2.Name = "BtnAgregarCarrito2";
+            this.BtnAgregarCarrito2.Size = new System.Drawing.Size(30, 30);
+            this.BtnAgregarCarrito2.TabIndex = 29;
+            this.BtnAgregarCarrito2.UseVisualStyleBackColor = false;
             // 
             // richTextBox2
             // 
@@ -1099,6 +1204,19 @@
             this.panel3.Size = new System.Drawing.Size(425, 190);
             this.panel3.TabIndex = 29;
             // 
+            // BtnAgregarCarrito1
+            // 
+            this.BtnAgregarCarrito1.BackColor = System.Drawing.Color.Transparent;
+            this.BtnAgregarCarrito1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("BtnAgregarCarrito1.BackgroundImage")));
+            this.BtnAgregarCarrito1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.BtnAgregarCarrito1.FlatAppearance.BorderSize = 0;
+            this.BtnAgregarCarrito1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.BtnAgregarCarrito1.Location = new System.Drawing.Point(386, 143);
+            this.BtnAgregarCarrito1.Name = "BtnAgregarCarrito1";
+            this.BtnAgregarCarrito1.Size = new System.Drawing.Size(30, 30);
+            this.BtnAgregarCarrito1.TabIndex = 27;
+            this.BtnAgregarCarrito1.UseVisualStyleBackColor = false;
+            // 
             // richTextBox1
             // 
             this.richTextBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
@@ -1166,123 +1284,6 @@
             this.imgLibro1.Size = new System.Drawing.Size(100, 145);
             this.imgLibro1.TabIndex = 18;
             this.imgLibro1.TabStop = false;
-            // 
-            // BtnUserBar
-            // 
-            this.BtnUserBar.BackColor = System.Drawing.Color.Transparent;
-            this.BtnUserBar.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("BtnUserBar.BackgroundImage")));
-            this.BtnUserBar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.BtnUserBar.FlatAppearance.BorderSize = 0;
-            this.BtnUserBar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.BtnUserBar.Location = new System.Drawing.Point(835, 5);
-            this.BtnUserBar.Name = "BtnUserBar";
-            this.BtnUserBar.Size = new System.Drawing.Size(30, 30);
-            this.BtnUserBar.TabIndex = 5;
-            this.BtnUserBar.UseVisualStyleBackColor = false;
-            this.BtnUserBar.Click += new System.EventHandler(this.BtnUserBar_Click);
-            // 
-            // button1
-            // 
-            this.button1.BackColor = System.Drawing.Color.Transparent;
-            this.button1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button1.BackgroundImage")));
-            this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button1.FlatAppearance.BorderSize = 0;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Location = new System.Drawing.Point(962, 5);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(30, 30);
-            this.button1.TabIndex = 6;
-            this.button1.UseVisualStyleBackColor = false;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
-            // 
-            // BtnAgregarCarrito1
-            // 
-            this.BtnAgregarCarrito1.BackColor = System.Drawing.Color.Transparent;
-            this.BtnAgregarCarrito1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("BtnAgregarCarrito1.BackgroundImage")));
-            this.BtnAgregarCarrito1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.BtnAgregarCarrito1.FlatAppearance.BorderSize = 0;
-            this.BtnAgregarCarrito1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.BtnAgregarCarrito1.Location = new System.Drawing.Point(386, 143);
-            this.BtnAgregarCarrito1.Name = "BtnAgregarCarrito1";
-            this.BtnAgregarCarrito1.Size = new System.Drawing.Size(30, 30);
-            this.BtnAgregarCarrito1.TabIndex = 27;
-            this.BtnAgregarCarrito1.UseVisualStyleBackColor = false;
-            // 
-            // BtnAgregarCarrito4
-            // 
-            this.BtnAgregarCarrito4.BackColor = System.Drawing.Color.Transparent;
-            this.BtnAgregarCarrito4.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("BtnAgregarCarrito4.BackgroundImage")));
-            this.BtnAgregarCarrito4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.BtnAgregarCarrito4.FlatAppearance.BorderSize = 0;
-            this.BtnAgregarCarrito4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.BtnAgregarCarrito4.Location = new System.Drawing.Point(383, 141);
-            this.BtnAgregarCarrito4.Name = "BtnAgregarCarrito4";
-            this.BtnAgregarCarrito4.Size = new System.Drawing.Size(30, 30);
-            this.BtnAgregarCarrito4.TabIndex = 28;
-            this.BtnAgregarCarrito4.UseVisualStyleBackColor = false;
-            // 
-            // BtnAgregarCarrito2
-            // 
-            this.BtnAgregarCarrito2.BackColor = System.Drawing.Color.Transparent;
-            this.BtnAgregarCarrito2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("BtnAgregarCarrito2.BackgroundImage")));
-            this.BtnAgregarCarrito2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.BtnAgregarCarrito2.FlatAppearance.BorderSize = 0;
-            this.BtnAgregarCarrito2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.BtnAgregarCarrito2.Location = new System.Drawing.Point(386, 140);
-            this.BtnAgregarCarrito2.Name = "BtnAgregarCarrito2";
-            this.BtnAgregarCarrito2.Size = new System.Drawing.Size(30, 30);
-            this.BtnAgregarCarrito2.TabIndex = 29;
-            this.BtnAgregarCarrito2.UseVisualStyleBackColor = false;
-            // 
-            // BtnAgregarCarrito3
-            // 
-            this.BtnAgregarCarrito3.BackColor = System.Drawing.Color.Transparent;
-            this.BtnAgregarCarrito3.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("BtnAgregarCarrito3.BackgroundImage")));
-            this.BtnAgregarCarrito3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.BtnAgregarCarrito3.FlatAppearance.BorderSize = 0;
-            this.BtnAgregarCarrito3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.BtnAgregarCarrito3.Location = new System.Drawing.Point(386, 140);
-            this.BtnAgregarCarrito3.Name = "BtnAgregarCarrito3";
-            this.BtnAgregarCarrito3.Size = new System.Drawing.Size(30, 30);
-            this.BtnAgregarCarrito3.TabIndex = 30;
-            this.BtnAgregarCarrito3.UseVisualStyleBackColor = false;
-            // 
-            // BtnAgregarCarrito5
-            // 
-            this.BtnAgregarCarrito5.BackColor = System.Drawing.Color.Transparent;
-            this.BtnAgregarCarrito5.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("BtnAgregarCarrito5.BackgroundImage")));
-            this.BtnAgregarCarrito5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.BtnAgregarCarrito5.FlatAppearance.BorderSize = 0;
-            this.BtnAgregarCarrito5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.BtnAgregarCarrito5.Location = new System.Drawing.Point(386, 140);
-            this.BtnAgregarCarrito5.Name = "BtnAgregarCarrito5";
-            this.BtnAgregarCarrito5.Size = new System.Drawing.Size(30, 30);
-            this.BtnAgregarCarrito5.TabIndex = 31;
-            this.BtnAgregarCarrito5.UseVisualStyleBackColor = false;
-            // 
-            // BtnAgregarCarrito6
-            // 
-            this.BtnAgregarCarrito6.BackColor = System.Drawing.Color.Transparent;
-            this.BtnAgregarCarrito6.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("BtnAgregarCarrito6.BackgroundImage")));
-            this.BtnAgregarCarrito6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.BtnAgregarCarrito6.FlatAppearance.BorderSize = 0;
-            this.BtnAgregarCarrito6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.BtnAgregarCarrito6.Location = new System.Drawing.Point(383, 140);
-            this.BtnAgregarCarrito6.Name = "BtnAgregarCarrito6";
-            this.BtnAgregarCarrito6.Size = new System.Drawing.Size(30, 30);
-            this.BtnAgregarCarrito6.TabIndex = 32;
-            this.BtnAgregarCarrito6.UseVisualStyleBackColor = false;
-            // 
-            // TituloProgram
-            // 
-            this.TituloProgram.AutoSize = true;
-            this.TituloProgram.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TituloProgram.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(208)))), ((int)(((byte)(63)))));
-            this.TituloProgram.Location = new System.Drawing.Point(418, 9);
-            this.TituloProgram.Name = "TituloProgram";
-            this.TituloProgram.Size = new System.Drawing.Size(113, 16);
-            this.TituloProgram.TabIndex = 4;
-            this.TituloProgram.Text = "La Casa del Libro";
             // 
             // Principal
             // 
