@@ -35,6 +35,10 @@ namespace Libreria
         public string Usuario = "Invitado";
         public string Nombre = "Invitado";
         public string contraseña = "1234";
+        //Variable para desactivar el loginbar
+        public bool login = false;
+        //Variables animacion panel categorias
+        public int anchopanel = 60;
 
         private void Principal_FormClosing(object sender, FormClosingEventArgs e)
         {
@@ -53,11 +57,19 @@ namespace Libreria
 
         private void BtnUser_Click(object sender, EventArgs e)
         {
-            ExtenderLoginBar();
+            if (login)
+            {
+                
+            }else
+	    {
+                ExtenderLoginBar();
+	    }
+            
         }
 
         private void Principal_Load(object sender, EventArgs e)
         {
+            PanelCategorias.Size = new System.Drawing.Size(anchopanel, 630); 
             PanelGaleria.Size = new Size(width: 0, height: 0);
             PanelGaleria.Visible = false;
             lblNombreCategoriaBar.Text = "";
@@ -75,6 +87,7 @@ namespace Libreria
                     loginBar.Enabled = false;
                     txtPAsswordBar.Clear();
                     txtUsuarioBar.Clear();
+                    login = true;
 
                 }
                 else
@@ -165,10 +178,47 @@ namespace Libreria
             lblNombreCategoriaBar.Text = BtnCat7.Text;
         }
 
-        
-        
+        private void BtnCat7_MouseHover(object sender, EventArgs e)
+        {
+            while (anchopanel <= 178)
+            {
+                anchopanel = anchopanel + 3;
+                PanelCategorias.Size = new System.Drawing.Size(anchopanel,630); 
+            }
+      
+        }
 
-       
+        private void BtnCat7_MouseLeave(object sender, EventArgs e)
+        {
+
+        }
+
+        private void BtnCat7_MouseLeave_1(object sender, EventArgs e)
+        {
+            while (anchopanel >= 60)
+            {
+                anchopanel = anchopanel - 3;
+                PanelCategorias.Size = new System.Drawing.Size(anchopanel, 630);
+            }
+        }
+
+        private void PanelCategorias_MouseHover(object sender, EventArgs e)
+        {
+            while (anchopanel <= 178)
+            {
+                anchopanel = anchopanel + 3;
+                PanelCategorias.Size = new System.Drawing.Size(anchopanel, 630);
+            }
+        }
+
+        private void PanelCategorias_MouseLeave(object sender, EventArgs e)
+        {
+            while (anchopanel >= 60)
+            {
+                anchopanel = anchopanel - 3;
+                PanelCategorias.Size = new System.Drawing.Size(anchopanel, 630);
+            }
+        }
 
 
         /*
