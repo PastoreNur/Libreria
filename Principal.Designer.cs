@@ -51,8 +51,8 @@
             this.BtnCat6 = new System.Windows.Forms.Button();
             this.BtnCat7 = new System.Windows.Forms.Button();
             this.PanelCategorias = new System.Windows.Forms.Panel();
-            this.panel9 = new System.Windows.Forms.Panel();
-            this.panel3 = new System.Windows.Forms.Panel();
+            this.panelFondo = new System.Windows.Forms.Panel();
+            this.panelGaleria = new System.Windows.Forms.Panel();
             this.panel7 = new System.Windows.Forms.Panel();
             this.BtnAgregarCarrito6 = new System.Windows.Forms.Button();
             this.richTextBox5 = new System.Windows.Forms.RichTextBox();
@@ -133,8 +133,8 @@
             this.panel2.SuspendLayout();
             this.loginBar.SuspendLayout();
             this.PanelCategorias.SuspendLayout();
-            this.panel9.SuspendLayout();
-            this.panel3.SuspendLayout();
+            this.panelFondo.SuspendLayout();
+            this.panelGaleria.SuspendLayout();
             this.panel7.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.Cantidad6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.EtiquetaPrecio6)).BeginInit();
@@ -499,28 +499,29 @@
             this.PanelCategorias.MouseLeave += new System.EventHandler(this.PanelCategorias_MouseLeave);
             this.PanelCategorias.MouseHover += new System.EventHandler(this.PanelCategorias_MouseHover);
             // 
-            // panel9
+            // panelFondo
             // 
-            this.panel9.Controls.Add(this.panel3);
-            this.panel9.Controls.Add(this.PopUpCarrito);
-            this.panel9.Controls.Add(this.loginBar);
-            this.panel9.Location = new System.Drawing.Point(60, 69);
-            this.panel9.Name = "panel9";
-            this.panel9.Size = new System.Drawing.Size(940, 631);
-            this.panel9.TabIndex = 9;
+            this.panelFondo.Controls.Add(this.panelGaleria);
+            this.panelFondo.Controls.Add(this.PopUpCarrito);
+            this.panelFondo.Controls.Add(this.loginBar);
+            this.panelFondo.Location = new System.Drawing.Point(60, 69);
+            this.panelFondo.Name = "panelFondo";
+            this.panelFondo.Size = new System.Drawing.Size(940, 631);
+            this.panelFondo.TabIndex = 9;
+            this.panelFondo.Scroll += new System.Windows.Forms.ScrollEventHandler(this.panel9_Scroll);
             // 
-            // panel3
+            // panelGaleria
             // 
-            this.panel3.Controls.Add(this.panel7);
-            this.panel3.Controls.Add(this.panel8);
-            this.panel3.Controls.Add(this.panel5);
-            this.panel3.Controls.Add(this.panel4);
-            this.panel3.Controls.Add(this.panel6);
-            this.panel3.Controls.Add(this.panel10);
-            this.panel3.Location = new System.Drawing.Point(26, 7);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(869, 600);
-            this.panel3.TabIndex = 36;
+            this.panelGaleria.Controls.Add(this.panel7);
+            this.panelGaleria.Controls.Add(this.panel8);
+            this.panelGaleria.Controls.Add(this.panel5);
+            this.panelGaleria.Controls.Add(this.panel4);
+            this.panelGaleria.Controls.Add(this.panel6);
+            this.panelGaleria.Controls.Add(this.panel10);
+            this.panelGaleria.Location = new System.Drawing.Point(26, 6);
+            this.panelGaleria.Name = "panelGaleria";
+            this.panelGaleria.Size = new System.Drawing.Size(869, 600);
+            this.panelGaleria.TabIndex = 36;
             // 
             // panel7
             // 
@@ -1303,7 +1304,7 @@
             this.Controls.Add(this.PanelCategorias);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
-            this.Controls.Add(this.panel9);
+            this.Controls.Add(this.panelFondo);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.IsMdiContainer = true;
             this.Name = "Principal";
@@ -1320,8 +1321,8 @@
             this.loginBar.ResumeLayout(false);
             this.loginBar.PerformLayout();
             this.PanelCategorias.ResumeLayout(false);
-            this.panel9.ResumeLayout(false);
-            this.panel3.ResumeLayout(false);
+            this.panelFondo.ResumeLayout(false);
+            this.panelGaleria.ResumeLayout(false);
             this.panel7.ResumeLayout(false);
             this.panel7.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.Cantidad6)).EndInit();
@@ -1388,7 +1389,7 @@
         private System.Windows.Forms.Button BtnCat6;
         private System.Windows.Forms.Button BtnCat7;
         private System.Windows.Forms.Panel PanelCategorias;
-        private System.Windows.Forms.Panel panel9;
+        private System.Windows.Forms.Panel panelFondo;
         private System.Windows.Forms.Button BtnUserBar;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Label TituloProgram;
@@ -1415,7 +1416,7 @@
         private System.Windows.Forms.ColumnHeader Precio;
         private System.Windows.Forms.ColumnHeader Cantidad;
         private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.Panel panel3;
+        private System.Windows.Forms.Panel panelGaleria;
         private System.Windows.Forms.Panel panel7;
         private System.Windows.Forms.Button BtnAgregarCarrito6;
         private System.Windows.Forms.RichTextBox richTextBox5;

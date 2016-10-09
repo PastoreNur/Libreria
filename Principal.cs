@@ -14,7 +14,70 @@ namespace Libreria
         public Principal()
         {
             InitializeComponent();
+            this.MouseWheel += new MouseEventHandler(panelFondo_Wheel);
         }
+
+
+
+        void panelFondo_Wheel(object sender, MouseEventArgs e)
+        {
+
+            if (e.Delta > 0)
+            {
+                //Scroll arriba
+
+                //Animacion desaparecer
+                while (animacionscroll >= -640)
+                {
+                   animacionscroll -= 4;
+                    panelGaleria.Location = new Point(26, animacionscroll); 
+                }
+
+
+                //Cambio de informacion de la galeria
+
+
+                //Animacion aparecer
+                animacionscroll = 640;
+                panelGaleria.Location = new Point(26, animacionscroll);
+
+                while (animacionscroll >= 5)
+                {
+                    animacionscroll -= 4;
+                    panelGaleria.Location = new Point(26, animacionscroll);
+                }
+            }
+            else
+            {
+                //Scroll Abajo
+
+                //Animacion desaparecer
+                while (animacionscroll <= 606)
+                {
+                    animacionscroll += 4;
+                    panelGaleria.Location = new Point(26, animacionscroll);
+                }
+
+
+                //Cambio de informacion de la galeria
+
+
+                //Animacion aparecer
+                animacionscroll = -640;
+                panelGaleria.Location = new Point(26, animacionscroll);
+
+                while (animacionscroll <= 6)
+                {
+                    animacionscroll += 4;
+                    panelGaleria.Location = new Point(26, animacionscroll);
+                }
+            }
+                
+
+           
+        }
+
+
 
 
         //Método para iniciar sesión
@@ -73,6 +136,8 @@ namespace Libreria
         public bool login = false;
         //Variables animacion panel categorias
         public int anchopanel = 60;
+        //Variables animacion panel galeria
+        int animacionscroll = 6;
 
         private void Principal_FormClosing(object sender, FormClosingEventArgs e)
         {
@@ -94,7 +159,7 @@ namespace Libreria
         private void Principal_Load(object sender, EventArgs e)
         {
             PanelCategorias.Size = new System.Drawing.Size(anchopanel, 630);
-            PanelCategorias.BringToFront();
+            loginBar.BringToFront();
             //PanelGaleria.Size = new Size(width: 0, height: 0);
             //PanelGaleria.Visible = false;
             lblNombreCategoriaBar.Text = "";
@@ -285,6 +350,12 @@ namespace Libreria
                 PopUpCarrito.Visible = false;
                 factura.Show();
             }
+        }
+  
+        private void panel9_Scroll(object sender, ScrollEventArgs e)
+        {
+          
+            
         }
 
 
