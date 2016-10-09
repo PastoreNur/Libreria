@@ -6,7 +6,7 @@ using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Windows.Forms;
-//Comentario de prueba
+
 namespace Libreria
 {
     public partial class Principal : Form
@@ -93,7 +93,8 @@ namespace Libreria
 
         private void Principal_Load(object sender, EventArgs e)
         {
-            PanelCategorias.Size = new System.Drawing.Size(anchopanel, 630); 
+            PanelCategorias.Size = new System.Drawing.Size(anchopanel, 630);
+            PanelCategorias.BringToFront();
             //PanelGaleria.Size = new Size(width: 0, height: 0);
             //PanelGaleria.Visible = false;
             lblNombreCategoriaBar.Text = "";
