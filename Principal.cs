@@ -24,68 +24,67 @@ namespace Libreria
 
         void panelFondo_Wheel(object sender, MouseEventArgs e)
         {
-            timerMouseWheel.Start();
-            if (timermousewheelint != 0)
-            {
-
-            }
-            else
-            {
             
-            if (e.Delta > 0)
+            do
             {
-                //Scroll arriba
-
-                //Animacion desaparecer
-                while (animacionscroll >= -640)
+                timermousewheelint = 0;
+                if (e.Delta > 0)
                 {
-                   animacionscroll -= 4;
-                    panelGaleria.Location = new Point(26, animacionscroll); 
-                }
+                    //Scroll arriba
+
+                    //Animacion desaparecer
+                    while (animacionscroll >= -640)
+                    {
+                        animacionscroll -= 4;
+                        panelGaleria.Location = new Point(26, animacionscroll);
+                    }
 
 
-                //Cambio de informacion de la galeria
+                    //Cambio de informacion de la galeria
 
 
-                //Animacion aparecer
-                animacionscroll = 640;
-                panelGaleria.Location = new Point(26, animacionscroll);
-
-                while (animacionscroll >= 5)
-                {
-                    animacionscroll -= 4;
+                    //Animacion aparecer
+                    animacionscroll = 640;
                     panelGaleria.Location = new Point(26, animacionscroll);
-                }
-            }
-            else
-            {
-                //Scroll Abajo
 
-                //Animacion desaparecer
-                while (animacionscroll <= 606)
+                    while (animacionscroll >= 5)
+                    {
+                        animacionscroll -= 4;
+                        panelGaleria.Location = new Point(26, animacionscroll);
+                    }
+                }
+                else
                 {
-                    animacionscroll += 4;
+                    //Scroll Abajo
+
+                    //Animacion desaparecer
+                    while (animacionscroll <= 606)
+                    {
+                        animacionscroll += 4;
+                        panelGaleria.Location = new Point(26, animacionscroll);
+                    }
+
+
+                    //Cambio de informacion de la galeria
+
+
+                    //Animacion aparecer
+                    animacionscroll = -640;
                     panelGaleria.Location = new Point(26, animacionscroll);
+
+                    while (animacionscroll <= 6)
+                    {
+                        animacionscroll += 4;
+                        panelGaleria.Location = new Point(26, animacionscroll);
+                    }
                 }
+                TimerMouseWheelRest.Start();
+            } while (timermousewheelint != 0);
 
 
-                //Cambio de informacion de la galeria
-
-
-                //Animacion aparecer
-                animacionscroll = -640;
-                panelGaleria.Location = new Point(26, animacionscroll);
-
-                while (animacionscroll <= 6)
-                {
-                    animacionscroll += 4;
-                    panelGaleria.Location = new Point(26, animacionscroll);
-                }
             }
 
-
-            }
-        }
+            
 
 
 
@@ -381,20 +380,10 @@ namespace Libreria
             
         }
 
-        private void timerMouseWheel_Tick(object sender, EventArgs e)
-        {
-            timermousewheelint++;
-
-            TimerMouseWheelRest.Start();
-
-            timerMouseWheel.Enabled = false;
-
-
-        }
 
         private void TimerMouseWheelRest_Tick(object sender, EventArgs e)
         {
-            timermousewheelint = 0;
+            timermousewheelint++;
             TimerMouseWheelRest.Stop();
         }
 
