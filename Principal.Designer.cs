@@ -1306,7 +1306,7 @@
             // 
             // TimerMouseWheelRest
             // 
-            this.TimerMouseWheelRest.Interval = 750;
+            this.TimerMouseWheelRest.Interval = 1000;
             this.TimerMouseWheelRest.Tick += new System.EventHandler(this.TimerMouseWheelRest_Tick);
             // 
             // Principal

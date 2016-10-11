@@ -25,7 +25,7 @@ namespace Libreria
         void panelFondo_Wheel(object sender, MouseEventArgs e)
         {
             timerMouseWheel.Start();
-            if (timermousewheelint != 0)
+            if (timermousewheelint == 0)
             {
 
             }
