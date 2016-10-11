@@ -18,8 +18,25 @@ namespace Libreria
             this.MouseWheel += new MouseEventHandler(panelFondo_Wheel);
         }
 
-        
-
+        int animacioncategoria = 23;
+        public void Animacion_Categoria() 
+        {
+            //desaparecer
+            while (animacioncategoria <= 950)
+            {
+                animacioncategoria += 4;
+                panelGaleria.Location = new Point(animacioncategoria, animacionscroll);
+            }
+            //Cambio de informacion
+            
+            //Reaparecer
+            animacioncategoria = -950;
+            while (animacioncategoria <= 23)
+            {
+                animacioncategoria += 4;
+                panelGaleria.Location = new Point(animacioncategoria, animacionscroll);
+            }
+        }
 
 
         void panelFondo_Wheel(object sender, MouseEventArgs e)
@@ -202,7 +219,7 @@ namespace Libreria
         private void BtnCat1_Click(object sender, EventArgs e)
         {
             ocultarLoginBar();
-
+            Animacion_Categoria();
            // PanelGaleria.Visible = true;
             //PanelGaleria.Size = new Size(width: 825, height: 595);
             lblNombreCategoriaBar.Text = BtnCat1.Text;
@@ -211,6 +228,7 @@ namespace Libreria
 
         private void BtnCat2_Click(object sender, EventArgs e)
         {
+            Animacion_Categoria();
             ocultarLoginBar();
             //PanelGaleria.Visible = true;
             //PanelGaleria.Size = new Size(width: 825, height: 595);
@@ -219,6 +237,7 @@ namespace Libreria
 
         private void BtnCat3_Click(object sender, EventArgs e)
         {
+            Animacion_Categoria();
             ocultarLoginBar();
             //PanelGaleria.Visible = true;
             //PanelGaleria.Size = new Size(width: 825, height: 595);
@@ -227,6 +246,7 @@ namespace Libreria
 
         private void BtnCat4_Click(object sender, EventArgs e)
         {
+            Animacion_Categoria();
             ocultarLoginBar();
             //PanelGaleria.Visible = true;
             //PanelGaleria.Size = new Size(width: 825, height: 595);
@@ -235,6 +255,7 @@ namespace Libreria
 
         private void BtnCat5_Click(object sender, EventArgs e)
         {
+            Animacion_Categoria();
             ocultarLoginBar();
             //PanelGaleria.Visible = true;
             //PanelGaleria.Size = new Size(width: 825, height: 595);
@@ -243,6 +264,7 @@ namespace Libreria
 
         private void BtnCat6_Click(object sender, EventArgs e)
         {
+            Animacion_Categoria();
             ocultarLoginBar();
             //PanelGaleria.Visible = true;
             //PanelGaleria.Size = new Size(width: 825, height: 595);
@@ -251,6 +273,7 @@ namespace Libreria
 
         private void BtnCat7_Click(object sender, EventArgs e)
         {
+            Animacion_Categoria();
             ocultarLoginBar();
             //PanelGaleria.Visible = true;
             //PanelGaleria.Size = new Size(width: 825, height: 595);
