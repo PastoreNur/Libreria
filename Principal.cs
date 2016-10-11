@@ -14,6 +14,7 @@ namespace Libreria
         public Principal()
         {
             InitializeComponent();
+            this.DoubleBuffered = true;
             this.MouseWheel += new MouseEventHandler(panelFondo_Wheel);
         }
 
