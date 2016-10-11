@@ -128,7 +128,6 @@
             this.Precio = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.Cantidad = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.timerMouseWheel = new System.Windows.Forms.Timer(this.components);
             this.TimerMouseWheelRest = new System.Windows.Forms.Timer(this.components);
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.BtnMinimizar)).BeginInit();
@@ -1299,11 +1298,6 @@
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             // 
-            // timerMouseWheel
-            // 
-            this.timerMouseWheel.Interval = 1;
-            this.timerMouseWheel.Tick += new System.EventHandler(this.timerMouseWheel_Tick);
-            // 
             // TimerMouseWheelRest
             // 
             this.TimerMouseWheelRest.Interval = 1000;
@@ -1484,7 +1478,6 @@
         private System.Windows.Forms.Label Precio1;
         private System.Windows.Forms.Label TituloLibro1;
         private System.Windows.Forms.PictureBox imgLibro1;
-        private System.Windows.Forms.Timer timerMouseWheel;
         private System.Windows.Forms.Timer TimerMouseWheelRest;
 
     }
