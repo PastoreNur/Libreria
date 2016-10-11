@@ -32,12 +32,12 @@
             this.Bar = new System.Windows.Forms.Panel();
             this.BtnCerrar = new System.Windows.Forms.Button();
             this.ListProductos = new System.Windows.Forms.ListView();
-            this.columnHeader1 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader2 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader3 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader4 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.BtnPagar = new System.Windows.Forms.Button();
             this.columnHeader5 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader4 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader1 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader3 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader2 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.BtnPagar = new System.Windows.Forms.Button();
             this.Bar.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -76,23 +76,27 @@
             this.columnHeader3,
             this.columnHeader2});
             this.ListProductos.GridLines = true;
-            this.ListProductos.Location = new System.Drawing.Point(60, 123);
+            this.ListProductos.Location = new System.Drawing.Point(40, 134);
             this.ListProductos.Name = "ListProductos";
             this.ListProductos.Size = new System.Drawing.Size(687, 259);
             this.ListProductos.TabIndex = 1;
             this.ListProductos.UseCompatibleStateImageBehavior = false;
             this.ListProductos.View = System.Windows.Forms.View.Details;
             // 
+            // columnHeader5
+            // 
+            this.columnHeader5.Text = "";
+            this.columnHeader5.Width = 18;
+            // 
+            // columnHeader4
+            // 
+            this.columnHeader4.Text = "Código";
+            this.columnHeader4.Width = 82;
+            // 
             // columnHeader1
             // 
             this.columnHeader1.Text = "Descripción";
             this.columnHeader1.Width = 429;
-            // 
-            // columnHeader2
-            // 
-            this.columnHeader2.DisplayIndex = 3;
-            this.columnHeader2.Text = "Cantidad";
-            this.columnHeader2.Width = 75;
             // 
             // columnHeader3
             // 
@@ -100,10 +104,11 @@
             this.columnHeader3.Text = "Precio";
             this.columnHeader3.Width = 79;
             // 
-            // columnHeader4
+            // columnHeader2
             // 
-            this.columnHeader4.Text = "Código";
-            this.columnHeader4.Width = 82;
+            this.columnHeader2.DisplayIndex = 3;
+            this.columnHeader2.Text = "Cantidad";
+            this.columnHeader2.Width = 75;
             // 
             // BtnPagar
             // 
@@ -119,11 +124,6 @@
             this.BtnPagar.Text = "Pagar";
             this.BtnPagar.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.BtnPagar.UseVisualStyleBackColor = true;
-            // 
-            // columnHeader5
-            // 
-            this.columnHeader5.Text = "";
-            this.columnHeader5.Width = 18;
             // 
             // Facturacion
             // 

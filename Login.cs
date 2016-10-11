@@ -37,9 +37,7 @@ namespace Libreria
             }
         }
 
-        Principal principal = new Principal();
-
-        
+         Principal principal = new Principal();
 
         private void BtnIniciarSesion_Click(object sender, EventArgs e)
         {
@@ -64,6 +62,7 @@ namespace Libreria
                     principal.login = true;
                     facturacion.Show();
                     this.Close();
+                    principal.BringToFront();
 
                 }
                 else

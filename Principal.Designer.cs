@@ -518,9 +518,9 @@
             this.panelGaleria.Controls.Add(this.panel4);
             this.panelGaleria.Controls.Add(this.panel6);
             this.panelGaleria.Controls.Add(this.panel10);
-            this.panelGaleria.Location = new System.Drawing.Point(26, 6);
+            this.panelGaleria.Location = new System.Drawing.Point(23, 6);
             this.panelGaleria.Name = "panelGaleria";
-            this.panelGaleria.Size = new System.Drawing.Size(869, 600);
+            this.panelGaleria.Size = new System.Drawing.Size(869, 576);
             this.panelGaleria.TabIndex = 36;
             // 
             // panel7
@@ -1127,9 +1127,9 @@
             this.PopUpCarrito.Controls.Add(this.listView1);
             this.PopUpCarrito.Controls.Add(this.pictureBox1);
             this.PopUpCarrito.Enabled = false;
-            this.PopUpCarrito.Location = new System.Drawing.Point(538, 7);
+            this.PopUpCarrito.Location = new System.Drawing.Point(888, 74);
             this.PopUpCarrito.Name = "PopUpCarrito";
-            this.PopUpCarrito.Size = new System.Drawing.Size(0, 340);
+            this.PopUpCarrito.Size = new System.Drawing.Size(52, 0);
             this.PopUpCarrito.TabIndex = 35;
             this.PopUpCarrito.Visible = false;
             // 
@@ -1292,7 +1292,7 @@
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
             this.pictureBox1.Location = new System.Drawing.Point(0, 0);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(0, 42);
+            this.pictureBox1.Size = new System.Drawing.Size(52, 42);
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             // 

@@ -17,6 +17,8 @@ namespace Libreria
             this.MouseWheel += new MouseEventHandler(panelFondo_Wheel);
         }
 
+        
+
 
 
         void panelFondo_Wheel(object sender, MouseEventArgs e)
@@ -162,9 +164,13 @@ namespace Libreria
             loginBar.BringToFront();
             //PanelGaleria.Size = new Size(width: 0, height: 0);
             //PanelGaleria.Visible = false;
-            lblNombreCategoriaBar.Text = "";
+            PopUpCarrito.BringToFront();
+            /*lblNombreCategoriaBar.Text = "";
             lblSaludo.Text = "¡Aún no haz";
-            LblUsuario.Text = "Iniciado Sesión!";
+            LblUsuario.Text = "Iniciado Sesión!";*/
+            
+
+            
         }
 
         private void BtnIngresarBar_Click(object sender, EventArgs e)
@@ -309,6 +315,9 @@ namespace Libreria
         {
             if (PopUpCarrito.Enabled == false)
             {
+                PopUpCarrito.Location = new Point(535,2);
+             
+                
                 PopUpCarrito.Size = new Size(width: 400, height: 340);
                 PopUpCarrito.Enabled = true;
                 PopUpCarrito.Visible = true;
@@ -332,11 +341,14 @@ namespace Libreria
                if (Mensaje == DialogResult.OK)
                {
                    Login loginVentana = new Login();
-                   //loginVentana.MdiParent = this;
+                   loginVentana.MdiParent = this;
                    PopUpCarrito.Size = new Size(width: 0, height: 0);
                    PopUpCarrito.Enabled = false;
                    PopUpCarrito.Visible = false;
                    loginVentana.Show();
+                   loginVentana.BringToFront();
+                   
+
                }
            
 
@@ -344,11 +356,13 @@ namespace Libreria
             else
             {
                 Facturacion factura = new Facturacion();
-                //factura.MdiParent = this;
+                factura.MdiParent = this;
                 PopUpCarrito.Size = new Size(width: 0, height: 0);
                 PopUpCarrito.Enabled = false;
                 PopUpCarrito.Visible = false;
                 factura.Show();
+                factura.BringToFront();
+                
             }
         }
   
