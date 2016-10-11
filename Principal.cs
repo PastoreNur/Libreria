@@ -24,7 +24,14 @@ namespace Libreria
 
         void panelFondo_Wheel(object sender, MouseEventArgs e)
         {
+            timerMouseWheel.Start();
+            if (timermousewheelint != 0)
+            {
 
+            }
+            else
+            {
+            
             if (e.Delta > 0)
             {
                 //Scroll arriba
@@ -75,9 +82,9 @@ namespace Libreria
                     panelGaleria.Location = new Point(26, animacionscroll);
                 }
             }
-                
 
-           
+
+            }
         }
 
 
@@ -141,6 +148,7 @@ namespace Libreria
         public int anchopanel = 60;
         //Variables animacion panel galeria
         int animacionscroll = 6;
+        int timermousewheelint = 0;
 
         private void Principal_FormClosing(object sender, FormClosingEventArgs e)
         {
@@ -371,6 +379,23 @@ namespace Libreria
         {
           
             
+        }
+
+        private void timerMouseWheel_Tick(object sender, EventArgs e)
+        {
+            timermousewheelint++;
+
+            TimerMouseWheelRest.Start();
+
+            timerMouseWheel.Enabled = false;
+
+
+        }
+
+        private void TimerMouseWheelRest_Tick(object sender, EventArgs e)
+        {
+            timermousewheelint = 0;
+            TimerMouseWheelRest.Stop();
         }
 
 
