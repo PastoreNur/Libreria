@@ -350,7 +350,7 @@ namespace Libreria
                if (Mensaje == DialogResult.OK)
                {
                    Login loginVentana = new Login();
-                   loginVentana.MdiParent = this;
+                  
                    PopUpCarrito.Size = new Size(width: 0, height: 0);
                    PopUpCarrito.Enabled = false;
                    PopUpCarrito.Visible = false;
@@ -365,7 +365,7 @@ namespace Libreria
             else
             {
                 Facturacion factura = new Facturacion();
-                factura.MdiParent = this;
+                
                 PopUpCarrito.Size = new Size(width: 0, height: 0);
                 PopUpCarrito.Enabled = false;
                 PopUpCarrito.Visible = false;

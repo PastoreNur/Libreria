@@ -124,6 +124,7 @@
             this.BtnPagar.Text = "Pagar";
             this.BtnPagar.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.BtnPagar.UseVisualStyleBackColor = true;
+            this.BtnPagar.Click += new System.EventHandler(this.BtnPagar_Click);
             // 
             // Facturacion
             // 
