@@ -52,7 +52,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ClsInformacion.cs" />
     <Compile Include="Facturacion.cs">
       <SubType>Form</SubType>
     </Compile>

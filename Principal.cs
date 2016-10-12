@@ -35,10 +35,149 @@ namespace Libreria
         //Variables de cambio de informacion
         int scroll = 0;
         int categoria = 0;
-        //Clase cambio de informacion
-        ClsInformacion Cambio = new ClsInformacion();
+        public int Categoria = 0;
+        public int Scroll = 0;
+        double precio1 = 0.0;
+        double precio2 = 0.0;
+        double precio3 = 0.0;
+        double precio4 = 0.0;
+        double precio5 = 0.0;
+        double precio6 = 0.0;
 
         int animacioncategoria = 23;
+
+
+        public void Infomacion_Categoria(int Infcategoria, int scroll)
+        {
+
+
+
+            Scroll = scroll;
+            Categoria = Infcategoria;
+
+            switch (Categoria)
+            {
+                case 1:
+
+                    switch (Scroll)
+                    {
+                        case 1:
+                            //Contenido Scroll 1 categoria 1
+
+                            imgLibro1.Image = Image.FromFile("demonio.jpg");
+                            Titulo1.Text = Titulo1.Text + ": El Demonio y la Senorita Prym Una Novela";
+                            Descripcion1.Text = "Una novela sobre la lucha entre el Bien y el Mal... y la constante búsqueda del ser humano por alcanzar la verdadera felicidad Una comunidad dividida por la codicia, la cobardía y el miedo. Un hombre perseguido por el fantasma de un pasado doloroso. Una joven en busca de la felicidad. Siete días, un breve período de tiempo durante el cual el Bien y el Mal librarán una batalla decisiva, y cada personaje decidirá a cuál de los dos bandos pertenece. Una pequeña aldea perdida en el tiempo y el espacio será el marco de esa inquietante lucha. Con la llegada de un extranjero, el pueblo se convierte en cómplice de una trama perversa que marcará para siempre la historia de sus habitantes.";
+                            precio1 = 8.11;
+                            Precios1.Text = Precios1.Text + precio1;
+                            
+                            imgLibro2.Image = Image.FromFile("Fahrenheit 451.jpg");
+                            Titulo2.Text = Titulo2.Text + ": " + "Fahrenheit 451";
+                            Descripcion2.Text = "Guy Montag pertenece a una extraña brigada de bomberos. Su misión, paradójicamente, no es la de sofocar incendios sino la de provocarlos para quemar libros. Ha sido bombero durante más de 10 años, y siempre le gustó su trabajó. Nunca cuestionó nada —ni la emoción de las salidas a medianoche ni el placer de ver las hojas arder— hasta que conoció a una niña de diecisiete años que le mostró un pasado en el que la gente no tenía miedo y a un profesor que le habló de un futuro en el que la gente podría ser libre. Y al fin Montag comprendió lo que tenía que hacer.";
+                            precio2 = 12.75;
+                            Precios2.Text = Precios2.Text + precio2;
+
+                            imgLibro3.Image = Image.FromFile("Harry Potter.jpg");
+                            Titulo3.Text = Titulo3.Text + ": " + "Harry Potter";
+                            Descripcion3.Text = "Ser Harry Potter nunca ha sido tarea facil, menos aun desde que se ha convertido en un atareadisimo empleado del Ministerio de Magia, un hombre casado y padre de tres hijos. Y si Harry planta cara a un pasado que se resiste a quedar atras, su hijo menor, Albus Severus, ha de luchar contra el peso de una herencia familiar de la que el nunca ha querido saber nada. Cuando el destino conecte el pasado con el presente, padre e hijo deberan afrontar una verdad muy incomoda: a veces, la oscuridad surge de los lugares mas insospechados.";
+                            precio3 = 14.99;
+                            Precios3.Text = Precios3.Text + precio3;
+
+                            imgLibro4.Image = Image.FromFile("La invención de Morel.jpg");
+                            Titulo4.Text = Titulo4.Text + ": " + "La invención de Morel";
+                            Descripcion4.Text = "La invención de Morel narra una extrana historia de amor protagonizada por un hombre y una mujer que viven existencias incompatibles en espacios y tiempos rivales. En ella, el talento de Adolfo Bioy Casares despliega una odisea de prodigios que, si en un primer momento no parecen admitir otra clave que la alucinacion o el simbolo, son luego plenamente descifrados mediante un solo postulado fantastico, pero no sobrenatural. "+"He discutido con su autor -escribe Jorge Luis Borges en el prologo que abre el volumen- los pormenores de su trama, la he releido; no me parece una imprecision o una hiperbole calificarla de perfecta.";
+                            precio4 = 12.12;
+                            Precios4.Text = Precios4.Text + precio4;
+
+                            imgLibro5.Image = Image.FromFile("Nocturno.jpg");
+                            Titulo5.Text = Titulo5.Text + ": " + "Nocturno";
+                            Descripcion5.Text = "Un demonio inmortal está atrapado por su propia existencia, a vagar eternamente por el tiempo, vacío y sin esperanzas. Pero en mitad de la más absoluta oscuridad, un haz de anhelo y calor surge ante él. Su destino se cruza con el de una joven, que desconoce la verdad sobre sí misma, y sus mundos se fusionan. ¿Podrá un amor incondicional superar las barreras impuestas por la venganza y el peligro de una guerra inevitable? ¿Conseguirá la Luz estar en paz con las Sombras? Descubre un mundo melancólico y triste. Tierno, envolvente y sobrecogedor.";
+                            precio5 = 23.0;
+                            Precios5.Text = Precios5.Text + precio5;
+                            break;
+
+                        case 2:
+                            //Contenido Scroll 2 categoria 1
+                            
+                            break;
+                    }
+
+                    break;
+                case 2:
+                    switch (Scroll)
+                    {
+                        case 1:
+                            //Contenido Scroll 1 categoria 2
+                            MessageBox.Show("Cat2 scr1");
+                            break;
+
+                        case 2:
+                            //Contenido Scroll 2 categoria 2
+                            MessageBox.Show("Cat2 scr2");
+                            break;
+                    }
+                    break;
+                case 3:
+                    switch (Scroll)
+                    {
+                        case 1:
+                            //contenido Scroll 1 Categoria 3
+                            break;
+
+                        case 2:
+                            //Contenido Scroll 2 Categoria 3
+                            break;
+                    }
+                    break;
+                case 4:
+                    switch (Scroll)
+                    {
+                        case 1:
+                            //Contenido Scroll 1 Categoria 4
+                            break;
+
+                        case 2:
+                            //Contenido Scroll 2 Categoria 4
+                            break;
+                    }
+                    break;
+                case 5:
+                    switch (Scroll)
+                    {
+                        case 1:
+                            //Contenido Scroll 1 Categoria 5
+                            break;
+
+                        case 2:
+                            //Contenido Scroll 2 Categoria 5
+                            break;
+                    }
+                    break;
+                case 6:
+                    switch (Scroll)
+                    {
+                        case 1:
+                            //Contenido Scroll 1 Categoria 6
+                            break;
+                        case 2:
+                            //Contenido Scroll 2 Categoria 6
+                            break;
+                    }
+                    break;
+                case 7:
+                    switch (Scroll)
+                    {
+                        case 1:
+                            //Contenido Scroll 1 Categoria 7
+                            break;
+
+                        case 2:
+                            //Contemido Scroll 2 Categoria 7
+                            break;
+                    }
+                    break;
+            }
+        }
+
         public void Animacion_Categoria(int categoria, int scroll) 
         {
             //desaparecer
@@ -51,7 +190,7 @@ namespace Libreria
 
 
             //Metodo de cambio de informacion con switch
-            Cambio.Infomacion_Categoria(categoria, scroll);
+            Infomacion_Categoria(categoria, scroll);
             
             
             //Reaparecer
@@ -86,12 +225,12 @@ namespace Libreria
                     if (scroll == 1)
                     {
                         scroll = 2;
-                        Cambio.Infomacion_Categoria(categoria, scroll);
+                  Infomacion_Categoria(categoria, scroll);
                     }
                     else if(scroll == 2)
                     {
                         scroll = 1;
-                        Cambio.Infomacion_Categoria(categoria, scroll);
+                        Infomacion_Categoria(categoria, scroll);
                     }
                     else
                     {
@@ -137,7 +276,7 @@ namespace Libreria
                         MessageBox.Show("Error fatal scroll fuera de rango");
                     }
 
-                    Cambio.Infomacion_Categoria(categoria,scroll);
+                    Infomacion_Categoria(categoria,scroll);
 
                     //Animacion aparecer
                     animacionscroll = -640;
