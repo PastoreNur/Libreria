@@ -18,8 +18,27 @@ namespace Libreria
             this.MouseWheel += new MouseEventHandler(panelFondo_Wheel);
         }
 
+        //Variables para inicio de sesion
+        public string Usuario = "Invitado";
+        public string Nombre = "Invitado";
+        public string contraseña = "1234";
+        //Variable para desactivar el loginbar
+        public bool login = false;
+        //Variables animacion panel categorias
+        public int anchopanel = 60;
+        //Variables animacion panel galeria
+        int animacionscroll = 6;
+        int timermousewheelint = 0;
+        //Variables Importantes
+        //En serio muy importantes
+        //Variables de cambio de informacion
+        int scroll = 0;
+        int categoria = 0;
+        //Clase cambio de informacion
+        ClsInformacion Cambio = new ClsInformacion();
+
         int animacioncategoria = 23;
-        public void Animacion_Categoria() 
+        public void Animacion_Categoria(int categoria, int scroll) 
         {
             //desaparecer
             while (animacioncategoria <= 950)
@@ -28,6 +47,11 @@ namespace Libreria
                 panelGaleria.Location = new Point(animacioncategoria, animacionscroll);
             }
             //Cambio de informacion
+
+
+            //Metodo de cambio de informacion con switch
+            Cambio.Infomacion_Categoria(categoria, scroll);
+            
             
             //Reaparecer
             animacioncategoria = -950;
@@ -58,6 +82,22 @@ namespace Libreria
 
                     //Cambio de informacion de la galeria
 
+                    if (scroll == 1)
+                    {
+                        scroll = 2;
+                        Cambio.Infomacion_Categoria(categoria, scroll);
+                    }
+                    else if(scroll == 2)
+                    {
+                        scroll = 1;
+                        Cambio.Infomacion_Categoria(categoria, scroll);
+                    }
+                    else
+                    {
+                        MessageBox.Show("Error fatal scroll fuera de rango");
+                    }
+
+                    
 
                     //Animacion aparecer
                     animacionscroll = 640;
@@ -83,6 +123,20 @@ namespace Libreria
 
                     //Cambio de informacion de la galeria
 
+                    if (scroll == 1)
+                    {
+                        scroll = 2;
+                    }
+                    else if (scroll == 2)
+                    {
+                        scroll = 1;
+                    }
+                    else
+                    {
+                        MessageBox.Show("Error fatal scroll fuera de rango");
+                    }
+
+                    Cambio.Infomacion_Categoria(categoria,scroll);
 
                     //Animacion aparecer
                     animacionscroll = -640;
@@ -149,19 +203,7 @@ namespace Libreria
             }
             
         }
-
-        //Variables para inicio de sesion
-        public string Usuario = "Invitado";
-        public string Nombre = "Invitado";
-        public string contraseña = "1234";
-        //Variable para desactivar el loginbar
-        public bool login = false;
-        //Variables animacion panel categorias
-        public int anchopanel = 60;
-        //Variables animacion panel galeria
-        int animacionscroll = 6;
-        int timermousewheelint = 0;
-
+ 
         private void Principal_FormClosing(object sender, FormClosingEventArgs e)
         {
             Application.Exit();
@@ -183,12 +225,9 @@ namespace Libreria
         {
             PanelCategorias.Size = new System.Drawing.Size(anchopanel, 630);
             loginBar.BringToFront();
-            //PanelGaleria.Size = new Size(width: 0, height: 0);
-            //PanelGaleria.Visible = false;
+           
             PopUpCarrito.BringToFront();
-            /*lblNombreCategoriaBar.Text = "";
-            lblSaludo.Text = "¡Aún no haz";
-            LblUsuario.Text = "Iniciado Sesión!";*/
+      
             
 
             
@@ -201,8 +240,7 @@ namespace Libreria
 
         private void BtnCerrarGaleria_Click(object sender, EventArgs e)
         {
-            //PanelGaleria.Size = new Size(width:0,height:0);
-            //PanelGaleria.Visible = false;
+
             lblNombreCategoriaBar.Text = "";
             
         }
@@ -218,65 +256,80 @@ namespace Libreria
 
         private void BtnCat1_Click(object sender, EventArgs e)
         {
+            //Variable categoria para el paramentro de la clase informacion
+            categoria = 1;
+            //Arriba
+            scroll = 1;
             ocultarLoginBar();
-            Animacion_Categoria();
-           // PanelGaleria.Visible = true;
-            //PanelGaleria.Size = new Size(width: 825, height: 595);
+            Animacion_Categoria(categoria,scroll);
             lblNombreCategoriaBar.Text = BtnCat1.Text;
 
         }
 
         private void BtnCat2_Click(object sender, EventArgs e)
         {
-            Animacion_Categoria();
+            //Variable categoria para el paramentro de la clase informacion
+            categoria = 2;
+            //Arriba
+            scroll = 1;
+            Animacion_Categoria(categoria,scroll);
             ocultarLoginBar();
-            //PanelGaleria.Visible = true;
-            //PanelGaleria.Size = new Size(width: 825, height: 595);
             lblNombreCategoriaBar.Text = BtnCat2.Text;
         }
 
         private void BtnCat3_Click(object sender, EventArgs e)
         {
-            Animacion_Categoria();
+            //Variable categoria para el paramentro de la clase informacion
+            categoria = 3;
+            //Arriba
+            scroll = 1;
+            Animacion_Categoria(categoria,scroll);
             ocultarLoginBar();
-            //PanelGaleria.Visible = true;
-            //PanelGaleria.Size = new Size(width: 825, height: 595);
             lblNombreCategoriaBar.Text = BtnCat3.Text;
         }
 
         private void BtnCat4_Click(object sender, EventArgs e)
         {
-            Animacion_Categoria();
+            //Variable categoria para el paramentro de la clase informacion
+            categoria = 4;
+            //Arriba
+            scroll = 1;
+            Animacion_Categoria(categoria,scroll);
             ocultarLoginBar();
-            //PanelGaleria.Visible = true;
-            //PanelGaleria.Size = new Size(width: 825, height: 595);
             lblNombreCategoriaBar.Text = BtnCat4.Text;
         }
 
         private void BtnCat5_Click(object sender, EventArgs e)
         {
-            Animacion_Categoria();
+            //Variable categoria para el paramentro de la clase informacion
+            categoria = 5;
+            //Arriba
+            scroll = 1;
+            Animacion_Categoria(categoria,scroll);
             ocultarLoginBar();
-            //PanelGaleria.Visible = true;
-            //PanelGaleria.Size = new Size(width: 825, height: 595);
             lblNombreCategoriaBar.Text = BtnCat5.Text;
         }
 
         private void BtnCat6_Click(object sender, EventArgs e)
         {
-            Animacion_Categoria();
+            //Variable categoria para el paramentro de la clase informacion
+            categoria = 6;
+            //Arriba
+            scroll = 1;
+            Animacion_Categoria(categoria,scroll);
             ocultarLoginBar();
-            //PanelGaleria.Visible = true;
-            //PanelGaleria.Size = new Size(width: 825, height: 595);
             lblNombreCategoriaBar.Text = BtnCat6.Text;
         }
 
         private void BtnCat7_Click(object sender, EventArgs e)
         {
-            Animacion_Categoria();
+            //Variable categoria para el paramentro de la clase informacion
+            categoria = 7;
+            //Arriba
+            scroll = 1;
+
+            Animacion_Categoria(categoria,scroll);
             ocultarLoginBar();
-            //PanelGaleria.Visible = true;
-            //PanelGaleria.Size = new Size(width: 825, height: 595);
             lblNombreCategoriaBar.Text = BtnCat7.Text;
         }
 
@@ -408,7 +461,7 @@ namespace Libreria
 
 
         /*
-         * try
+          try
             {
                 System.Diagnostics.Process.Start("http://www.microsoft.com");
             }
