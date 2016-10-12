@@ -135,6 +135,7 @@
             this.Cantidad = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.TimerMouseWheelRest = new System.Windows.Forms.Timer(this.components);
+            this.panelHola = new System.Windows.Forms.Panel();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.BtnMinimizar)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.BtnCerrar)).BeginInit();
@@ -602,6 +603,7 @@
             // 
             // panelGaleria
             // 
+            this.panelGaleria.Controls.Add(this.panelHola);
             this.panelGaleria.Controls.Add(this.panel7);
             this.panelGaleria.Controls.Add(this.panel8);
             this.panelGaleria.Controls.Add(this.panel5);
@@ -1409,6 +1411,13 @@
             this.TimerMouseWheelRest.Interval = 1000;
             this.TimerMouseWheelRest.Tick += new System.EventHandler(this.TimerMouseWheelRest_Tick);
             // 
+            // panelHola
+            // 
+            this.panelHola.Location = new System.Drawing.Point(8, 8);
+            this.panelHola.Name = "panelHola";
+            this.panelHola.Size = new System.Drawing.Size(869, 576);
+            this.panelHola.TabIndex = 41;
+            // 
             // Principal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -1593,6 +1602,7 @@
         public System.Windows.Forms.RichTextBox Descripcion1;
         public System.Windows.Forms.Label Titulo1;
         public System.Windows.Forms.PictureBox imgLibro1;
+        private System.Windows.Forms.Panel panelHola;
 
     }
 }

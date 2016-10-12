@@ -365,6 +365,7 @@ namespace Libreria
 
         private void Principal_Load(object sender, EventArgs e)
         {
+            panelHola.BringToFront();
             PanelCategorias.Size = new System.Drawing.Size(anchopanel, 630);
             loginBar.BringToFront();
             PopUpCarrito.BringToFront();
@@ -396,6 +397,7 @@ namespace Libreria
 
         private void BtnCat1_Click(object sender, EventArgs e)
         {
+            panelGaleria.BringToFront();
             //Variable categoria para el paramentro de la clase informacion
             categoria = 1;
             //Arriba
@@ -408,6 +410,7 @@ namespace Libreria
 
         private void BtnCat2_Click(object sender, EventArgs e)
         {
+            panelGaleria.BringToFront();
             //Variable categoria para el paramentro de la clase informacion
             categoria = 2;
             //Arriba
@@ -419,6 +422,7 @@ namespace Libreria
 
         private void BtnCat3_Click(object sender, EventArgs e)
         {
+            panelGaleria.BringToFront();
             //Variable categoria para el paramentro de la clase informacion
             categoria = 3;
             //Arriba
@@ -430,6 +434,7 @@ namespace Libreria
 
         private void BtnCat4_Click(object sender, EventArgs e)
         {
+            panelGaleria.BringToFront();
             //Variable categoria para el paramentro de la clase informacion
             categoria = 4;
             //Arriba
@@ -441,6 +446,7 @@ namespace Libreria
 
         private void BtnCat5_Click(object sender, EventArgs e)
         {
+            panelGaleria.BringToFront();
             //Variable categoria para el paramentro de la clase informacion
             categoria = 5;
             //Arriba
@@ -452,6 +458,7 @@ namespace Libreria
 
         private void BtnCat6_Click(object sender, EventArgs e)
         {
+            panelGaleria.BringToFront();
             //Variable categoria para el paramentro de la clase informacion
             categoria = 6;
             //Arriba
@@ -463,6 +470,7 @@ namespace Libreria
 
         private void BtnCat7_Click(object sender, EventArgs e)
         {
+            panelGaleria.BringToFront();
             //Variable categoria para el paramentro de la clase informacion
             categoria = 7;
             //Arriba
