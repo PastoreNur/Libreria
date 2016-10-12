@@ -20,8 +20,9 @@ namespace Libreria
 
         //Variables para inicio de sesion
         public string Usuario = "Invitado";
-        public string Nombre = "Invitado";
+        public string Nombre;
         public string contraseña = "1234";
+        public string Saludo;
         //Variable para desactivar el loginbar
         public bool login = false;
         //Variables animacion panel categorias
@@ -163,8 +164,10 @@ namespace Libreria
             {
                 if (txtPAsswordBar.Text == contraseña)
                 {
+                    Nombre = "Invitado";
                     LblUsuario.Text = Nombre + "!";
-                    lblSaludo.Text = "¡Hola";
+                    Saludo = "¡Hola";
+                    lblSaludo.Text = Saludo;
                     loginBar.Size = new Size(width: 280, height: 0);
                     loginBar.Enabled = false;
                     txtPAsswordBar.Clear();
@@ -225,11 +228,9 @@ namespace Libreria
         {
             PanelCategorias.Size = new System.Drawing.Size(anchopanel, 630);
             loginBar.BringToFront();
-           
             PopUpCarrito.BringToFront();
-      
-            
-
+            lblSaludo.Text = "Aún no haz";
+            LblUsuario.Text = "Iniciado Sesión";
             
         }
 
@@ -420,14 +421,15 @@ namespace Libreria
 
                if (Mensaje == DialogResult.OK)
                {
-                   Login loginVentana = new Login();
-                  
+                   //Login loginVentana = new Login();
+                   txtUsuarioLogin.Focus();
                    PopUpCarrito.Size = new Size(width: 0, height: 0);
                    PopUpCarrito.Enabled = false;
                    PopUpCarrito.Visible = false;
-                   loginVentana.Show();
-                   loginVentana.BringToFront();
-                   
+                   LoginPanel.BringToFront();
+                   LoginPanel.Size = new Size(width: 405, height: 250);
+                   LoginPanel.Location = new Point(228, 163);
+                   login = true;
 
                }
            
@@ -457,6 +459,73 @@ namespace Libreria
         {
             timermousewheelint = 0;
             TimerMouseWheelRest.Stop();
+        }
+
+        private void BtnCerrarLogin_Click(object sender, EventArgs e)
+        {
+            LoginPanel.Visible = false;
+            LoginPanel.Size = new Size(width: 405, height: 0);
+            LoginPanel.Location = new Point(910, 311);
+
+        }
+
+        private void BtnMostrarPassword_Click(object sender, EventArgs e)
+        {
+            if (txtPasswordLogin.UseSystemPasswordChar == true)
+            {
+                
+                BtnMostrarPassword.BackgroundImage = Image.FromFile("Invisible-48.png");
+                txtPasswordLogin.UseSystemPasswordChar = false;
+            }
+            else if (txtPasswordLogin.UseSystemPasswordChar == false)
+            {
+                BtnMostrarPassword.BackgroundImage = Image.FromFile("Visible-48.png");
+                txtPasswordLogin.UseSystemPasswordChar = true;
+            }
+        }
+
+        private void BtnIniciarSesion_Click(object sender, EventArgs e)
+        {
+            Facturacion facturacion = new Facturacion();
+            
+
+            if (txtUsuarioLogin.Text == Usuario)
+            {
+
+                if (txtPasswordLogin.Text == contraseña)
+                {
+
+                    Nombre = "Invitado";
+                    LblUsuario.Text = Nombre + "!";
+                    Saludo = "¡Hola";
+                    lblSaludo.Text = Saludo;
+                    loginBar.Size = new Size(width: 280, height: 0);
+                    loginBar.Enabled = false;
+                    txtUsuarioBar.Clear();
+                    txtPAsswordBar.Clear();
+                    login = true;
+                    facturacion.Show();
+                    LoginPanel.Visible = false;
+                    LoginPanel.Size = new Size(width: 405, height: 0);
+                    LoginPanel.Location = new Point(910, 311);
+                    
+                    
+
+                }
+                else
+                {
+                    MessageBox.Show("Contraseña Incorrecta", "AVISO", MessageBoxButtons.OK, MessageBoxIcon.Error);
+
+                    txtPasswordLogin.Clear();
+                }
+            }
+            else
+            {
+                MessageBox.Show("Usuario Incorrecto", "AVISO", MessageBoxButtons.OK, MessageBoxIcon.Error);
+
+                txtUsuarioLogin.Clear();
+              
+            }
         }
 
 

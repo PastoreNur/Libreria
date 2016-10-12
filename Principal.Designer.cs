@@ -129,6 +129,12 @@
             this.Cantidad = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.TimerMouseWheelRest = new System.Windows.Forms.Timer(this.components);
+            this.LoginPanel = new System.Windows.Forms.Panel();
+            this.txtUsuarioLogin = new System.Windows.Forms.TextBox();
+            this.BtnMostrarPassword = new System.Windows.Forms.Button();
+            this.txtPasswordLogin = new System.Windows.Forms.TextBox();
+            this.BtnCerrarLogin = new System.Windows.Forms.Button();
+            this.BtnIniciarSesion = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.BtnMinimizar)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.BtnCerrar)).BeginInit();
@@ -174,6 +180,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.LoginPanel.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
@@ -503,6 +510,7 @@
             // 
             // panelFondo
             // 
+            this.panelFondo.Controls.Add(this.LoginPanel);
             this.panelFondo.Controls.Add(this.panelGaleria);
             this.panelFondo.Controls.Add(this.PopUpCarrito);
             this.panelFondo.Controls.Add(this.loginBar);
@@ -1303,6 +1311,86 @@
             this.TimerMouseWheelRest.Interval = 1000;
             this.TimerMouseWheelRest.Tick += new System.EventHandler(this.TimerMouseWheelRest_Tick);
             // 
+            // LoginPanel
+            // 
+            this.LoginPanel.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("LoginPanel.BackgroundImage")));
+            this.LoginPanel.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.LoginPanel.Controls.Add(this.BtnIniciarSesion);
+            this.LoginPanel.Controls.Add(this.BtnCerrarLogin);
+            this.LoginPanel.Controls.Add(this.txtPasswordLogin);
+            this.LoginPanel.Controls.Add(this.BtnMostrarPassword);
+            this.LoginPanel.Controls.Add(this.txtUsuarioLogin);
+            this.LoginPanel.Location = new System.Drawing.Point(910, 328);
+            this.LoginPanel.Name = "LoginPanel";
+            this.LoginPanel.Size = new System.Drawing.Size(400, 0);
+            this.LoginPanel.TabIndex = 37;
+            // 
+            // txtUsuarioLogin
+            // 
+            this.txtUsuarioLogin.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(234)))), ((int)(((byte)(237)))), ((int)(((byte)(241)))));
+            this.txtUsuarioLogin.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtUsuarioLogin.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtUsuarioLogin.Location = new System.Drawing.Point(32, 78);
+            this.txtUsuarioLogin.Name = "txtUsuarioLogin";
+            this.txtUsuarioLogin.Size = new System.Drawing.Size(248, 17);
+            this.txtUsuarioLogin.TabIndex = 0;
+            this.txtUsuarioLogin.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // BtnMostrarPassword
+            // 
+            this.BtnMostrarPassword.BackColor = System.Drawing.Color.Transparent;
+            this.BtnMostrarPassword.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("BtnMostrarPassword.BackgroundImage")));
+            this.BtnMostrarPassword.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.BtnMostrarPassword.FlatAppearance.BorderSize = 0;
+            this.BtnMostrarPassword.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.BtnMostrarPassword.ForeColor = System.Drawing.Color.Transparent;
+            this.BtnMostrarPassword.Location = new System.Drawing.Point(286, 144);
+            this.BtnMostrarPassword.Name = "BtnMostrarPassword";
+            this.BtnMostrarPassword.Size = new System.Drawing.Size(25, 25);
+            this.BtnMostrarPassword.TabIndex = 2;
+            this.BtnMostrarPassword.UseVisualStyleBackColor = false;
+            this.BtnMostrarPassword.Click += new System.EventHandler(this.BtnMostrarPassword_Click);
+            // 
+            // txtPasswordLogin
+            // 
+            this.txtPasswordLogin.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(234)))), ((int)(((byte)(237)))), ((int)(((byte)(241)))));
+            this.txtPasswordLogin.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtPasswordLogin.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtPasswordLogin.Location = new System.Drawing.Point(32, 147);
+            this.txtPasswordLogin.Name = "txtPasswordLogin";
+            this.txtPasswordLogin.Size = new System.Drawing.Size(248, 17);
+            this.txtPasswordLogin.TabIndex = 1;
+            this.txtPasswordLogin.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txtPasswordLogin.UseSystemPasswordChar = true;
+            // 
+            // BtnCerrarLogin
+            // 
+            this.BtnCerrarLogin.BackColor = System.Drawing.Color.Transparent;
+            this.BtnCerrarLogin.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("BtnCerrarLogin.BackgroundImage")));
+            this.BtnCerrarLogin.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.BtnCerrarLogin.FlatAppearance.BorderSize = 0;
+            this.BtnCerrarLogin.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.BtnCerrarLogin.Location = new System.Drawing.Point(361, 3);
+            this.BtnCerrarLogin.Name = "BtnCerrarLogin";
+            this.BtnCerrarLogin.Size = new System.Drawing.Size(35, 35);
+            this.BtnCerrarLogin.TabIndex = 4;
+            this.BtnCerrarLogin.UseVisualStyleBackColor = false;
+            this.BtnCerrarLogin.Click += new System.EventHandler(this.BtnCerrarLogin_Click);
+            // 
+            // BtnIniciarSesion
+            // 
+            this.BtnIniciarSesion.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(208)))), ((int)(((byte)(63)))));
+            this.BtnIniciarSesion.FlatAppearance.BorderSize = 0;
+            this.BtnIniciarSesion.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.BtnIniciarSesion.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnIniciarSesion.Location = new System.Drawing.Point(264, 198);
+            this.BtnIniciarSesion.Name = "BtnIniciarSesion";
+            this.BtnIniciarSesion.Size = new System.Drawing.Size(110, 38);
+            this.BtnIniciarSesion.TabIndex = 3;
+            this.BtnIniciarSesion.Text = "Iniciar Sesión";
+            this.BtnIniciarSesion.UseVisualStyleBackColor = false;
+            this.BtnIniciarSesion.Click += new System.EventHandler(this.BtnIniciarSesion_Click);
+            // 
             // Principal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -1374,6 +1462,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.LoginPanel.ResumeLayout(false);
+            this.LoginPanel.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -1479,6 +1569,12 @@
         private System.Windows.Forms.Label TituloLibro1;
         private System.Windows.Forms.PictureBox imgLibro1;
         private System.Windows.Forms.Timer TimerMouseWheelRest;
+        private System.Windows.Forms.Panel LoginPanel;
+        private System.Windows.Forms.Button BtnCerrarLogin;
+        private System.Windows.Forms.TextBox txtPasswordLogin;
+        private System.Windows.Forms.Button BtnMostrarPassword;
+        private System.Windows.Forms.TextBox txtUsuarioLogin;
+        private System.Windows.Forms.Button BtnIniciarSesion;
 
     }
 }
