@@ -138,6 +138,7 @@
             this.Name = "Facturacion";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Facturacion";
+            this.Load += new System.EventHandler(this.Facturacion_Load);
             this.Bar.ResumeLayout(false);
             this.ResumeLayout(false);
 
