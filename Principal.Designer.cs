@@ -53,6 +53,12 @@
             this.BtnCat7 = new System.Windows.Forms.Button();
             this.PanelCategorias = new System.Windows.Forms.Panel();
             this.panelFondo = new System.Windows.Forms.Panel();
+            this.LoginPanel = new System.Windows.Forms.Panel();
+            this.BtnIniciarSesion = new System.Windows.Forms.Button();
+            this.BtnCerrarLogin = new System.Windows.Forms.Button();
+            this.txtPasswordLogin = new System.Windows.Forms.TextBox();
+            this.BtnMostrarPassword = new System.Windows.Forms.Button();
+            this.txtUsuarioLogin = new System.Windows.Forms.TextBox();
             this.panelGaleria = new System.Windows.Forms.Panel();
             this.panel7 = new System.Windows.Forms.Panel();
             this.BtnAgregarCarrito6 = new System.Windows.Forms.Button();
@@ -129,12 +135,6 @@
             this.Cantidad = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.TimerMouseWheelRest = new System.Windows.Forms.Timer(this.components);
-            this.LoginPanel = new System.Windows.Forms.Panel();
-            this.txtUsuarioLogin = new System.Windows.Forms.TextBox();
-            this.BtnMostrarPassword = new System.Windows.Forms.Button();
-            this.txtPasswordLogin = new System.Windows.Forms.TextBox();
-            this.BtnCerrarLogin = new System.Windows.Forms.Button();
-            this.BtnIniciarSesion = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.BtnMinimizar)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.BtnCerrar)).BeginInit();
@@ -142,6 +142,7 @@
             this.loginBar.SuspendLayout();
             this.PanelCategorias.SuspendLayout();
             this.panelFondo.SuspendLayout();
+            this.LoginPanel.SuspendLayout();
             this.panelGaleria.SuspendLayout();
             this.panel7.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.Cantidad6)).BeginInit();
@@ -180,7 +181,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            this.LoginPanel.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
@@ -520,6 +520,86 @@
             this.panelFondo.TabIndex = 9;
             this.panelFondo.Scroll += new System.Windows.Forms.ScrollEventHandler(this.panel9_Scroll);
             // 
+            // LoginPanel
+            // 
+            this.LoginPanel.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("LoginPanel.BackgroundImage")));
+            this.LoginPanel.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.LoginPanel.Controls.Add(this.BtnIniciarSesion);
+            this.LoginPanel.Controls.Add(this.BtnCerrarLogin);
+            this.LoginPanel.Controls.Add(this.txtPasswordLogin);
+            this.LoginPanel.Controls.Add(this.BtnMostrarPassword);
+            this.LoginPanel.Controls.Add(this.txtUsuarioLogin);
+            this.LoginPanel.Location = new System.Drawing.Point(910, 328);
+            this.LoginPanel.Name = "LoginPanel";
+            this.LoginPanel.Size = new System.Drawing.Size(400, 0);
+            this.LoginPanel.TabIndex = 37;
+            // 
+            // BtnIniciarSesion
+            // 
+            this.BtnIniciarSesion.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(208)))), ((int)(((byte)(63)))));
+            this.BtnIniciarSesion.FlatAppearance.BorderSize = 0;
+            this.BtnIniciarSesion.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.BtnIniciarSesion.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnIniciarSesion.Location = new System.Drawing.Point(264, 198);
+            this.BtnIniciarSesion.Name = "BtnIniciarSesion";
+            this.BtnIniciarSesion.Size = new System.Drawing.Size(110, 38);
+            this.BtnIniciarSesion.TabIndex = 3;
+            this.BtnIniciarSesion.Text = "Iniciar Sesión";
+            this.BtnIniciarSesion.UseVisualStyleBackColor = false;
+            this.BtnIniciarSesion.Click += new System.EventHandler(this.BtnIniciarSesion_Click);
+            // 
+            // BtnCerrarLogin
+            // 
+            this.BtnCerrarLogin.BackColor = System.Drawing.Color.Transparent;
+            this.BtnCerrarLogin.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("BtnCerrarLogin.BackgroundImage")));
+            this.BtnCerrarLogin.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.BtnCerrarLogin.FlatAppearance.BorderSize = 0;
+            this.BtnCerrarLogin.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.BtnCerrarLogin.Location = new System.Drawing.Point(361, 3);
+            this.BtnCerrarLogin.Name = "BtnCerrarLogin";
+            this.BtnCerrarLogin.Size = new System.Drawing.Size(35, 35);
+            this.BtnCerrarLogin.TabIndex = 4;
+            this.BtnCerrarLogin.UseVisualStyleBackColor = false;
+            this.BtnCerrarLogin.Click += new System.EventHandler(this.BtnCerrarLogin_Click);
+            // 
+            // txtPasswordLogin
+            // 
+            this.txtPasswordLogin.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(234)))), ((int)(((byte)(237)))), ((int)(((byte)(241)))));
+            this.txtPasswordLogin.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtPasswordLogin.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtPasswordLogin.Location = new System.Drawing.Point(32, 147);
+            this.txtPasswordLogin.Name = "txtPasswordLogin";
+            this.txtPasswordLogin.Size = new System.Drawing.Size(248, 17);
+            this.txtPasswordLogin.TabIndex = 1;
+            this.txtPasswordLogin.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txtPasswordLogin.UseSystemPasswordChar = true;
+            // 
+            // BtnMostrarPassword
+            // 
+            this.BtnMostrarPassword.BackColor = System.Drawing.Color.Transparent;
+            this.BtnMostrarPassword.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("BtnMostrarPassword.BackgroundImage")));
+            this.BtnMostrarPassword.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.BtnMostrarPassword.FlatAppearance.BorderSize = 0;
+            this.BtnMostrarPassword.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.BtnMostrarPassword.ForeColor = System.Drawing.Color.Transparent;
+            this.BtnMostrarPassword.Location = new System.Drawing.Point(286, 144);
+            this.BtnMostrarPassword.Name = "BtnMostrarPassword";
+            this.BtnMostrarPassword.Size = new System.Drawing.Size(25, 25);
+            this.BtnMostrarPassword.TabIndex = 2;
+            this.BtnMostrarPassword.UseVisualStyleBackColor = false;
+            this.BtnMostrarPassword.Click += new System.EventHandler(this.BtnMostrarPassword_Click);
+            // 
+            // txtUsuarioLogin
+            // 
+            this.txtUsuarioLogin.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(234)))), ((int)(((byte)(237)))), ((int)(((byte)(241)))));
+            this.txtUsuarioLogin.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtUsuarioLogin.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtUsuarioLogin.Location = new System.Drawing.Point(32, 78);
+            this.txtUsuarioLogin.Name = "txtUsuarioLogin";
+            this.txtUsuarioLogin.Size = new System.Drawing.Size(248, 17);
+            this.txtUsuarioLogin.TabIndex = 0;
+            this.txtUsuarioLogin.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
             // panelGaleria
             // 
             this.panelGaleria.Controls.Add(this.panel7);
@@ -566,6 +646,7 @@
             // 
             this.richTextBox5.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.richTextBox5.Location = new System.Drawing.Point(148, 80);
+            this.richTextBox5.MaxLength = 80;
             this.richTextBox5.Name = "richTextBox5";
             this.richTextBox5.ReadOnly = true;
             this.richTextBox5.Size = new System.Drawing.Size(268, 52);
@@ -623,6 +704,7 @@
             // 
             // pictureBox12
             // 
+            this.pictureBox12.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox12.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox12.Image")));
             this.pictureBox12.Location = new System.Drawing.Point(29, 23);
             this.pictureBox12.Name = "pictureBox12";
@@ -663,6 +745,7 @@
             // 
             this.richTextBox4.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.richTextBox4.Location = new System.Drawing.Point(148, 80);
+            this.richTextBox4.MaxLength = 80;
             this.richTextBox4.Name = "richTextBox4";
             this.richTextBox4.ReadOnly = true;
             this.richTextBox4.Size = new System.Drawing.Size(268, 52);
@@ -720,6 +803,7 @@
             // 
             // pictureBox15
             // 
+            this.pictureBox15.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox15.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox15.Image")));
             this.pictureBox15.Location = new System.Drawing.Point(29, 23);
             this.pictureBox15.Name = "pictureBox15";
@@ -760,6 +844,7 @@
             // 
             this.richTextBox3.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.richTextBox3.Location = new System.Drawing.Point(148, 80);
+            this.richTextBox3.MaxLength = 80;
             this.richTextBox3.Name = "richTextBox3";
             this.richTextBox3.ReadOnly = true;
             this.richTextBox3.Size = new System.Drawing.Size(268, 52);
@@ -817,6 +902,7 @@
             // 
             // pictureBox6
             // 
+            this.pictureBox6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox6.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox6.Image")));
             this.pictureBox6.Location = new System.Drawing.Point(29, 23);
             this.pictureBox6.Name = "pictureBox6";
@@ -857,6 +943,7 @@
             // 
             this.txtDescripcion4.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtDescripcion4.Location = new System.Drawing.Point(148, 80);
+            this.txtDescripcion4.MaxLength = 80;
             this.txtDescripcion4.Name = "txtDescripcion4";
             this.txtDescripcion4.ReadOnly = true;
             this.txtDescripcion4.Size = new System.Drawing.Size(268, 52);
@@ -914,6 +1001,7 @@
             // 
             // pictureBox3
             // 
+            this.pictureBox3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
             this.pictureBox3.Location = new System.Drawing.Point(29, 23);
             this.pictureBox3.Name = "pictureBox3";
@@ -954,6 +1042,7 @@
             // 
             this.richTextBox2.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.richTextBox2.Location = new System.Drawing.Point(148, 80);
+            this.richTextBox2.MaxLength = 80;
             this.richTextBox2.Name = "richTextBox2";
             this.richTextBox2.ReadOnly = true;
             this.richTextBox2.Size = new System.Drawing.Size(268, 52);
@@ -1011,6 +1100,7 @@
             // 
             // pictureBox9
             // 
+            this.pictureBox9.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox9.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox9.Image")));
             this.pictureBox9.Location = new System.Drawing.Point(29, 23);
             this.pictureBox9.Name = "pictureBox9";
@@ -1051,6 +1141,7 @@
             // 
             this.richTextBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.richTextBox1.Location = new System.Drawing.Point(148, 80);
+            this.richTextBox1.MaxLength = 80;
             this.richTextBox1.Name = "richTextBox1";
             this.richTextBox1.ReadOnly = true;
             this.richTextBox1.Size = new System.Drawing.Size(268, 52);
@@ -1108,6 +1199,7 @@
             // 
             // imgLibro1
             // 
+            this.imgLibro1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.imgLibro1.Image = ((System.Drawing.Image)(resources.GetObject("imgLibro1.Image")));
             this.imgLibro1.Location = new System.Drawing.Point(29, 23);
             this.imgLibro1.Name = "imgLibro1";
@@ -1311,86 +1403,6 @@
             this.TimerMouseWheelRest.Interval = 1000;
             this.TimerMouseWheelRest.Tick += new System.EventHandler(this.TimerMouseWheelRest_Tick);
             // 
-            // LoginPanel
-            // 
-            this.LoginPanel.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("LoginPanel.BackgroundImage")));
-            this.LoginPanel.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.LoginPanel.Controls.Add(this.BtnIniciarSesion);
-            this.LoginPanel.Controls.Add(this.BtnCerrarLogin);
-            this.LoginPanel.Controls.Add(this.txtPasswordLogin);
-            this.LoginPanel.Controls.Add(this.BtnMostrarPassword);
-            this.LoginPanel.Controls.Add(this.txtUsuarioLogin);
-            this.LoginPanel.Location = new System.Drawing.Point(910, 328);
-            this.LoginPanel.Name = "LoginPanel";
-            this.LoginPanel.Size = new System.Drawing.Size(400, 0);
-            this.LoginPanel.TabIndex = 37;
-            // 
-            // txtUsuarioLogin
-            // 
-            this.txtUsuarioLogin.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(234)))), ((int)(((byte)(237)))), ((int)(((byte)(241)))));
-            this.txtUsuarioLogin.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txtUsuarioLogin.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtUsuarioLogin.Location = new System.Drawing.Point(32, 78);
-            this.txtUsuarioLogin.Name = "txtUsuarioLogin";
-            this.txtUsuarioLogin.Size = new System.Drawing.Size(248, 17);
-            this.txtUsuarioLogin.TabIndex = 0;
-            this.txtUsuarioLogin.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // BtnMostrarPassword
-            // 
-            this.BtnMostrarPassword.BackColor = System.Drawing.Color.Transparent;
-            this.BtnMostrarPassword.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("BtnMostrarPassword.BackgroundImage")));
-            this.BtnMostrarPassword.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.BtnMostrarPassword.FlatAppearance.BorderSize = 0;
-            this.BtnMostrarPassword.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.BtnMostrarPassword.ForeColor = System.Drawing.Color.Transparent;
-            this.BtnMostrarPassword.Location = new System.Drawing.Point(286, 144);
-            this.BtnMostrarPassword.Name = "BtnMostrarPassword";
-            this.BtnMostrarPassword.Size = new System.Drawing.Size(25, 25);
-            this.BtnMostrarPassword.TabIndex = 2;
-            this.BtnMostrarPassword.UseVisualStyleBackColor = false;
-            this.BtnMostrarPassword.Click += new System.EventHandler(this.BtnMostrarPassword_Click);
-            // 
-            // txtPasswordLogin
-            // 
-            this.txtPasswordLogin.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(234)))), ((int)(((byte)(237)))), ((int)(((byte)(241)))));
-            this.txtPasswordLogin.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txtPasswordLogin.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtPasswordLogin.Location = new System.Drawing.Point(32, 147);
-            this.txtPasswordLogin.Name = "txtPasswordLogin";
-            this.txtPasswordLogin.Size = new System.Drawing.Size(248, 17);
-            this.txtPasswordLogin.TabIndex = 1;
-            this.txtPasswordLogin.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.txtPasswordLogin.UseSystemPasswordChar = true;
-            // 
-            // BtnCerrarLogin
-            // 
-            this.BtnCerrarLogin.BackColor = System.Drawing.Color.Transparent;
-            this.BtnCerrarLogin.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("BtnCerrarLogin.BackgroundImage")));
-            this.BtnCerrarLogin.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.BtnCerrarLogin.FlatAppearance.BorderSize = 0;
-            this.BtnCerrarLogin.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.BtnCerrarLogin.Location = new System.Drawing.Point(361, 3);
-            this.BtnCerrarLogin.Name = "BtnCerrarLogin";
-            this.BtnCerrarLogin.Size = new System.Drawing.Size(35, 35);
-            this.BtnCerrarLogin.TabIndex = 4;
-            this.BtnCerrarLogin.UseVisualStyleBackColor = false;
-            this.BtnCerrarLogin.Click += new System.EventHandler(this.BtnCerrarLogin_Click);
-            // 
-            // BtnIniciarSesion
-            // 
-            this.BtnIniciarSesion.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(208)))), ((int)(((byte)(63)))));
-            this.BtnIniciarSesion.FlatAppearance.BorderSize = 0;
-            this.BtnIniciarSesion.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.BtnIniciarSesion.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnIniciarSesion.Location = new System.Drawing.Point(264, 198);
-            this.BtnIniciarSesion.Name = "BtnIniciarSesion";
-            this.BtnIniciarSesion.Size = new System.Drawing.Size(110, 38);
-            this.BtnIniciarSesion.TabIndex = 3;
-            this.BtnIniciarSesion.Text = "Iniciar Sesión";
-            this.BtnIniciarSesion.UseVisualStyleBackColor = false;
-            this.BtnIniciarSesion.Click += new System.EventHandler(this.BtnIniciarSesion_Click);
-            // 
             // Principal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -1417,6 +1429,8 @@
             this.loginBar.PerformLayout();
             this.PanelCategorias.ResumeLayout(false);
             this.panelFondo.ResumeLayout(false);
+            this.LoginPanel.ResumeLayout(false);
+            this.LoginPanel.PerformLayout();
             this.panelGaleria.ResumeLayout(false);
             this.panel7.ResumeLayout(false);
             this.panel7.PerformLayout();
@@ -1462,8 +1476,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            this.LoginPanel.ResumeLayout(false);
-            this.LoginPanel.PerformLayout();
             this.ResumeLayout(false);
 
         }
