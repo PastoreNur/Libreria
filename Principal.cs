@@ -287,16 +287,89 @@ namespace Libreria
                     switch (Scroll)
                     {
                         case 1:
-                            //contenido Scroll 1 Categoria 3
+                            //Contenido Scroll 1 categoria 2
                             pictureBox3.Image = Image.FromFile("Circle-48.png");
                             pictureBox2.Image = Image.FromFile("Circle-482.png");
+
+                            imgLibro1.Image = Image.FromFile("Los Crímenes Azules.jpg");
+                            Titulo1.Text = "Titulo" + ": Los Crímenes Azules";
+                            Descripcion1.Text = "";
+                            precio1 = 13.95;
+                            Precios1.Text = "$" + precio1;
+
+                            imgLibro2.Image = Image.FromFile("La isla de las tormentas.jpg");
+                            Titulo2.Text = "Titulo" + ": " + "La isla de las tormentas";
+                            Descripcion2.Text = "";
+                            precio2 = 11.95;
+                            Precios2.Text = "$" + precio2;
+
+                            imgLibro3.Image = Image.FromFile("El perfume Historia de un asesino.jpg");
+                            Titulo3.Text = "Titulo" + ": " + "El perfume: Historia de un asesino";
+                            Descripcion3.Text = "";
+                            precio3 = 10.95;
+                            Precios3.Text = "$" + precio3;
+
+                            imgLibro4.Image = Image.FromFile("Falcó.jpg");
+                            Titulo4.Text = "Titulo" + ": " + "Falcó";
+                            Descripcion4.Text = "";
+                            precio4 = 19.95;
+                            Precios4.Text = "$" + precio4;
+
+                            imgLibro5.Image = Image.FromFile("Perdida.jpg");
+                            Titulo5.Text = "Titulo" + ": " + "Perdida";
+                            Descripcion5.Text = "";
+                            precio5 = 14.34;
+                            Precios5.Text = "$" + precio5;
+
+                            imgLibro6.Image = Image.FromFile("En La Cuerda Floja.jpg");
+                            Titulo6.Text = "Titulo" + ": " + "En La Cuerda Floja";
+                            Descripcion6.Text = "";
+                            precio6 = 9.99;
+                            Precios6.Text = "$" + precio6;
                             break;
 
                         case 2:
                             ResetearControlesCompra();
-                            //Contenido Scroll 2 Categoria 3
+                            //Contenido Scroll 2 categoria 2
                             pictureBox3.Image = Image.FromFile("Circle-482.png");
                             pictureBox2.Image = Image.FromFile("Circle-48.png");
+
+                            imgLibro1.Image = Image.FromFile("Los Crímenes Azules.jpg");
+                            Titulo1.Text = "Titulo" + ": Los Crímenes Azules";
+                            Descripcion1.Text = "";
+                            precio1 = 13.95;
+                            Precios1.Text = "$" + precio1;
+
+                            imgLibro2.Image = Image.FromFile("La isla de las tormentas.jpg");
+                            Titulo2.Text = "Titulo" + ": " + "La isla de las tormentas";
+                            Descripcion2.Text = "";
+                            precio2 = 11.95;
+                            Precios2.Text = "$" + precio2;
+
+                            imgLibro3.Image = Image.FromFile("El perfume Historia de un asesino.jpg");
+                            Titulo3.Text = "Titulo" + ": " + "El perfume: Historia de un asesino";
+                            Descripcion3.Text = "";
+                            precio3 = 10.95;
+                            Precios3.Text = "$" + precio3;
+
+                            imgLibro4.Image = Image.FromFile("Falcó.jpg");
+                            Titulo4.Text = "Titulo" + ": " + "Falcó";
+                            Descripcion4.Text = "";
+                            precio4 = 19.95;
+                            Precios4.Text = "$" + precio4;
+
+                            imgLibro5.Image = Image.FromFile("Perdida.jpg");
+                            Titulo5.Text = "Titulo" + ": " + "Perdida";
+                            Descripcion5.Text = "";
+                            precio5 = 14.34;
+                            Precios5.Text = "$" + precio5;
+
+                            imgLibro6.Image = Image.FromFile("En La Cuerda Floja.jpg");
+                            Titulo6.Text = "Titulo" + ": " + "En La Cuerda Floja";
+                            Descripcion6.Text = "";
+                            precio6 = 9.99;
+                            Precios6.Text = "$" + precio6;
+
                             break;
                     }
                     break;
@@ -304,16 +377,88 @@ namespace Libreria
                     switch (Scroll)
                     {
                         case 1:
-                            //Contenido Scroll 1 Categoria 4
                             pictureBox3.Image = Image.FromFile("Circle-48.png");
                             pictureBox2.Image = Image.FromFile("Circle-482.png");
+
+                            imgLibro1.Image = Image.FromFile("Los Crímenes Azules.jpg");
+                            Titulo1.Text = "Titulo" + ": Los Crímenes Azules";
+                            Descripcion1.Text = "";
+                            precio1 = 13.95;
+                            Precios1.Text = "$" + precio1;
+
+                            imgLibro2.Image = Image.FromFile("La isla de las tormentas.jpg");
+                            Titulo2.Text = "Titulo" + ": " + "La isla de las tormentas";
+                            Descripcion2.Text = "";
+                            precio2 = 11.95;
+                            Precios2.Text = "$" + precio2;
+
+                            imgLibro3.Image = Image.FromFile("El perfume Historia de un asesino.jpg");
+                            Titulo3.Text = "Titulo" + ": " + "El perfume: Historia de un asesino";
+                            Descripcion3.Text = "";
+                            precio3 = 10.95;
+                            Precios3.Text = "$" + precio3;
+
+                            imgLibro4.Image = Image.FromFile("Falcó.jpg");
+                            Titulo4.Text = "Titulo" + ": " + "Falcó";
+                            Descripcion4.Text = "";
+                            precio4 = 19.95;
+                            Precios4.Text = "$" + precio4;
+
+                            imgLibro5.Image = Image.FromFile("Perdida.jpg");
+                            Titulo5.Text = "Titulo" + ": " + "Perdida";
+                            Descripcion5.Text = "";
+                            precio5 = 14.34;
+                            Precios5.Text = "$" + precio5;
+
+                            imgLibro6.Image = Image.FromFile("En La Cuerda Floja.jpg");
+                            Titulo6.Text = "Titulo" + ": " + "En La Cuerda Floja";
+                            Descripcion6.Text = "";
+                            precio6 = 9.99;
+                            Precios6.Text = "$" + precio6;
                             break;
 
                         case 2:
                             ResetearControlesCompra();
-                            //Contenido Scroll 2 Categoria 4
+                            //Contenido Scroll 2 categoria 2
                             pictureBox3.Image = Image.FromFile("Circle-482.png");
                             pictureBox2.Image = Image.FromFile("Circle-48.png");
+
+                            imgLibro1.Image = Image.FromFile("Los Crímenes Azules.jpg");
+                            Titulo1.Text = "Titulo" + ": Los Crímenes Azules";
+                            Descripcion1.Text = "";
+                            precio1 = 13.95;
+                            Precios1.Text = "$" + precio1;
+
+                            imgLibro2.Image = Image.FromFile("La isla de las tormentas.jpg");
+                            Titulo2.Text = "Titulo" + ": " + "La isla de las tormentas";
+                            Descripcion2.Text = "";
+                            precio2 = 11.95;
+                            Precios2.Text = "$" + precio2;
+
+                            imgLibro3.Image = Image.FromFile("El perfume Historia de un asesino.jpg");
+                            Titulo3.Text = "Titulo" + ": " + "El perfume: Historia de un asesino";
+                            Descripcion3.Text = "";
+                            precio3 = 10.95;
+                            Precios3.Text = "$" + precio3;
+
+                            imgLibro4.Image = Image.FromFile("Falcó.jpg");
+                            Titulo4.Text = "Titulo" + ": " + "Falcó";
+                            Descripcion4.Text = "";
+                            precio4 = 19.95;
+                            Precios4.Text = "$" + precio4;
+
+                            imgLibro5.Image = Image.FromFile("Perdida.jpg");
+                            Titulo5.Text = "Titulo" + ": " + "Perdida";
+                            Descripcion5.Text = "";
+                            precio5 = 14.34;
+                            Precios5.Text = "$" + precio5;
+
+                            imgLibro6.Image = Image.FromFile("En La Cuerda Floja.jpg");
+                            Titulo6.Text = "Titulo" + ": " + "En La Cuerda Floja";
+                            Descripcion6.Text = "";
+                            precio6 = 9.99;
+                            Precios6.Text = "$" + precio6;
+
                             break;
                     }
                     break;
@@ -321,16 +466,88 @@ namespace Libreria
                     switch (Scroll)
                     {
                         case 1:
-                            //Contenido Scroll 1 Categoria 5
                             pictureBox3.Image = Image.FromFile("Circle-48.png");
                             pictureBox2.Image = Image.FromFile("Circle-482.png");
+
+                            imgLibro1.Image = Image.FromFile("Los Crímenes Azules.jpg");
+                            Titulo1.Text = "Titulo" + ": Los Crímenes Azules";
+                            Descripcion1.Text = "";
+                            precio1 = 13.95;
+                            Precios1.Text = "$" + precio1;
+
+                            imgLibro2.Image = Image.FromFile("La isla de las tormentas.jpg");
+                            Titulo2.Text = "Titulo" + ": " + "La isla de las tormentas";
+                            Descripcion2.Text = "";
+                            precio2 = 11.95;
+                            Precios2.Text = "$" + precio2;
+
+                            imgLibro3.Image = Image.FromFile("El perfume Historia de un asesino.jpg");
+                            Titulo3.Text = "Titulo" + ": " + "El perfume: Historia de un asesino";
+                            Descripcion3.Text = "";
+                            precio3 = 10.95;
+                            Precios3.Text = "$" + precio3;
+
+                            imgLibro4.Image = Image.FromFile("Falcó.jpg");
+                            Titulo4.Text = "Titulo" + ": " + "Falcó";
+                            Descripcion4.Text = "";
+                            precio4 = 19.95;
+                            Precios4.Text = "$" + precio4;
+
+                            imgLibro5.Image = Image.FromFile("Perdida.jpg");
+                            Titulo5.Text = "Titulo" + ": " + "Perdida";
+                            Descripcion5.Text = "";
+                            precio5 = 14.34;
+                            Precios5.Text = "$" + precio5;
+
+                            imgLibro6.Image = Image.FromFile("En La Cuerda Floja.jpg");
+                            Titulo6.Text = "Titulo" + ": " + "En La Cuerda Floja";
+                            Descripcion6.Text = "";
+                            precio6 = 9.99;
+                            Precios6.Text = "$" + precio6;
                             break;
 
                         case 2:
                             ResetearControlesCompra();
-                            //Contenido Scroll 2 Categoria 5
+                            //Contenido Scroll 2 categoria 2
                             pictureBox3.Image = Image.FromFile("Circle-482.png");
                             pictureBox2.Image = Image.FromFile("Circle-48.png");
+
+                            imgLibro1.Image = Image.FromFile("Los Crímenes Azules.jpg");
+                            Titulo1.Text = "Titulo" + ": Los Crímenes Azules";
+                            Descripcion1.Text = "";
+                            precio1 = 13.95;
+                            Precios1.Text = "$" + precio1;
+
+                            imgLibro2.Image = Image.FromFile("La isla de las tormentas.jpg");
+                            Titulo2.Text = "Titulo" + ": " + "La isla de las tormentas";
+                            Descripcion2.Text = "";
+                            precio2 = 11.95;
+                            Precios2.Text = "$" + precio2;
+
+                            imgLibro3.Image = Image.FromFile("El perfume Historia de un asesino.jpg");
+                            Titulo3.Text = "Titulo" + ": " + "El perfume: Historia de un asesino";
+                            Descripcion3.Text = "";
+                            precio3 = 10.95;
+                            Precios3.Text = "$" + precio3;
+
+                            imgLibro4.Image = Image.FromFile("Falcó.jpg");
+                            Titulo4.Text = "Titulo" + ": " + "Falcó";
+                            Descripcion4.Text = "";
+                            precio4 = 19.95;
+                            Precios4.Text = "$" + precio4;
+
+                            imgLibro5.Image = Image.FromFile("Perdida.jpg");
+                            Titulo5.Text = "Titulo" + ": " + "Perdida";
+                            Descripcion5.Text = "";
+                            precio5 = 14.34;
+                            Precios5.Text = "$" + precio5;
+
+                            imgLibro6.Image = Image.FromFile("En La Cuerda Floja.jpg");
+                            Titulo6.Text = "Titulo" + ": " + "En La Cuerda Floja";
+                            Descripcion6.Text = "";
+                            precio6 = 9.99;
+                            Precios6.Text = "$" + precio6;
+
                             break;
                     }
                     break;
@@ -338,32 +555,177 @@ namespace Libreria
                     switch (Scroll)
                     {
                         case 1:
-                            //Contenido Scroll 1 Categoria 6
                             pictureBox3.Image = Image.FromFile("Circle-48.png");
                             pictureBox2.Image = Image.FromFile("Circle-482.png");
+
+                            imgLibro1.Image = Image.FromFile("Los Crímenes Azules.jpg");
+                            Titulo1.Text = "Titulo" + ": Los Crímenes Azules";
+                            Descripcion1.Text = "";
+                            precio1 = 13.95;
+                            Precios1.Text = "$" + precio1;
+
+                            imgLibro2.Image = Image.FromFile("La isla de las tormentas.jpg");
+                            Titulo2.Text = "Titulo" + ": " + "La isla de las tormentas";
+                            Descripcion2.Text = "";
+                            precio2 = 11.95;
+                            Precios2.Text = "$" + precio2;
+
+                            imgLibro3.Image = Image.FromFile("El perfume Historia de un asesino.jpg");
+                            Titulo3.Text = "Titulo" + ": " + "El perfume: Historia de un asesino";
+                            Descripcion3.Text = "";
+                            precio3 = 10.95;
+                            Precios3.Text = "$" + precio3;
+
+                            imgLibro4.Image = Image.FromFile("Falcó.jpg");
+                            Titulo4.Text = "Titulo" + ": " + "Falcó";
+                            Descripcion4.Text = "";
+                            precio4 = 19.95;
+                            Precios4.Text = "$" + precio4;
+
+                            imgLibro5.Image = Image.FromFile("Perdida.jpg");
+                            Titulo5.Text = "Titulo" + ": " + "Perdida";
+                            Descripcion5.Text = "";
+                            precio5 = 14.34;
+                            Precios5.Text = "$" + precio5;
+
+                            imgLibro6.Image = Image.FromFile("En La Cuerda Floja.jpg");
+                            Titulo6.Text = "Titulo" + ": " + "En La Cuerda Floja";
+                            Descripcion6.Text = "";
+                            precio6 = 9.99;
+                            Precios6.Text = "$" + precio6;
                             break;
+
                         case 2:
                             ResetearControlesCompra();
-                            //Contenido Scroll 2 Categoria 6
+                            //Contenido Scroll 2 categoria 2
                             pictureBox3.Image = Image.FromFile("Circle-482.png");
                             pictureBox2.Image = Image.FromFile("Circle-48.png");
+
+                            imgLibro1.Image = Image.FromFile("Los Crímenes Azules.jpg");
+                            Titulo1.Text = "Titulo" + ": Los Crímenes Azules";
+                            Descripcion1.Text = "";
+                            precio1 = 13.95;
+                            Precios1.Text = "$" + precio1;
+
+                            imgLibro2.Image = Image.FromFile("La isla de las tormentas.jpg");
+                            Titulo2.Text = "Titulo" + ": " + "La isla de las tormentas";
+                            Descripcion2.Text = "";
+                            precio2 = 11.95;
+                            Precios2.Text = "$" + precio2;
+
+                            imgLibro3.Image = Image.FromFile("El perfume Historia de un asesino.jpg");
+                            Titulo3.Text = "Titulo" + ": " + "El perfume: Historia de un asesino";
+                            Descripcion3.Text = "";
+                            precio3 = 10.95;
+                            Precios3.Text = "$" + precio3;
+
+                            imgLibro4.Image = Image.FromFile("Falcó.jpg");
+                            Titulo4.Text = "Titulo" + ": " + "Falcó";
+                            Descripcion4.Text = "";
+                            precio4 = 19.95;
+                            Precios4.Text = "$" + precio4;
+
+                            imgLibro5.Image = Image.FromFile("Perdida.jpg");
+                            Titulo5.Text = "Titulo" + ": " + "Perdida";
+                            Descripcion5.Text = "";
+                            precio5 = 14.34;
+                            Precios5.Text = "$" + precio5;
+
+                            imgLibro6.Image = Image.FromFile("En La Cuerda Floja.jpg");
+                            Titulo6.Text = "Titulo" + ": " + "En La Cuerda Floja";
+                            Descripcion6.Text = "";
+                            precio6 = 9.99;
+                            Precios6.Text = "$" + precio6;
+
                             break;
                     }
                     break;
                 case 7:
                     switch (Scroll)
                     {
-                        case 1:
-                            //Contenido Scroll 1 Categoria 7
+                        case 1: 
                             pictureBox3.Image = Image.FromFile("Circle-48.png");
                             pictureBox2.Image = Image.FromFile("Circle-482.png");
+
+                            imgLibro1.Image = Image.FromFile("Los Crímenes Azules.jpg");
+                            Titulo1.Text = "Titulo" + ": Los Crímenes Azules";
+                            Descripcion1.Text = "";
+                            precio1 = 13.95;
+                            Precios1.Text = "$" + precio1;
+
+                            imgLibro2.Image = Image.FromFile("La isla de las tormentas.jpg");
+                            Titulo2.Text = "Titulo" + ": " + "La isla de las tormentas";
+                            Descripcion2.Text = "";
+                            precio2 = 11.95;
+                            Precios2.Text = "$" + precio2;
+
+                            imgLibro3.Image = Image.FromFile("El perfume Historia de un asesino.jpg");
+                            Titulo3.Text = "Titulo" + ": " + "El perfume: Historia de un asesino";
+                            Descripcion3.Text = "";
+                            precio3 = 10.95;
+                            Precios3.Text = "$" + precio3;
+
+                            imgLibro4.Image = Image.FromFile("Falcó.jpg");
+                            Titulo4.Text = "Titulo" + ": " + "Falcó";
+                            Descripcion4.Text = "";
+                            precio4 = 19.95;
+                            Precios4.Text = "$" + precio4;
+
+                            imgLibro5.Image = Image.FromFile("Perdida.jpg");
+                            Titulo5.Text = "Titulo" + ": " + "Perdida";
+                            Descripcion5.Text = "";
+                            precio5 = 14.34;
+                            Precios5.Text = "$" + precio5;
+
+                            imgLibro6.Image = Image.FromFile("En La Cuerda Floja.jpg");
+                            Titulo6.Text = "Titulo" + ": " + "En La Cuerda Floja";
+                            Descripcion6.Text = "";
+                            precio6 = 9.99;
+                            Precios6.Text = "$" + precio6;
                             break;
 
                         case 2:
                             ResetearControlesCompra();
-                            //Contemido Scroll 2 Categoria 7
+                            //Contenido Scroll 2 categoria 2
                             pictureBox3.Image = Image.FromFile("Circle-482.png");
                             pictureBox2.Image = Image.FromFile("Circle-48.png");
+
+                            imgLibro1.Image = Image.FromFile("Los Crímenes Azules.jpg");
+                            Titulo1.Text = "Titulo" + ": Los Crímenes Azules";
+                            Descripcion1.Text = "";
+                            precio1 = 13.95;
+                            Precios1.Text = "$" + precio1;
+
+                            imgLibro2.Image = Image.FromFile("La isla de las tormentas.jpg");
+                            Titulo2.Text = "Titulo" + ": " + "La isla de las tormentas";
+                            Descripcion2.Text = "";
+                            precio2 = 11.95;
+                            Precios2.Text = "$" + precio2;
+
+                            imgLibro3.Image = Image.FromFile("El perfume Historia de un asesino.jpg");
+                            Titulo3.Text = "Titulo" + ": " + "El perfume: Historia de un asesino";
+                            Descripcion3.Text = "";
+                            precio3 = 10.95;
+                            Precios3.Text = "$" + precio3;
+
+                            imgLibro4.Image = Image.FromFile("Falcó.jpg");
+                            Titulo4.Text = "Titulo" + ": " + "Falcó";
+                            Descripcion4.Text = "";
+                            precio4 = 19.95;
+                            Precios4.Text = "$" + precio4;
+
+                            imgLibro5.Image = Image.FromFile("Perdida.jpg");
+                            Titulo5.Text = "Titulo" + ": " + "Perdida";
+                            Descripcion5.Text = "";
+                            precio5 = 14.34;
+                            Precios5.Text = "$" + precio5;
+
+                            imgLibro6.Image = Image.FromFile("En La Cuerda Floja.jpg");
+                            Titulo6.Text = "Titulo" + ": " + "En La Cuerda Floja";
+                            Descripcion6.Text = "";
+                            precio6 = 9.99;
+                            Precios6.Text = "$" + precio6;
+
                             break;
                     }
                     break;
