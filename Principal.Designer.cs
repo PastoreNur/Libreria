@@ -60,6 +60,7 @@
             this.BtnMostrarPassword = new System.Windows.Forms.Button();
             this.txtUsuarioLogin = new System.Windows.Forms.TextBox();
             this.panelGaleria = new System.Windows.Forms.Panel();
+            this.panelHola = new System.Windows.Forms.Panel();
             this.panel7 = new System.Windows.Forms.Panel();
             this.BtnAgregarCarrito6 = new System.Windows.Forms.Button();
             this.Descripcion6 = new System.Windows.Forms.RichTextBox();
@@ -135,7 +136,6 @@
             this.Cantidad = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.TimerMouseWheelRest = new System.Windows.Forms.Timer(this.components);
-            this.panelHola = new System.Windows.Forms.Panel();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.BtnMinimizar)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.BtnCerrar)).BeginInit();
@@ -512,9 +512,9 @@
             // panelFondo
             // 
             this.panelFondo.Controls.Add(this.LoginPanel);
-            this.panelFondo.Controls.Add(this.panelGaleria);
             this.panelFondo.Controls.Add(this.PopUpCarrito);
             this.panelFondo.Controls.Add(this.loginBar);
+            this.panelFondo.Controls.Add(this.panelGaleria);
             this.panelFondo.Location = new System.Drawing.Point(60, 69);
             this.panelFondo.Name = "panelFondo";
             this.panelFondo.Size = new System.Drawing.Size(940, 631);
@@ -603,17 +603,24 @@
             // 
             // panelGaleria
             // 
-            this.panelGaleria.Controls.Add(this.panelHola);
             this.panelGaleria.Controls.Add(this.panel7);
             this.panelGaleria.Controls.Add(this.panel8);
             this.panelGaleria.Controls.Add(this.panel5);
             this.panelGaleria.Controls.Add(this.panel4);
             this.panelGaleria.Controls.Add(this.panel6);
             this.panelGaleria.Controls.Add(this.panel10);
+            this.panelGaleria.Controls.Add(this.panelHola);
             this.panelGaleria.Location = new System.Drawing.Point(23, 6);
             this.panelGaleria.Name = "panelGaleria";
             this.panelGaleria.Size = new System.Drawing.Size(869, 576);
             this.panelGaleria.TabIndex = 36;
+            // 
+            // panelHola
+            // 
+            this.panelHola.Location = new System.Drawing.Point(8, 8);
+            this.panelHola.Name = "panelHola";
+            this.panelHola.Size = new System.Drawing.Size(869, 576);
+            this.panelHola.TabIndex = 41;
             // 
             // panel7
             // 
@@ -1410,13 +1417,6 @@
             // 
             this.TimerMouseWheelRest.Interval = 1000;
             this.TimerMouseWheelRest.Tick += new System.EventHandler(this.TimerMouseWheelRest_Tick);
-            // 
-            // panelHola
-            // 
-            this.panelHola.Location = new System.Drawing.Point(8, 8);
-            this.panelHola.Name = "panelHola";
-            this.panelHola.Size = new System.Drawing.Size(869, 576);
-            this.panelHola.TabIndex = 41;
             // 
             // Principal
             // 
