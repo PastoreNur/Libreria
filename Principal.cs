@@ -965,7 +965,7 @@ namespace Libreria
 
         //Codigo para agregar libros al carrito
 
-        int rows;
+       
 
         private void BtnAgregarCarrito1_Click(object sender, EventArgs e)
         {
