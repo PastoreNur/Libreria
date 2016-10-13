@@ -291,40 +291,40 @@ namespace Libreria
                             pictureBox3.Image = Image.FromFile("Circle-48.png");
                             pictureBox2.Image = Image.FromFile("Circle-482.png");
 
-                            imgLibro1.Image = Image.FromFile("Los Crímenes Azules.jpg");
-                            Titulo1.Text = "Titulo" + ": Los Crímenes Azules";
-                            Descripcion1.Text = "";
-                            precio1 = 13.95;
+                            imgLibro1.Image = Image.FromFile("Mathematics for the Nonmathematician.jpg");
+                            Titulo1.Text = "Titulo" + ": Mathematics for the Nonmathematician";
+                            Descripcion1.Text = "Practical, scientific, philosophical, and artistic problems have caused men to investigate mathematics. But there is one other motive which is as strong as any of these — the search for beauty. Mathematics is an art, and as such affords the pleasures which all the arts afford."+ "In this erudite, entertaining college-level text, Morris Kline, Professor Emeritus of Mathematics at New York University, provides the liberal arts student with a detailed treatment of mathematics in a cultural and historical context. The book can also act as a self-study vehicle for advanced high";
+                            precio1 = 8.39;
                             Precios1.Text = "$" + precio1;
 
-                            imgLibro2.Image = Image.FromFile("La isla de las tormentas.jpg");
-                            Titulo2.Text = "Titulo" + ": " + "La isla de las tormentas";
-                            Descripcion2.Text = "";
+                            imgLibro2.Image = Image.FromFile("Algebra - The Very Basics.jpg");
+                            Titulo2.Text = "Titulo" + ": " + "Algebra - The Very Basics";
+                            Descripcion2.Text = "If you're looking for a gentle introduction to basic mathematics, look no further. This book picks you up at the very beginning and guides you through the foundations of algebra using lots of examples and no-nonsense explanations. Each chapter contains well-chosen exercises as well as all the solutions. No prior knowledge is required.";
                             precio2 = 11.95;
                             Precios2.Text = "$" + precio2;
 
-                            imgLibro3.Image = Image.FromFile("El perfume Historia de un asesino.jpg");
-                            Titulo3.Text = "Titulo" + ": " + "El perfume: Historia de un asesino";
-                            Descripcion3.Text = "";
-                            precio3 = 10.95;
+                            imgLibro3.Image = Image.FromFile("Mathematics for the Practical Man.jpg");
+                            Titulo3.Text = "Titulo" + ": " + "Mathematics for the Practical Man";
+                            Descripcion3.Text = "“Books for self-instruction are constantly being sought. In this book mathematics, from algebra through calculus, has been treated in such a manner as to be clear to anyone. Men who wish to study a part of mathematics which they have not hitherto had, engineers who wish to refer to phases of mathematics which so easily slip from the memory, students who desire a simple reference book, will find this manual just the book for which they have been looking.”";
+                            precio3 = 7.99;
                             Precios3.Text = "$" + precio3;
 
-                            imgLibro4.Image = Image.FromFile("Falcó.jpg");
-                            Titulo4.Text = "Titulo" + ": " + "Falcó";
-                            Descripcion4.Text = "";
-                            precio4 = 19.95;
+                            imgLibro4.Image = Image.FromFile("Mathematics A Complete Introduction.jpg");
+                            Titulo4.Text = "Titulo" + ": " + "Mathematics: A Complete Introduction";
+                            Descripcion4.Text = "Maths does not have to be difficult. This book, complete with exercises and answers, forms a course which will take you from beginner or intermediate level to being a confident mathematician. This book includes simple step-by-step explanations, to help you grasp new topics or those that have previously confused you; practice questions throughout, to help you embed your learning and improve your confidence; End of chapter summaries, to help you remember the key points you've learned; All in one great-value book, so you don't need any separate workbooks or coursebooks.";
+                            precio4 = 14.46;
                             Precios4.Text = "$" + precio4;
 
-                            imgLibro5.Image = Image.FromFile("Perdida.jpg");
-                            Titulo5.Text = "Titulo" + ": " + "Perdida";
-                            Descripcion5.Text = "";
-                            precio5 = 14.34;
+                            imgLibro5.Image = Image.FromFile("The Princeton Companion to Mathematics.jpg");
+                            Titulo5.Text = "Titulo" + ": " + "The Princeton Companion to Mathematics";
+                            Descripcion5.Text = "This is a one-of-a-kind reference for anyone with a serious interest in mathematics. Edited by Timothy Gowers, a recipient of the Fields Medal, it presents nearly two hundred entries, written especially for this book by some of the world's leading mathematicians, that introduce basic mathematical tools and vocabulary; trace the development of modern mathematics; explain essential terms and concepts; examine core ideas in major areas of mathematics";
+                            precio5 = 43.34;
                             Precios5.Text = "$" + precio5;
 
-                            imgLibro6.Image = Image.FromFile("En La Cuerda Floja.jpg");
-                            Titulo6.Text = "Titulo" + ": " + "En La Cuerda Floja";
-                            Descripcion6.Text = "";
-                            precio6 = 9.99;
+                            imgLibro6.Image = Image.FromFile("The Foundations of Mathematics.jpg");
+                            Titulo6.Text = "Titulo" + ": " + "The Foundations of Mathematics";
+                            Descripcion6.Text = "The transition from school mathematics to university mathematics is seldom straightforward. Students are faced with a disconnect between the algorithmic and informal attitude to mathematics at school, versus a new emphasis on proof, based on logic, and a more abstract development of general concepts, based on set theory.";
+                            precio6 = 20.32;
                             Precios6.Text = "$" + precio6;
                             break;
 
