@@ -47,6 +47,43 @@ namespace Libreria
         int animacioncategoria = 23;
 
 
+        public void ResetearControlesCompra()
+        { 
+            
+            
+                Cantidad1.Maximum = 12;
+                Cantidad1.Value = 1;
+                Cantidad1.Enabled = true;
+                BtnAgregarCarrito1.Enabled = true;
+
+                Cantidad2.Maximum = 12;
+                Cantidad2.Value = 1;
+                Cantidad2.Enabled = true;
+                BtnAgregarCarrito3.Enabled = true;
+
+                Cantidad3.Maximum = 12;
+                Cantidad3.Value = 1;
+                Cantidad3.Enabled = true;
+                BtnAgregarCarrito5.Enabled = true;
+
+                Cantidad4.Maximum = 12;
+                Cantidad4.Value = 1;
+                Cantidad4.Enabled = true;
+                BtnAgregarCarrito2.Enabled = true;
+
+                Cantidad5.Maximum = 12;
+                Cantidad5.Value = 1;
+                Cantidad5.Enabled = true;
+                BtnAgregarCarrito4.Enabled = true;
+
+                Cantidad5.Maximum = 12;
+                Cantidad5.Value = 1;
+                Cantidad5.Enabled = true;
+                BtnAgregarCarrito4.Enabled = true;
+           
+        
+        }
+
         public void Infomacion_Categoria(int Infcategoria, int scroll)
         {
 
@@ -104,7 +141,11 @@ namespace Libreria
                             break;
 
                         case 2:
+
+                            ResetearControlesCompra();
                             //Contenido Scroll 2 categoria 1
+                            
+
                             pictureBox3.Image = Image.FromFile("Circle-482.png");
                             pictureBox2.Image = Image.FromFile("Circle-48.png");
                             imgLibro1.Image = Image.FromFile("La metamorfosis.jpg");
@@ -864,25 +905,9 @@ namespace Libreria
             }
         }
 
-        private void BtnAgregarCarrito4_Click(object sender, EventArgs e)
-        {
-            Carritopop.Rows.Add(true, Titulo4.Text, Cantidad4.Value, "$" + precio4, "X");
-            Cantidad4.Maximum = Cantidad4.Maximum - Cantidad4.Value;
-
-            if (Cantidad4.Maximum > 0)
-            {
-                Cantidad4.Value = 1;
-            }
-            else
-            {
-                Cantidad4.Value = 0;
-                BtnAgregarCarrito4.Enabled = false;
-                Cantidad4.Enabled = false;
-            }
-        }
-
         private void BtnAgregarCarrito2_Click(object sender, EventArgs e)
         {
+
             Carritopop.Rows.Add(true, Titulo2.Text, Cantidad2.Value, "$" + precio2, "X");
             Cantidad2.Maximum = Cantidad2.Maximum - Cantidad2.Value;
 
@@ -893,26 +918,11 @@ namespace Libreria
             else
             {
                 Cantidad2.Value = 0;
-                BtnAgregarCarrito2.Enabled = false;
+                BtnAgregarCarrito3.Enabled = false;
                 Cantidad2.Enabled = false;
             }
-        }
 
-        private void BtnAgregarCarrito5_Click(object sender, EventArgs e)
-        {
-            Carritopop.Rows.Add(true, Titulo5.Text, Cantidad5.Value, "$" + precio5, "X");
-            Cantidad5.Maximum = Cantidad5.Maximum - Cantidad5.Value;
 
-            if (Cantidad5.Maximum > 0)
-            {
-                Cantidad5.Value = 1;
-            }
-            else
-            {
-                Cantidad5.Value = 0;
-                BtnAgregarCarrito5.Enabled = false;
-                Cantidad5.Enabled = false;
-            }
         }
 
         private void BtnAgregarCarrito3_Click(object sender, EventArgs e)
@@ -932,6 +942,40 @@ namespace Libreria
             }
         }
 
+        private void BtnAgregarCarrito4_Click(object sender, EventArgs e)
+        {
+            Carritopop.Rows.Add(true, Titulo4.Text, Cantidad4.Value, "$" + precio4, "X");
+            Cantidad4.Maximum = Cantidad4.Maximum - Cantidad4.Value;
+
+            if (Cantidad4.Maximum > 0)
+            {
+                Cantidad4.Value = 1;
+            }
+            else
+            {
+                Cantidad4.Value = 0;
+                BtnAgregarCarrito2.Enabled = false;
+                Cantidad4.Enabled = false;
+            }
+        }
+
+        private void BtnAgregarCarrito5_Click(object sender, EventArgs e)
+        {
+            Carritopop.Rows.Add(true, Titulo5.Text, Cantidad5.Value, "$" + precio5, "X");
+            Cantidad5.Maximum = Cantidad5.Maximum - Cantidad5.Value;
+
+            if (Cantidad5.Maximum > 0)
+            {
+                Cantidad5.Value = 1;
+            }
+            else
+            {
+                Cantidad5.Value = 0;
+                BtnAgregarCarrito4.Enabled = false;
+                Cantidad5.Enabled = false;
+            }
+        }
+
         private void BtnAgregarCarrito6_Click(object sender, EventArgs e)
         {
             Carritopop.Rows.Add(true, Titulo6.Text, Cantidad6.Value, "$" + precio6, "X");
@@ -948,6 +992,10 @@ namespace Libreria
                 Cantidad6.Enabled = false;
             }
         }
+
+
+
+     
 
 
 

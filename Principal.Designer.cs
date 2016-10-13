@@ -49,6 +49,18 @@
             this.BtnCat2 = new System.Windows.Forms.Button();
             this.BtnCat1 = new System.Windows.Forms.Button();
             this.panelFondo = new System.Windows.Forms.Panel();
+            this.PopUpCarrito = new System.Windows.Forms.Panel();
+            this.panel3 = new System.Windows.Forms.Panel();
+            this.Carritopop = new System.Windows.Forms.DataGridView();
+            this.Agregar = new System.Windows.Forms.DataGridViewCheckBoxColumn();
+            this.Descripcion = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Cantidad = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Precio = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Eliminar = new System.Windows.Forms.DataGridViewButtonColumn();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.BtnPagar = new System.Windows.Forms.Button();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.LoginPanel = new System.Windows.Forms.Panel();
@@ -57,11 +69,6 @@
             this.txtPasswordLogin = new System.Windows.Forms.TextBox();
             this.BtnMostrarPassword = new System.Windows.Forms.Button();
             this.txtUsuarioLogin = new System.Windows.Forms.TextBox();
-            this.PopUpCarrito = new System.Windows.Forms.Panel();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
-            this.BtnPagar = new System.Windows.Forms.Button();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.loginBar = new System.Windows.Forms.Panel();
             this.BtnIngresarBar = new System.Windows.Forms.Button();
             this.txtPAsswordBar = new System.Windows.Forms.TextBox();
@@ -77,7 +84,7 @@
             this.Titulo6 = new System.Windows.Forms.Label();
             this.imgLibro6 = new System.Windows.Forms.PictureBox();
             this.panel8 = new System.Windows.Forms.Panel();
-            this.BtnAgregarCarrito3 = new System.Windows.Forms.Button();
+            this.BtnAgregarCarrito5 = new System.Windows.Forms.Button();
             this.Descripcion5 = new System.Windows.Forms.RichTextBox();
             this.LblTituloDescrip3 = new System.Windows.Forms.Label();
             this.Cantidad3 = new System.Windows.Forms.NumericUpDown();
@@ -86,7 +93,7 @@
             this.Titulo5 = new System.Windows.Forms.Label();
             this.imgLibro5 = new System.Windows.Forms.PictureBox();
             this.panel5 = new System.Windows.Forms.Panel();
-            this.BtnAgregarCarrito5 = new System.Windows.Forms.Button();
+            this.BtnAgregarCarrito4 = new System.Windows.Forms.Button();
             this.Descripcion4 = new System.Windows.Forms.RichTextBox();
             this.LblTituloDescrip5 = new System.Windows.Forms.Label();
             this.Cantidad5 = new System.Windows.Forms.NumericUpDown();
@@ -95,7 +102,7 @@
             this.Titulo4 = new System.Windows.Forms.Label();
             this.imgLibro4 = new System.Windows.Forms.PictureBox();
             this.panel4 = new System.Windows.Forms.Panel();
-            this.BtnAgregarCarrito4 = new System.Windows.Forms.Button();
+            this.BtnAgregarCarrito2 = new System.Windows.Forms.Button();
             this.Descripcion2 = new System.Windows.Forms.RichTextBox();
             this.LblTituloDescrip4 = new System.Windows.Forms.Label();
             this.Cantidad4 = new System.Windows.Forms.NumericUpDown();
@@ -104,7 +111,7 @@
             this.Titulo2 = new System.Windows.Forms.Label();
             this.imgLibro2 = new System.Windows.Forms.PictureBox();
             this.panel6 = new System.Windows.Forms.Panel();
-            this.BtnAgregarCarrito2 = new System.Windows.Forms.Button();
+            this.BtnAgregarCarrito3 = new System.Windows.Forms.Button();
             this.Descripcion3 = new System.Windows.Forms.RichTextBox();
             this.LblTituloDescrip2 = new System.Windows.Forms.Label();
             this.Cantidad2 = new System.Windows.Forms.NumericUpDown();
@@ -123,24 +130,19 @@
             this.imgLibro1 = new System.Windows.Forms.PictureBox();
             this.panelHola = new System.Windows.Forms.Panel();
             this.TimerMouseWheelRest = new System.Windows.Forms.Timer(this.components);
-            this.panel3 = new System.Windows.Forms.Panel();
-            this.Carritopop = new System.Windows.Forms.DataGridView();
-            this.Agregar = new System.Windows.Forms.DataGridViewCheckBoxColumn();
-            this.Descripcion = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Cantidad = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Precio = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Eliminar = new System.Windows.Forms.DataGridViewButtonColumn();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.BtnMinimizar)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.BtnCerrar)).BeginInit();
             this.panel2.SuspendLayout();
             this.PanelCategorias.SuspendLayout();
             this.panelFondo.SuspendLayout();
+            this.PopUpCarrito.SuspendLayout();
+            this.panel3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.Carritopop)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.LoginPanel.SuspendLayout();
-            this.PopUpCarrito.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.loginBar.SuspendLayout();
             this.panelGaleria.SuspendLayout();
             this.panel7.SuspendLayout();
@@ -167,8 +169,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.Cantidad1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.EtiquetaPrecio1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.imgLibro1)).BeginInit();
-            this.panel3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.Carritopop)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
@@ -456,6 +456,129 @@
             this.panelFondo.TabIndex = 9;
             this.panelFondo.Scroll += new System.Windows.Forms.ScrollEventHandler(this.panel9_Scroll);
             // 
+            // PopUpCarrito
+            // 
+            this.PopUpCarrito.BackColor = System.Drawing.Color.Transparent;
+            this.PopUpCarrito.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("PopUpCarrito.BackgroundImage")));
+            this.PopUpCarrito.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.PopUpCarrito.Controls.Add(this.panel3);
+            this.PopUpCarrito.Controls.Add(this.label2);
+            this.PopUpCarrito.Controls.Add(this.label1);
+            this.PopUpCarrito.Controls.Add(this.BtnPagar);
+            this.PopUpCarrito.Controls.Add(this.pictureBox1);
+            this.PopUpCarrito.Enabled = false;
+            this.PopUpCarrito.Location = new System.Drawing.Point(910, 73);
+            this.PopUpCarrito.Name = "PopUpCarrito";
+            this.PopUpCarrito.Size = new System.Drawing.Size(54, 100);
+            this.PopUpCarrito.TabIndex = 35;
+            this.PopUpCarrito.Visible = false;
+            // 
+            // panel3
+            // 
+            this.panel3.Controls.Add(this.Carritopop);
+            this.panel3.Location = new System.Drawing.Point(8, 49);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(380, 230);
+            this.panel3.TabIndex = 6;
+            // 
+            // Carritopop
+            // 
+            this.Carritopop.AllowUserToAddRows = false;
+            this.Carritopop.AllowUserToDeleteRows = false;
+            this.Carritopop.BackgroundColor = System.Drawing.Color.White;
+            this.Carritopop.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.Carritopop.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.Carritopop.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.Agregar,
+            this.Descripcion,
+            this.Cantidad,
+            this.Precio,
+            this.Eliminar});
+            this.Carritopop.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.Carritopop.GridColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.Carritopop.Location = new System.Drawing.Point(0, 0);
+            this.Carritopop.Name = "Carritopop";
+            this.Carritopop.Size = new System.Drawing.Size(380, 230);
+            this.Carritopop.TabIndex = 5;
+            this.Carritopop.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.Carritopop_CellClick);
+            // 
+            // Agregar
+            // 
+            this.Agregar.HeaderText = "";
+            this.Agregar.Name = "Agregar";
+            this.Agregar.Width = 20;
+            // 
+            // Descripcion
+            // 
+            this.Descripcion.HeaderText = "Descripción";
+            this.Descripcion.Name = "Descripcion";
+            this.Descripcion.ReadOnly = true;
+            this.Descripcion.Width = 170;
+            // 
+            // Cantidad
+            // 
+            this.Cantidad.HeaderText = "Cantidad";
+            this.Cantidad.Name = "Cantidad";
+            this.Cantidad.Width = 53;
+            // 
+            // Precio
+            // 
+            this.Precio.HeaderText = "Precio";
+            this.Precio.Name = "Precio";
+            this.Precio.Width = 45;
+            // 
+            // Eliminar
+            // 
+            this.Eliminar.HeaderText = "";
+            this.Eliminar.Name = "Eliminar";
+            this.Eliminar.Width = 20;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(74, 302);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(29, 20);
+            this.label2.TabIndex = 5;
+            this.label2.Text = "$$";
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(14, 302);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(54, 20);
+            this.label1.TabIndex = 4;
+            this.label1.Text = "Total:";
+            // 
+            // BtnPagar
+            // 
+            this.BtnPagar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(208)))), ((int)(((byte)(63)))));
+            this.BtnPagar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.BtnPagar.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnPagar.Image = ((System.Drawing.Image)(resources.GetObject("BtnPagar.Image")));
+            this.BtnPagar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.BtnPagar.Location = new System.Drawing.Point(221, 291);
+            this.BtnPagar.Name = "BtnPagar";
+            this.BtnPagar.Size = new System.Drawing.Size(130, 33);
+            this.BtnPagar.TabIndex = 3;
+            this.BtnPagar.Text = "Pagar";
+            this.BtnPagar.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.BtnPagar.UseVisualStyleBackColor = false;
+            this.BtnPagar.Click += new System.EventHandler(this.BtnPagar_Click);
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Top;
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(0, 0);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(54, 42);
+            this.pictureBox1.TabIndex = 0;
+            this.pictureBox1.TabStop = false;
+            // 
             // pictureBox3
             // 
             this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
@@ -559,69 +682,6 @@
             this.txtUsuarioLogin.Size = new System.Drawing.Size(248, 17);
             this.txtUsuarioLogin.TabIndex = 0;
             this.txtUsuarioLogin.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // PopUpCarrito
-            // 
-            this.PopUpCarrito.BackColor = System.Drawing.Color.Transparent;
-            this.PopUpCarrito.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("PopUpCarrito.BackgroundImage")));
-            this.PopUpCarrito.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.PopUpCarrito.Controls.Add(this.panel3);
-            this.PopUpCarrito.Controls.Add(this.label2);
-            this.PopUpCarrito.Controls.Add(this.label1);
-            this.PopUpCarrito.Controls.Add(this.BtnPagar);
-            this.PopUpCarrito.Controls.Add(this.pictureBox1);
-            this.PopUpCarrito.Enabled = false;
-            this.PopUpCarrito.Location = new System.Drawing.Point(910, 73);
-            this.PopUpCarrito.Name = "PopUpCarrito";
-            this.PopUpCarrito.Size = new System.Drawing.Size(54, 100);
-            this.PopUpCarrito.TabIndex = 35;
-            this.PopUpCarrito.Visible = false;
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(74, 302);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(29, 20);
-            this.label2.TabIndex = 5;
-            this.label2.Text = "$$";
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(14, 302);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(54, 20);
-            this.label1.TabIndex = 4;
-            this.label1.Text = "Total:";
-            // 
-            // BtnPagar
-            // 
-            this.BtnPagar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(208)))), ((int)(((byte)(63)))));
-            this.BtnPagar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.BtnPagar.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnPagar.Image = ((System.Drawing.Image)(resources.GetObject("BtnPagar.Image")));
-            this.BtnPagar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.BtnPagar.Location = new System.Drawing.Point(221, 291);
-            this.BtnPagar.Name = "BtnPagar";
-            this.BtnPagar.Size = new System.Drawing.Size(130, 33);
-            this.BtnPagar.TabIndex = 3;
-            this.BtnPagar.Text = "Pagar";
-            this.BtnPagar.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.BtnPagar.UseVisualStyleBackColor = false;
-            this.BtnPagar.Click += new System.EventHandler(this.BtnPagar_Click);
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(0, 0);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(54, 42);
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
             // 
             // loginBar
             // 
@@ -805,7 +865,7 @@
             // panel8
             // 
             this.panel8.BackColor = System.Drawing.Color.Gainsboro;
-            this.panel8.Controls.Add(this.BtnAgregarCarrito3);
+            this.panel8.Controls.Add(this.BtnAgregarCarrito5);
             this.panel8.Controls.Add(this.Descripcion5);
             this.panel8.Controls.Add(this.LblTituloDescrip3);
             this.panel8.Controls.Add(this.Cantidad3);
@@ -818,19 +878,19 @@
             this.panel8.Size = new System.Drawing.Size(425, 190);
             this.panel8.TabIndex = 38;
             // 
-            // BtnAgregarCarrito3
+            // BtnAgregarCarrito5
             // 
-            this.BtnAgregarCarrito3.BackColor = System.Drawing.Color.Transparent;
-            this.BtnAgregarCarrito3.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("BtnAgregarCarrito3.BackgroundImage")));
-            this.BtnAgregarCarrito3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.BtnAgregarCarrito3.FlatAppearance.BorderSize = 0;
-            this.BtnAgregarCarrito3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.BtnAgregarCarrito3.Location = new System.Drawing.Point(386, 140);
-            this.BtnAgregarCarrito3.Name = "BtnAgregarCarrito3";
-            this.BtnAgregarCarrito3.Size = new System.Drawing.Size(30, 30);
-            this.BtnAgregarCarrito3.TabIndex = 30;
-            this.BtnAgregarCarrito3.UseVisualStyleBackColor = false;
-            this.BtnAgregarCarrito3.Click += new System.EventHandler(this.BtnAgregarCarrito3_Click);
+            this.BtnAgregarCarrito5.BackColor = System.Drawing.Color.Transparent;
+            this.BtnAgregarCarrito5.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("BtnAgregarCarrito5.BackgroundImage")));
+            this.BtnAgregarCarrito5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.BtnAgregarCarrito5.FlatAppearance.BorderSize = 0;
+            this.BtnAgregarCarrito5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.BtnAgregarCarrito5.Location = new System.Drawing.Point(386, 140);
+            this.BtnAgregarCarrito5.Name = "BtnAgregarCarrito5";
+            this.BtnAgregarCarrito5.Size = new System.Drawing.Size(30, 30);
+            this.BtnAgregarCarrito5.TabIndex = 30;
+            this.BtnAgregarCarrito5.UseVisualStyleBackColor = false;
+            this.BtnAgregarCarrito5.Click += new System.EventHandler(this.BtnAgregarCarrito5_Click);
             // 
             // Descripcion5
             // 
@@ -916,7 +976,7 @@
             // panel5
             // 
             this.panel5.BackColor = System.Drawing.Color.Gainsboro;
-            this.panel5.Controls.Add(this.BtnAgregarCarrito5);
+            this.panel5.Controls.Add(this.BtnAgregarCarrito4);
             this.panel5.Controls.Add(this.Descripcion4);
             this.panel5.Controls.Add(this.LblTituloDescrip5);
             this.panel5.Controls.Add(this.Cantidad5);
@@ -929,19 +989,19 @@
             this.panel5.Size = new System.Drawing.Size(425, 190);
             this.panel5.TabIndex = 40;
             // 
-            // BtnAgregarCarrito5
+            // BtnAgregarCarrito4
             // 
-            this.BtnAgregarCarrito5.BackColor = System.Drawing.Color.Transparent;
-            this.BtnAgregarCarrito5.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("BtnAgregarCarrito5.BackgroundImage")));
-            this.BtnAgregarCarrito5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.BtnAgregarCarrito5.FlatAppearance.BorderSize = 0;
-            this.BtnAgregarCarrito5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.BtnAgregarCarrito5.Location = new System.Drawing.Point(386, 140);
-            this.BtnAgregarCarrito5.Name = "BtnAgregarCarrito5";
-            this.BtnAgregarCarrito5.Size = new System.Drawing.Size(30, 30);
-            this.BtnAgregarCarrito5.TabIndex = 31;
-            this.BtnAgregarCarrito5.UseVisualStyleBackColor = false;
-            this.BtnAgregarCarrito5.Click += new System.EventHandler(this.BtnAgregarCarrito5_Click);
+            this.BtnAgregarCarrito4.BackColor = System.Drawing.Color.Transparent;
+            this.BtnAgregarCarrito4.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("BtnAgregarCarrito4.BackgroundImage")));
+            this.BtnAgregarCarrito4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.BtnAgregarCarrito4.FlatAppearance.BorderSize = 0;
+            this.BtnAgregarCarrito4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.BtnAgregarCarrito4.Location = new System.Drawing.Point(386, 140);
+            this.BtnAgregarCarrito4.Name = "BtnAgregarCarrito4";
+            this.BtnAgregarCarrito4.Size = new System.Drawing.Size(30, 30);
+            this.BtnAgregarCarrito4.TabIndex = 31;
+            this.BtnAgregarCarrito4.UseVisualStyleBackColor = false;
+            this.BtnAgregarCarrito4.Click += new System.EventHandler(this.BtnAgregarCarrito4_Click);
             // 
             // Descripcion4
             // 
@@ -1027,7 +1087,7 @@
             // panel4
             // 
             this.panel4.BackColor = System.Drawing.Color.Gainsboro;
-            this.panel4.Controls.Add(this.BtnAgregarCarrito4);
+            this.panel4.Controls.Add(this.BtnAgregarCarrito2);
             this.panel4.Controls.Add(this.Descripcion2);
             this.panel4.Controls.Add(this.LblTituloDescrip4);
             this.panel4.Controls.Add(this.Cantidad4);
@@ -1040,19 +1100,19 @@
             this.panel4.Size = new System.Drawing.Size(425, 190);
             this.panel4.TabIndex = 36;
             // 
-            // BtnAgregarCarrito4
+            // BtnAgregarCarrito2
             // 
-            this.BtnAgregarCarrito4.BackColor = System.Drawing.Color.Transparent;
-            this.BtnAgregarCarrito4.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("BtnAgregarCarrito4.BackgroundImage")));
-            this.BtnAgregarCarrito4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.BtnAgregarCarrito4.FlatAppearance.BorderSize = 0;
-            this.BtnAgregarCarrito4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.BtnAgregarCarrito4.Location = new System.Drawing.Point(383, 141);
-            this.BtnAgregarCarrito4.Name = "BtnAgregarCarrito4";
-            this.BtnAgregarCarrito4.Size = new System.Drawing.Size(30, 30);
-            this.BtnAgregarCarrito4.TabIndex = 28;
-            this.BtnAgregarCarrito4.UseVisualStyleBackColor = false;
-            this.BtnAgregarCarrito4.Click += new System.EventHandler(this.BtnAgregarCarrito4_Click);
+            this.BtnAgregarCarrito2.BackColor = System.Drawing.Color.Transparent;
+            this.BtnAgregarCarrito2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("BtnAgregarCarrito2.BackgroundImage")));
+            this.BtnAgregarCarrito2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.BtnAgregarCarrito2.FlatAppearance.BorderSize = 0;
+            this.BtnAgregarCarrito2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.BtnAgregarCarrito2.Location = new System.Drawing.Point(383, 141);
+            this.BtnAgregarCarrito2.Name = "BtnAgregarCarrito2";
+            this.BtnAgregarCarrito2.Size = new System.Drawing.Size(30, 30);
+            this.BtnAgregarCarrito2.TabIndex = 28;
+            this.BtnAgregarCarrito2.UseVisualStyleBackColor = false;
+            this.BtnAgregarCarrito2.Click += new System.EventHandler(this.BtnAgregarCarrito2_Click);
             // 
             // Descripcion2
             // 
@@ -1138,7 +1198,7 @@
             // panel6
             // 
             this.panel6.BackColor = System.Drawing.Color.Gainsboro;
-            this.panel6.Controls.Add(this.BtnAgregarCarrito2);
+            this.panel6.Controls.Add(this.BtnAgregarCarrito3);
             this.panel6.Controls.Add(this.Descripcion3);
             this.panel6.Controls.Add(this.LblTituloDescrip2);
             this.panel6.Controls.Add(this.Cantidad2);
@@ -1151,19 +1211,19 @@
             this.panel6.Size = new System.Drawing.Size(425, 190);
             this.panel6.TabIndex = 37;
             // 
-            // BtnAgregarCarrito2
+            // BtnAgregarCarrito3
             // 
-            this.BtnAgregarCarrito2.BackColor = System.Drawing.Color.Transparent;
-            this.BtnAgregarCarrito2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("BtnAgregarCarrito2.BackgroundImage")));
-            this.BtnAgregarCarrito2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.BtnAgregarCarrito2.FlatAppearance.BorderSize = 0;
-            this.BtnAgregarCarrito2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.BtnAgregarCarrito2.Location = new System.Drawing.Point(386, 140);
-            this.BtnAgregarCarrito2.Name = "BtnAgregarCarrito2";
-            this.BtnAgregarCarrito2.Size = new System.Drawing.Size(30, 30);
-            this.BtnAgregarCarrito2.TabIndex = 29;
-            this.BtnAgregarCarrito2.UseVisualStyleBackColor = false;
-            this.BtnAgregarCarrito2.Click += new System.EventHandler(this.BtnAgregarCarrito2_Click);
+            this.BtnAgregarCarrito3.BackColor = System.Drawing.Color.Transparent;
+            this.BtnAgregarCarrito3.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("BtnAgregarCarrito3.BackgroundImage")));
+            this.BtnAgregarCarrito3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.BtnAgregarCarrito3.FlatAppearance.BorderSize = 0;
+            this.BtnAgregarCarrito3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.BtnAgregarCarrito3.Location = new System.Drawing.Point(386, 140);
+            this.BtnAgregarCarrito3.Name = "BtnAgregarCarrito3";
+            this.BtnAgregarCarrito3.Size = new System.Drawing.Size(30, 30);
+            this.BtnAgregarCarrito3.TabIndex = 29;
+            this.BtnAgregarCarrito3.UseVisualStyleBackColor = false;
+            this.BtnAgregarCarrito3.Click += new System.EventHandler(this.BtnAgregarCarrito3_Click);
             // 
             // Descripcion3
             // 
@@ -1369,66 +1429,6 @@
             this.TimerMouseWheelRest.Interval = 1000;
             this.TimerMouseWheelRest.Tick += new System.EventHandler(this.TimerMouseWheelRest_Tick);
             // 
-            // panel3
-            // 
-            this.panel3.Controls.Add(this.Carritopop);
-            this.panel3.Location = new System.Drawing.Point(8, 49);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(380, 230);
-            this.panel3.TabIndex = 6;
-            // 
-            // Carritopop
-            // 
-            this.Carritopop.AllowUserToAddRows = false;
-            this.Carritopop.AllowUserToDeleteRows = false;
-            this.Carritopop.BackgroundColor = System.Drawing.Color.White;
-            this.Carritopop.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.Carritopop.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.Carritopop.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.Agregar,
-            this.Descripcion,
-            this.Cantidad,
-            this.Precio,
-            this.Eliminar});
-            this.Carritopop.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.Carritopop.GridColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.Carritopop.Location = new System.Drawing.Point(0, 0);
-            this.Carritopop.Name = "Carritopop";
-            this.Carritopop.Size = new System.Drawing.Size(380, 230);
-            this.Carritopop.TabIndex = 5;
-            this.Carritopop.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.Carritopop_CellClick);
-            // 
-            // Agregar
-            // 
-            this.Agregar.HeaderText = "";
-            this.Agregar.Name = "Agregar";
-            this.Agregar.Width = 20;
-            // 
-            // Descripcion
-            // 
-            this.Descripcion.HeaderText = "Descripción";
-            this.Descripcion.Name = "Descripcion";
-            this.Descripcion.ReadOnly = true;
-            this.Descripcion.Width = 170;
-            // 
-            // Cantidad
-            // 
-            this.Cantidad.HeaderText = "Cantidad";
-            this.Cantidad.Name = "Cantidad";
-            this.Cantidad.Width = 53;
-            // 
-            // Precio
-            // 
-            this.Precio.HeaderText = "Precio";
-            this.Precio.Name = "Precio";
-            this.Precio.Width = 45;
-            // 
-            // Eliminar
-            // 
-            this.Eliminar.HeaderText = "";
-            this.Eliminar.Name = "Eliminar";
-            this.Eliminar.Width = 20;
-            // 
             // Principal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -1453,13 +1453,15 @@
             this.panel2.PerformLayout();
             this.PanelCategorias.ResumeLayout(false);
             this.panelFondo.ResumeLayout(false);
+            this.PopUpCarrito.ResumeLayout(false);
+            this.PopUpCarrito.PerformLayout();
+            this.panel3.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.Carritopop)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.LoginPanel.ResumeLayout(false);
             this.LoginPanel.PerformLayout();
-            this.PopUpCarrito.ResumeLayout(false);
-            this.PopUpCarrito.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.loginBar.ResumeLayout(false);
             this.loginBar.PerformLayout();
             this.panelGaleria.ResumeLayout(false);
@@ -1493,8 +1495,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.Cantidad1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.EtiquetaPrecio1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.imgLibro1)).EndInit();
-            this.panel3.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.Carritopop)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -1535,22 +1535,22 @@
         private System.Windows.Forms.NumericUpDown Cantidad6;
         private System.Windows.Forms.PictureBox EtiquetaPrecio6;
         private System.Windows.Forms.Panel panel8;
-        private System.Windows.Forms.Button BtnAgregarCarrito3;
+        private System.Windows.Forms.Button BtnAgregarCarrito5;
         private System.Windows.Forms.Label LblTituloDescrip3;
         private System.Windows.Forms.NumericUpDown Cantidad3;
         private System.Windows.Forms.PictureBox EtiquetaPrecio3;
         private System.Windows.Forms.Panel panel5;
-        private System.Windows.Forms.Button BtnAgregarCarrito5;
+        private System.Windows.Forms.Button BtnAgregarCarrito4;
         private System.Windows.Forms.Label LblTituloDescrip5;
         private System.Windows.Forms.NumericUpDown Cantidad5;
         private System.Windows.Forms.PictureBox EtiquetaPrecio5;
         private System.Windows.Forms.Panel panel4;
-        private System.Windows.Forms.Button BtnAgregarCarrito4;
+        private System.Windows.Forms.Button BtnAgregarCarrito2;
         private System.Windows.Forms.Label LblTituloDescrip4;
         private System.Windows.Forms.NumericUpDown Cantidad4;
         private System.Windows.Forms.PictureBox EtiquetaPrecio4;
         private System.Windows.Forms.Panel panel6;
-        private System.Windows.Forms.Button BtnAgregarCarrito2;
+        private System.Windows.Forms.Button BtnAgregarCarrito3;
         private System.Windows.Forms.Label LblTituloDescrip2;
         private System.Windows.Forms.NumericUpDown Cantidad2;
         private System.Windows.Forms.PictureBox EtiquetaPrecio2;
