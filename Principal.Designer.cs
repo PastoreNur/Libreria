@@ -280,9 +280,9 @@
             this.lblNombreCategoriaBar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblNombreCategoriaBar.Location = new System.Drawing.Point(383, 9);
             this.lblNombreCategoriaBar.Name = "lblNombreCategoriaBar";
-            this.lblNombreCategoriaBar.Size = new System.Drawing.Size(179, 20);
+            this.lblNombreCategoriaBar.Size = new System.Drawing.Size(107, 20);
             this.lblNombreCategoriaBar.TabIndex = 4;
-            this.lblNombreCategoriaBar.Text = "Nombre de Categoría";
+            this.lblNombreCategoriaBar.Text = "¡Bienvenido!";
             // 
             // lblSaludo
             // 
