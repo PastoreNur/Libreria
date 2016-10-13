@@ -546,7 +546,7 @@
         qHE7/vuMr7w/EpGGqkXkp/8Bq4FwlVSIRjEAAAAASUVORK5CYII=
 </value>
   </data>
-  <data name="BtnAgregarCarrito6.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="BtnAgregarCarrito4.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABGdBTUEAALGPC/xhBQAAAhRJREFUaEPt
         mLFSwkAQhu8RfAQfwUosqcSxUEpnpFAradQZa0e7HFJAk1Dqm+CMD6BvEN5A3iDehQ1kc5dwl9sgOPfN
@@ -561,7 +561,7 @@
         RK5CYII=
 </value>
   </data>
-  <data name="EtiquetaPrecio6.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="EtiquetaPrecio5.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABGdBTUEAALGPC/xhBQAAAn1JREFUaEPt
         lz9r20AYxv0R8hHyUTyGOoO2DF1Kh46BbgnN4KHQsaVrKXQKmayWZAkUJ+DFHQrFLnRpE7oU3Az1IC9Z
@@ -577,7 +577,7 @@
         QmyteaYixBs6bfvJzA7XQfI/RX3q6ujo6DDR6/0HdnU0KzcKXlgAAAAASUVORK5CYII=
 </value>
   </data>
-  <data name="imgLibro6.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="imgLibro4.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAGQAAACRCAYAAAA1vR3+AAAAIGNIUk0AAHolAACAgwAA+f8AAIDpAAB1
         MAAA6mAAADqYAAAXb5JfxUYAAAAJcEhZcwAACwwAAAsMAT9AIsgAAJrjSURBVHhepP11eBtXGjaM25Zt
@@ -1351,7 +1351,7 @@
         /zDqMzfm6FRbxcHBwcHBweHE4Li/U8RodGpPItEAAAAASUVORK5CYII=
 </value>
   </data>
-  <data name="BtnAgregarCarrito5.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="BtnAgregarCarrito6.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABGdBTUEAALGPC/xhBQAAAhRJREFUaEPt
         mLFSwkAQhu8RfAQfwUosqcSxUEpnpFAradQZa0e7HFJAk1Dqm+CMD6BvEN5A3iDehQ1kc5dwl9sgOPfN
@@ -1366,7 +1366,7 @@
         RK5CYII=
 </value>
   </data>
-  <data name="EtiquetaPrecio3.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="EtiquetaPrecio6.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABGdBTUEAALGPC/xhBQAAAn1JREFUaEPt
         lz9r20AYxv0R8hHyUTyGOoO2DF1Kh46BbgnN4KHQsaVrKXQKmayWZAkUJ+DFHQrFLnRpE7oU3Az1IC9Z
@@ -1382,7 +1382,7 @@
         QmyteaYixBs6bfvJzA7XQfI/RX3q6ujo6DDR6/0HdnU0KzcKXlgAAAAASUVORK5CYII=
 </value>
   </data>
-  <data name="imgLibro5.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="imgLibro6.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAGQAAACRCAYAAAA1vR3+AAAAIGNIUk0AAHolAACAgwAA+f8AAIDpAAB1
         MAAA6mAAADqYAAAXb5JfxUYAAAAJcEhZcwAACwwAAAsMAT9AIsgAAJrjSURBVHhepP11eBtXGjaM25Zt
@@ -2049,7 +2049,7 @@
         g/O9AmOBQp2LfELkJf4dfx5tepwf0n5PVpLlp2Vv3v8DDyhAXfdJd6EAAAAASUVORK5CYII=
 </value>
   </data>
-  <data name="BtnAgregarCarrito4.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="BtnAgregarCarrito5.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABGdBTUEAALGPC/xhBQAAAhRJREFUaEPt
         mLFSwkAQhu8RfAQfwUosqcSxUEpnpFAradQZa0e7HFJAk1Dqm+CMD6BvEN5A3iDehQ1kc5dwl9sgOPfN
@@ -2064,7 +2064,7 @@
         RK5CYII=
 </value>
   </data>
-  <data name="EtiquetaPrecio5.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="EtiquetaPrecio3.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABGdBTUEAALGPC/xhBQAAAn1JREFUaEPt
         lz9r20AYxv0R8hHyUTyGOoO2DF1Kh46BbgnN4KHQsaVrKXQKmayWZAkUJ+DFHQrFLnRpE7oU3Az1IC9Z
@@ -2080,7 +2080,7 @@
         QmyteaYixBs6bfvJzA7XQfI/RX3q6ujo6DDR6/0HdnU0KzcKXlgAAAAASUVORK5CYII=
 </value>
   </data>
-  <data name="imgLibro4.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="imgLibro5.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAGQAAACRCAYAAAA1vR3+AAAAIGNIUk0AAHolAACAgwAA+f8AAIDpAAB1
         MAAA6mAAADqYAAAXb5JfxUYAAAAJcEhZcwAACwwAAAsMAT9AIsgAAJrjSURBVHhepP11eBtXGjaM25Zt

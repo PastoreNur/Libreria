@@ -87,7 +87,7 @@
             this.BtnAgregarCarrito5 = new System.Windows.Forms.Button();
             this.Descripcion5 = new System.Windows.Forms.RichTextBox();
             this.LblTituloDescrip3 = new System.Windows.Forms.Label();
-            this.Cantidad3 = new System.Windows.Forms.NumericUpDown();
+            this.Cantidad5 = new System.Windows.Forms.NumericUpDown();
             this.EtiquetaPrecio3 = new System.Windows.Forms.PictureBox();
             this.Precios5 = new System.Windows.Forms.Label();
             this.Titulo5 = new System.Windows.Forms.Label();
@@ -96,7 +96,7 @@
             this.BtnAgregarCarrito4 = new System.Windows.Forms.Button();
             this.Descripcion4 = new System.Windows.Forms.RichTextBox();
             this.LblTituloDescrip5 = new System.Windows.Forms.Label();
-            this.Cantidad5 = new System.Windows.Forms.NumericUpDown();
+            this.Cantidad4 = new System.Windows.Forms.NumericUpDown();
             this.EtiquetaPrecio5 = new System.Windows.Forms.PictureBox();
             this.Precios4 = new System.Windows.Forms.Label();
             this.Titulo4 = new System.Windows.Forms.Label();
@@ -105,7 +105,7 @@
             this.BtnAgregarCarrito2 = new System.Windows.Forms.Button();
             this.Descripcion2 = new System.Windows.Forms.RichTextBox();
             this.LblTituloDescrip4 = new System.Windows.Forms.Label();
-            this.Cantidad4 = new System.Windows.Forms.NumericUpDown();
+            this.Cantidad2 = new System.Windows.Forms.NumericUpDown();
             this.EtiquetaPrecio4 = new System.Windows.Forms.PictureBox();
             this.Precios2 = new System.Windows.Forms.Label();
             this.Titulo2 = new System.Windows.Forms.Label();
@@ -114,7 +114,7 @@
             this.BtnAgregarCarrito3 = new System.Windows.Forms.Button();
             this.Descripcion3 = new System.Windows.Forms.RichTextBox();
             this.LblTituloDescrip2 = new System.Windows.Forms.Label();
-            this.Cantidad2 = new System.Windows.Forms.NumericUpDown();
+            this.Cantidad3 = new System.Windows.Forms.NumericUpDown();
             this.EtiquetaPrecio2 = new System.Windows.Forms.PictureBox();
             this.Precios3 = new System.Windows.Forms.Label();
             this.Titulo3 = new System.Windows.Forms.Label();
@@ -150,19 +150,19 @@
             ((System.ComponentModel.ISupportInitialize)(this.EtiquetaPrecio6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.imgLibro6)).BeginInit();
             this.panel8.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.Cantidad3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Cantidad5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.EtiquetaPrecio3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.imgLibro5)).BeginInit();
             this.panel5.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.Cantidad5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Cantidad4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.EtiquetaPrecio5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.imgLibro4)).BeginInit();
             this.panel4.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.Cantidad4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Cantidad2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.EtiquetaPrecio4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.imgLibro2)).BeginInit();
             this.panel6.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.Cantidad2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Cantidad3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.EtiquetaPrecio2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.imgLibro3)).BeginInit();
             this.panel10.SuspendLayout();
@@ -868,7 +868,7 @@
             this.panel8.Controls.Add(this.BtnAgregarCarrito5);
             this.panel8.Controls.Add(this.Descripcion5);
             this.panel8.Controls.Add(this.LblTituloDescrip3);
-            this.panel8.Controls.Add(this.Cantidad3);
+            this.panel8.Controls.Add(this.Cantidad5);
             this.panel8.Controls.Add(this.EtiquetaPrecio3);
             this.panel8.Controls.Add(this.Precios5);
             this.panel8.Controls.Add(this.Titulo5);
@@ -912,23 +912,23 @@
             this.LblTituloDescrip3.TabIndex = 24;
             this.LblTituloDescrip3.Text = "Descripción:";
             // 
-            // Cantidad3
+            // Cantidad5
             // 
-            this.Cantidad3.Location = new System.Drawing.Point(330, 147);
-            this.Cantidad3.Maximum = new decimal(new int[] {
+            this.Cantidad5.Location = new System.Drawing.Point(330, 147);
+            this.Cantidad5.Maximum = new decimal(new int[] {
             12,
             0,
             0,
             0});
-            this.Cantidad3.Minimum = new decimal(new int[] {
+            this.Cantidad5.Minimum = new decimal(new int[] {
             1,
             0,
             0,
             0});
-            this.Cantidad3.Name = "Cantidad3";
-            this.Cantidad3.Size = new System.Drawing.Size(50, 20);
-            this.Cantidad3.TabIndex = 23;
-            this.Cantidad3.Value = new decimal(new int[] {
+            this.Cantidad5.Name = "Cantidad5";
+            this.Cantidad5.Size = new System.Drawing.Size(50, 20);
+            this.Cantidad5.TabIndex = 23;
+            this.Cantidad5.Value = new decimal(new int[] {
             1,
             0,
             0,
@@ -979,7 +979,7 @@
             this.panel5.Controls.Add(this.BtnAgregarCarrito4);
             this.panel5.Controls.Add(this.Descripcion4);
             this.panel5.Controls.Add(this.LblTituloDescrip5);
-            this.panel5.Controls.Add(this.Cantidad5);
+            this.panel5.Controls.Add(this.Cantidad4);
             this.panel5.Controls.Add(this.EtiquetaPrecio5);
             this.panel5.Controls.Add(this.Precios4);
             this.panel5.Controls.Add(this.Titulo4);
@@ -1023,23 +1023,23 @@
             this.LblTituloDescrip5.TabIndex = 24;
             this.LblTituloDescrip5.Text = "Descripción:";
             // 
-            // Cantidad5
+            // Cantidad4
             // 
-            this.Cantidad5.Location = new System.Drawing.Point(327, 149);
-            this.Cantidad5.Maximum = new decimal(new int[] {
+            this.Cantidad4.Location = new System.Drawing.Point(327, 149);
+            this.Cantidad4.Maximum = new decimal(new int[] {
             12,
             0,
             0,
             0});
-            this.Cantidad5.Minimum = new decimal(new int[] {
+            this.Cantidad4.Minimum = new decimal(new int[] {
             1,
             0,
             0,
             0});
-            this.Cantidad5.Name = "Cantidad5";
-            this.Cantidad5.Size = new System.Drawing.Size(50, 20);
-            this.Cantidad5.TabIndex = 23;
-            this.Cantidad5.Value = new decimal(new int[] {
+            this.Cantidad4.Name = "Cantidad4";
+            this.Cantidad4.Size = new System.Drawing.Size(50, 20);
+            this.Cantidad4.TabIndex = 23;
+            this.Cantidad4.Value = new decimal(new int[] {
             1,
             0,
             0,
@@ -1090,7 +1090,7 @@
             this.panel4.Controls.Add(this.BtnAgregarCarrito2);
             this.panel4.Controls.Add(this.Descripcion2);
             this.panel4.Controls.Add(this.LblTituloDescrip4);
-            this.panel4.Controls.Add(this.Cantidad4);
+            this.panel4.Controls.Add(this.Cantidad2);
             this.panel4.Controls.Add(this.EtiquetaPrecio4);
             this.panel4.Controls.Add(this.Precios2);
             this.panel4.Controls.Add(this.Titulo2);
@@ -1134,23 +1134,23 @@
             this.LblTituloDescrip4.TabIndex = 24;
             this.LblTituloDescrip4.Text = "Descripción:";
             // 
-            // Cantidad4
+            // Cantidad2
             // 
-            this.Cantidad4.Location = new System.Drawing.Point(327, 149);
-            this.Cantidad4.Maximum = new decimal(new int[] {
+            this.Cantidad2.Location = new System.Drawing.Point(327, 149);
+            this.Cantidad2.Maximum = new decimal(new int[] {
             12,
             0,
             0,
             0});
-            this.Cantidad4.Minimum = new decimal(new int[] {
+            this.Cantidad2.Minimum = new decimal(new int[] {
             1,
             0,
             0,
             0});
-            this.Cantidad4.Name = "Cantidad4";
-            this.Cantidad4.Size = new System.Drawing.Size(50, 20);
-            this.Cantidad4.TabIndex = 23;
-            this.Cantidad4.Value = new decimal(new int[] {
+            this.Cantidad2.Name = "Cantidad2";
+            this.Cantidad2.Size = new System.Drawing.Size(50, 20);
+            this.Cantidad2.TabIndex = 23;
+            this.Cantidad2.Value = new decimal(new int[] {
             1,
             0,
             0,
@@ -1201,7 +1201,7 @@
             this.panel6.Controls.Add(this.BtnAgregarCarrito3);
             this.panel6.Controls.Add(this.Descripcion3);
             this.panel6.Controls.Add(this.LblTituloDescrip2);
-            this.panel6.Controls.Add(this.Cantidad2);
+            this.panel6.Controls.Add(this.Cantidad3);
             this.panel6.Controls.Add(this.EtiquetaPrecio2);
             this.panel6.Controls.Add(this.Precios3);
             this.panel6.Controls.Add(this.Titulo3);
@@ -1245,23 +1245,23 @@
             this.LblTituloDescrip2.TabIndex = 24;
             this.LblTituloDescrip2.Text = "Descripción:";
             // 
-            // Cantidad2
+            // Cantidad3
             // 
-            this.Cantidad2.Location = new System.Drawing.Point(330, 148);
-            this.Cantidad2.Maximum = new decimal(new int[] {
+            this.Cantidad3.Location = new System.Drawing.Point(330, 148);
+            this.Cantidad3.Maximum = new decimal(new int[] {
             12,
             0,
             0,
             0});
-            this.Cantidad2.Minimum = new decimal(new int[] {
+            this.Cantidad3.Minimum = new decimal(new int[] {
             1,
             0,
             0,
             0});
-            this.Cantidad2.Name = "Cantidad2";
-            this.Cantidad2.Size = new System.Drawing.Size(50, 20);
-            this.Cantidad2.TabIndex = 23;
-            this.Cantidad2.Value = new decimal(new int[] {
+            this.Cantidad3.Name = "Cantidad3";
+            this.Cantidad3.Size = new System.Drawing.Size(50, 20);
+            this.Cantidad3.TabIndex = 23;
+            this.Cantidad3.Value = new decimal(new int[] {
             1,
             0,
             0,
@@ -1472,22 +1472,22 @@
             ((System.ComponentModel.ISupportInitialize)(this.imgLibro6)).EndInit();
             this.panel8.ResumeLayout(false);
             this.panel8.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.Cantidad3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Cantidad5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.EtiquetaPrecio3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.imgLibro5)).EndInit();
             this.panel5.ResumeLayout(false);
             this.panel5.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.Cantidad5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Cantidad4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.EtiquetaPrecio5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.imgLibro4)).EndInit();
             this.panel4.ResumeLayout(false);
             this.panel4.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.Cantidad4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Cantidad2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.EtiquetaPrecio4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.imgLibro2)).EndInit();
             this.panel6.ResumeLayout(false);
             this.panel6.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.Cantidad2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Cantidad3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.EtiquetaPrecio2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.imgLibro3)).EndInit();
             this.panel10.ResumeLayout(false);
@@ -1537,22 +1537,22 @@
         private System.Windows.Forms.Panel panel8;
         private System.Windows.Forms.Button BtnAgregarCarrito5;
         private System.Windows.Forms.Label LblTituloDescrip3;
-        private System.Windows.Forms.NumericUpDown Cantidad3;
+        private System.Windows.Forms.NumericUpDown Cantidad5;
         private System.Windows.Forms.PictureBox EtiquetaPrecio3;
         private System.Windows.Forms.Panel panel5;
         private System.Windows.Forms.Button BtnAgregarCarrito4;
         private System.Windows.Forms.Label LblTituloDescrip5;
-        private System.Windows.Forms.NumericUpDown Cantidad5;
+        private System.Windows.Forms.NumericUpDown Cantidad4;
         private System.Windows.Forms.PictureBox EtiquetaPrecio5;
         private System.Windows.Forms.Panel panel4;
         private System.Windows.Forms.Button BtnAgregarCarrito2;
         private System.Windows.Forms.Label LblTituloDescrip4;
-        private System.Windows.Forms.NumericUpDown Cantidad4;
+        private System.Windows.Forms.NumericUpDown Cantidad2;
         private System.Windows.Forms.PictureBox EtiquetaPrecio4;
         private System.Windows.Forms.Panel panel6;
         private System.Windows.Forms.Button BtnAgregarCarrito3;
         private System.Windows.Forms.Label LblTituloDescrip2;
-        private System.Windows.Forms.NumericUpDown Cantidad2;
+        private System.Windows.Forms.NumericUpDown Cantidad3;
         private System.Windows.Forms.PictureBox EtiquetaPrecio2;
         private System.Windows.Forms.Panel panel10;
         private System.Windows.Forms.Button BtnAgregarCarrito1;

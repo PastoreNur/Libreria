@@ -56,30 +56,30 @@ namespace Libreria
                 Cantidad1.Enabled = true;
                 BtnAgregarCarrito1.Enabled = true;
 
-                Cantidad2.Maximum = 12;
-                Cantidad2.Value = 1;
-                Cantidad2.Enabled = true;
-                BtnAgregarCarrito3.Enabled = true;
-
                 Cantidad3.Maximum = 12;
                 Cantidad3.Value = 1;
                 Cantidad3.Enabled = true;
-                BtnAgregarCarrito5.Enabled = true;
-
-                Cantidad4.Maximum = 12;
-                Cantidad4.Value = 1;
-                Cantidad4.Enabled = true;
                 BtnAgregarCarrito2.Enabled = true;
 
                 Cantidad5.Maximum = 12;
                 Cantidad5.Value = 1;
                 Cantidad5.Enabled = true;
+                BtnAgregarCarrito3.Enabled = true;
+
+                Cantidad2.Maximum = 12;
+                Cantidad2.Value = 1;
+                Cantidad2.Enabled = true;
                 BtnAgregarCarrito4.Enabled = true;
 
-                Cantidad5.Maximum = 12;
-                Cantidad5.Value = 1;
-                Cantidad5.Enabled = true;
-                BtnAgregarCarrito4.Enabled = true;
+                Cantidad4.Maximum = 12;
+                Cantidad4.Value = 1;
+                Cantidad4.Enabled = true;
+                BtnAgregarCarrito5.Enabled = true;
+
+                Cantidad6.Maximum = 12;
+                Cantidad6.Value = 1;
+                Cantidad6.Enabled = true;
+                BtnAgregarCarrito6.Enabled = true;
            
         
         }
@@ -87,6 +87,7 @@ namespace Libreria
         public void Infomacion_Categoria(int Infcategoria, int scroll)
         {
 
+            int cont = 0;
 
 
             Scroll = scroll;
@@ -99,6 +100,8 @@ namespace Libreria
                     switch (Scroll)
                     {
                         case 1:
+
+                            
                             //Contenido Scroll 1 categoria 1
                             pictureBox3.Image = Image.FromFile("Circle-48.png");
                             pictureBox2.Image = Image.FromFile("Circle-482.png");
@@ -138,6 +141,8 @@ namespace Libreria
                             Descripcion6.Text = "Hace seis dias, el astronauta Mark Watney se convirtio en una de las primeras personas en caminar en Marte. Ahora, el esta seguro de que va a ser la primera persona en morir alli. Despues de que una tormenta de polvo casi lo mata y obliga a su tripulacion a evacuar mientras lo hacian muerto, Mark se encuentra atrapado y completamente solo, sin manera de siquiera dar una senal a la tierra de que esta vivo, y aunque el pudiera conseguir palabra hacia fuera, sus suministros se irian mucho antes de que el rescate pudiera llegar.";
                             precio6 = 16.47;
                             Precios6.Text = "$" + precio6;
+
+                            
                             break;
 
                         case 2:
@@ -584,6 +589,7 @@ namespace Libreria
 
         private void BtnCat1_Click(object sender, EventArgs e)
         {
+            ResetearControlesCompra();
             panelHola.SendToBack();
             pictureBox2.Visible = true;
             pictureBox3.Visible = true;
@@ -599,6 +605,7 @@ namespace Libreria
 
         private void BtnCat2_Click(object sender, EventArgs e)
         {
+            ResetearControlesCompra();
             pictureBox2.Visible = true;
             pictureBox3.Visible = true;
             panelHola.SendToBack();
@@ -613,6 +620,7 @@ namespace Libreria
 
         private void BtnCat3_Click(object sender, EventArgs e)
         {
+            ResetearControlesCompra();
             pictureBox2.Visible = true;
             pictureBox3.Visible = true;
             panelHola.SendToBack();
@@ -627,6 +635,7 @@ namespace Libreria
 
         private void BtnCat4_Click(object sender, EventArgs e)
         {
+            ResetearControlesCompra();
             pictureBox2.Visible = true;
             pictureBox3.Visible = true;
             panelHola.SendToBack();
@@ -641,6 +650,7 @@ namespace Libreria
 
         private void BtnCat5_Click(object sender, EventArgs e)
         {
+            ResetearControlesCompra();
             pictureBox2.Visible = true;
             pictureBox3.Visible = true;
             panelHola.SendToBack();
@@ -655,6 +665,7 @@ namespace Libreria
 
         private void BtnCat6_Click(object sender, EventArgs e)
         {
+            ResetearControlesCompra();
             pictureBox2.Visible = true;
             pictureBox3.Visible = true;
             panelHola.SendToBack();
@@ -669,6 +680,7 @@ namespace Libreria
 
         private void BtnCat7_Click(object sender, EventArgs e)
         {
+            ResetearControlesCompra();
             pictureBox2.Visible = true;
             pictureBox3.Visible = true;
             panelHola.SendToBack();
@@ -995,7 +1007,7 @@ namespace Libreria
             else
             {
                 Cantidad2.Value = 0;
-                BtnAgregarCarrito3.Enabled = false;
+                BtnAgregarCarrito2.Enabled = false;
                 Cantidad2.Enabled = false;
             }
 
@@ -1031,7 +1043,7 @@ namespace Libreria
             else
             {
                 Cantidad4.Value = 0;
-                BtnAgregarCarrito2.Enabled = false;
+                BtnAgregarCarrito4.Enabled = false;
                 Cantidad4.Enabled = false;
             }
         }
@@ -1048,7 +1060,7 @@ namespace Libreria
             else
             {
                 Cantidad5.Value = 0;
-                BtnAgregarCarrito4.Enabled = false;
+                BtnAgregarCarrito5.Enabled = false;
                 Cantidad5.Enabled = false;
             }
         }
