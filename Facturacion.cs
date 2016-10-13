@@ -171,16 +171,12 @@ namespace Libreria
 
         }
 
+       
+        
+
         private void Facturacion_Load(object sender, EventArgs e)
         {
             
-                Carrito.Rows.Add(true, "Luna de Pluton", 1, 2, "Eliminar");
-                Carrito.Rows.Add(true, "Luna de Pluton", 1, 2, "Eliminar");
-                Carrito.Rows.Add(true, "Luna de Pluton", 1, 2, "Eliminar");
-
-           
-
-
         }
 
         private void ClickEliminar(object sender, DataGridViewCellEventArgs e)

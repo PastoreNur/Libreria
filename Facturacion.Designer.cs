@@ -33,12 +33,12 @@
             this.BtnCerrar = new System.Windows.Forms.Button();
             this.BtnPagar = new System.Windows.Forms.Button();
             this.Carrito = new System.Windows.Forms.DataGridView();
-            this.panel2 = new System.Windows.Forms.Panel();
             this.Agregar = new System.Windows.Forms.DataGridViewCheckBoxColumn();
             this.Descripcion = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Cantidad = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Precio = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Eliminar = new System.Windows.Forms.DataGridViewButtonColumn();
+            this.panel2 = new System.Windows.Forms.Panel();
             this.Bar.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.Carrito)).BeginInit();
             this.panel2.SuspendLayout();
@@ -102,14 +102,6 @@
             this.Carrito.TabIndex = 4;
             this.Carrito.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.ClickEliminar);
             // 
-            // panel2
-            // 
-            this.panel2.Controls.Add(this.Carrito);
-            this.panel2.Location = new System.Drawing.Point(34, 88);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(745, 280);
-            this.panel2.TabIndex = 5;
-            // 
             // Agregar
             // 
             this.Agregar.HeaderText = "";
@@ -141,6 +133,14 @@
             this.Eliminar.Name = "Eliminar";
             this.Eliminar.Width = 75;
             // 
+            // panel2
+            // 
+            this.panel2.Controls.Add(this.Carrito);
+            this.panel2.Location = new System.Drawing.Point(34, 88);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(745, 280);
+            this.panel2.TabIndex = 5;
+            // 
             // Facturacion
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -166,12 +166,12 @@
         private System.Windows.Forms.Panel Bar;
         private System.Windows.Forms.Button BtnCerrar;
         private System.Windows.Forms.Button BtnPagar;
-        private System.Windows.Forms.DataGridView Carrito;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.DataGridViewCheckBoxColumn Agregar;
         private System.Windows.Forms.DataGridViewTextBoxColumn Descripcion;
         private System.Windows.Forms.DataGridViewTextBoxColumn Cantidad;
         private System.Windows.Forms.DataGridViewTextBoxColumn Precio;
         private System.Windows.Forms.DataGridViewButtonColumn Eliminar;
+        public System.Windows.Forms.DataGridView Carrito;
     }
 }
