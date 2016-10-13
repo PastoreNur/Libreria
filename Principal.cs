@@ -195,7 +195,42 @@ namespace Libreria
                             //Contenido Scroll 1 categoria 2
                             pictureBox3.Image = Image.FromFile("Circle-48.png");
                             pictureBox2.Image = Image.FromFile("Circle-482.png");
-                           
+
+                            imgLibro1.Image = Image.FromFile("La Cabaña Donde la Tragedia Se Encuentra Con la Eternidad.jpg");
+                            Titulo1.Text = "Titulo" + ": La Cabaña: Donde la Tragedia Se Encuentra Con la Eternidad";
+                            Descripcion1.Text = "La hija menor de Mackenzie Allen Phillips, Missy, desaparece durante unas vacaciones familiares. En el proceso de su busqueda se encuentran evidencias de que pudo haber sido brutalmente asesinada en una cabana abandonada en lo mas profundo de los bosques de Oregon. Transcurridos cuatro anos, Mack recibe una extrana carta, firmada por Dios, que la conmina a reunirse con el en el lugar donde la nina murio. A pesar de lo aparentemente absurdo de la situaticion, decide acudir a la cita y sumergirse de nuevo en su mas oscura pesadilla; lo que alli sucede camibara su vida siempre.";
+                            precio1 = 10.61;
+                            Precios1.Text = "$" + precio1;
+
+                            imgLibro2.Image = Image.FromFile("Inferno.jpg");
+                            Titulo2.Text = "Titulo" + ": " + "Inferno";
+                            Descripcion2.Text = "El profesor de simbología en Harvard Robert Langdon despierta en un hospital a media noche. Desorientado y con una herida en la cabeza, no recuerda nada de las últimas treinta y seis horas, incluyendo como llegó allí o el origen de ese macabro objeto que los médicos han descubierto entre sus pertenencias.Con una incansable asesina persiguiéndoles por Florencia, Langdon y la ingeniosa doctora Sienna Brooks se ven obligados a huir.  Embarcados en un aterrador viaje, deberán desentramar una serie de códigos desarrollados por un brillante científico cuya obsesión con el fin del mundo sólo se compara con su pasión por una de las obras más influyentes jamás escritas: El infierno, el oscuro poema épico de Dante.";
+                            precio2 = 13.80;
+                            Precios2.Text = "$" + precio2;
+
+                            imgLibro3.Image = Image.FromFile("El Juego del Ángel.jpg");
+                            Titulo3.Text = "Titulo" + ": " + "El Juego del Ángel";
+                            Descripcion3.Text = "En la turbulenta Barcelona de los años 20, un joven escritor obsesionado con un amor imposible recibe la oferta de un misterioso editor para escribir un libro como no ha existido nunca, a cambio de una fortuna y, tal vez, mucho más.Con un estilo deslumbrante e impecable el autor de La Sombra del Viento, nos transporta de nuevo a la Barcelona del Cementerio de los Libros Olvidados para ofrecernos una gran aventura de intriga, romance y tragedia, a través de un laberinto de traición y secretos donde el embrujo de los libros, la pasión y la amistad se conjugan en un relato magistral.";
+                            precio3 = 12.13;
+                            Precios3.Text = "$" + precio3;
+
+                            imgLibro4.Image = Image.FromFile("La Venus de Cobre.jpg");
+                            Titulo4.Text = "Titulo" + ": " + "La Venus de Cobre";
+                            Descripcion4.Text = "De regreso de su periplo por Italia (La estatua de Bronce), el investigador Marco Didio Falco es contratado por el emperador para llevar a cabo un trabajo en Hacienda. Pero, desgraciadamente, Marco comete un imperdonable error contable que le lleva directamente a la mítica cárcel de Latumia,";
+                            precio4 = 12.95;
+                            Precios4.Text = "$" + precio4;
+
+                            imgLibro5.Image = Image.FromFile("Los Asesinatos De La Escuela Priory.jpg");
+                            Titulo5.Text = "Titulo" + ": " + "Los Asesinatos De La Escuela Priory";
+                            Descripcion5.Text = "Una ola de crÌmenes amenaza Londres. En el comedor de la escuela Priory ha aparecido muerto y descuartizado uno de sus profesores. George Sttobart, un detective inglÈs de vacaciones en ParÌs con su novia, viajar· a Inglaterra para tratar de detener a un asesino que siempre va un paso por delante.";
+                            precio5 = 10.66;
+                            Precios5.Text = "$" + precio5;
+
+                            imgLibro6.Image = Image.FromFile("La Sangre de los inocentes.jpg");
+                            Titulo6.Text = "Titulo" + ": " + "La Sangre de los inocentes";
+                            Descripcion6.Text = "Aventura en estado puro en una novela cuyo tema es de candente actualidad: los fanatismos religiosos. Soy espía y tengo miedo... Así empieza la crónica que escribe en el siglo XIII fray Julián sobre el cruel asedio a Montségur y la lucha entre cátaros y católicos. Siglos después, en 1939, un medievalista agnóstico emprende un peligroso viaje por el Berlín nazi en busca de su esposa de origen judío. En la actualidad, un grupo de musulmanes radicales se inmola en Frankfurt dejando tras de sí un mensaje críptico que pone en estado de alerta al Centro Antiterrorista de la Unión Europea, cuyos agentes, con la ayuda de los servicios secretos del Vaticano, intentarán desvelar un enigma que une la intolerancia de la Inquisición, la sinrazón fascista y el integrismo islámico en una frase: «Algún día alguien vengará la sangre de los inocentes».";
+                            precio6 = 10.96;
+                            Precios6.Text = "$" + precio6;
                             break;
 
                         case 2:
@@ -203,7 +238,42 @@ namespace Libreria
                             //Contenido Scroll 2 categoria 2
                             pictureBox3.Image = Image.FromFile("Circle-482.png");
                             pictureBox2.Image = Image.FromFile("Circle-48.png");
-                          
+                            imgLibro1.Image = Image.FromFile("La metamorfosis.jpg");
+                            Titulo1.Text = "Titulo" + ": La metamorfosis";
+                            Descripcion1.Text = "Del mito de un escritor enfermo, atormentado y poco exitoso en vida, ha emergido, poco a poco, la figura de un creador apasionado por el mundo, e interesado por las vicisitudes de su comunidad y la política de su tiempo. Así también, para el lector contemporáneo, más habituado que sus predecesores a la crueldad, el relato del exitoso y joven viajero que despierta una mañana como un escarabajo gigante, ha devenido, de sus raíces de pesadilla, en una obra maestra del humor más oscuro. Pero si el lector ríe, es solo para tomar distancia de la horrible situación a la que se enfrenta y así, evitar la repugnancia y el horror. Gregorio Samsa sufre con estoicismo cada página, sin encontrar al final, ni redención ni conocimiento en su mutación, tan inesperada como vergonzante. Se cuenta que las carcajadas de Kafka, mientras leía los episodios más escabrosos de sus relatos, sorprendían a sus amigos hasta el estupor; a lo que él explicaba que su risa era, en realidad, un muro de concreto. ¿Contra qué?, le preguntaban. Y el respondía: contra mí mismo, por supuesto.";
+                            precio1 = 4.95;
+                            Precios1.Text = "$" + precio1;
+
+                            imgLibro2.Image = Image.FromFile("Filosofia de Hielo y Fuego.jpg");
+                            Titulo2.Text = "Titulo" + ": " + "Filosofia de Hielo y Fuego";
+                            Descripcion2.Text = "Conoces los secretos detras de los impresionantes personajes, increibles episodios y escenografias asombrosas de Juego de Tronos? Sabes de donde surgio todo el fascinante mundo de esta serie? Descubre que tiene que ver esta increible y exitosa saga de George R. R. Martin con conocidos filosofos como Maquiavelo o Nietzsche, escritores como Shakespeare o Thoreau, personajes historicos de la realeza y algunos terminos del psicoanalisis a traves de este maravilloso libro.";
+                            precio2 = 15.53;
+                            Precios2.Text = "$" + precio2;
+
+                            imgLibro3.Image = Image.FromFile("Estoy bien.jpg");
+                            Titulo3.Text = "Titulo" + ": " + "Estoy bien";
+                            Descripcion3.Text = "El «más allá» nunca estuvo tan cerca. Si creía conocer las investigaciones de J. J. Benítez, se equivoca. Estoy bien es otra vuelta de tuerca en la producción literaria del autor navarro. Veamos algunos pensamientos de Juanjo Benítez sobre el delicado asunto de los «resucitados», como llama él a los muertos que han vuelto: «Estoy bien es tan increíble como cierto».«Se trata de 160 casos “al sur de la razón ». «Quizá este libro sea mucho más de lo que parece». «Estoy bien debe ser leído despacio, muy despacio». «El padre Azul (y su “gente ) se han sentado conmigo a la hora de escribirlo». «Si usted tiene miedo a la muerte, éste es su libro; si no es así, con más razón». «Algún día seremos esféricos». Al abrir Estoy bien, usted debería ver una luz. El concepto “vivo necesita ser revisado».";
+                            precio3 = 21.70;
+                            Precios3.Text = "$" + precio3;
+
+                            imgLibro4.Image = Image.FromFile("La Naranja Mecanica.jpg");
+                            Titulo4.Text = "Titulo" + ": " + "La Naranja Mecanica";
+                            Descripcion4.Text = "La historia del nadsat-adolescente Alex y sus tres drugos-amigos en un mundo de crueldad y destruccion. Alex tiene, segun Burgess, los principales atributos humanos; amor a la agresion, amor al lenguaje, amor a la belleza. Pero es joven y no ha entendido aun la verdadera importancia de la libertad, la que disfruta de un modo tan violento. En cierto sentido vive en el Eden, y solo cuando cae (como en verdad le ocurre, desde una ventana) parece capaz de llegar a transformase en un verdadero ser humano.";
+                            precio4 = 13.29;
+                            Precios4.Text = "$" + precio4;
+
+                            imgLibro5.Image = Image.FromFile("Juego de Ender.jpg");
+                            Titulo5.Text = "Titulo" + ": " + "Juego de Ender";
+                            Descripcion5.Text = "In order to develop a secure defense against a hostile alien race's next attack, government agencies breed child geniuses and train them as soldiers. A brilliant young boy, Andrew " + "Ender" + " Wiggin lives with his kind but distant parents, his sadistic brother Peter, and the person he loves more than anyone else, his sister Valentine. Peter and Valentine were candidates for the soldier-training program but didn't make the cutyoung Ender is the Wiggin drafted to the orbiting Battle School for rigorous military training. Ender's skills make him a leader in school and respected in the Battle Room, where children play at mock battles in zero gravity. Yet growing up in an artificial community of young soldiers Ender suffers greatly from isolation, rivalry from his peers, pressure from the adult teachers, and an unsettling fear of the alien invaders. His psychological battles include loneliness, fear that he is becoming like the cruel brother he remembers, and fanning the flames of devotion to his beloved sister. Is Ender the general Earth needs? But Ender is not the only result of the genetic experiments. The war with the Buggers has been raging for a hundred years, and the quest for the perfect general has been underway for almost as long.";
+                            precio5 = 15.95;
+                            Precios5.Text = "$" + precio5;
+
+                            imgLibro6.Image = Image.FromFile("De la Tierra a la Luna.jpg");
+                            Titulo6.Text = "Titulo" + ": " + "De la Tierra a la Luna";
+                            Descripcion6.Text = "De la Tierra a la Luna es una novela «científica» y «satírica» del escritor Julio Verne. La obra, que comienza como una sátira del estereotipo estadounidense de la época, es un intento de describir por primera vez con minuciosidad científica los problemas que hay que resolver para lograr enviar un objeto a la Luna. Un intrépido proyecto aviva los corazones de los miembros del Gun-Club. Se trata de enviar a la Luna un proyectil que, auxiliado por el monstruoso cañón Columbiad, hará la función de una auténtica nave espacial para hacer realidad en el siglo XIX un viejo sueño: atravesar el espacio y descubrir un mundo lunar hasta entonces en penumbras. Tanto esta novela como " + "Alrededor de la Luna" + " sorprenden por el número de anticipaciones que presenta Julio Verne como el lugar del lanzamiento del proyectil, muy cercano al Cabo Cañaveral, lugar de lanzamiento de la NASA hoy en día. Otra novela espacial es " + "Héctor Servadac" + ".";
+                            precio6 = 5.95;
+                            Precios6.Text = "$" + precio6;
+
                             break;
                     }
                     break;
