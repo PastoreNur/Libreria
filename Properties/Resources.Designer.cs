@@ -63,6 +63,16 @@ namespace Libreria.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        public static System.Drawing.Bitmap Circle_482 {
+            get {
+                object obj = ResourceManager.GetObject("Circle-482", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         public static System.Drawing.Bitmap Invisible_48 {
             get {
                 object obj = ResourceManager.GetObject("Invisible_48", resourceCulture);
