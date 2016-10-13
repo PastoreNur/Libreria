@@ -238,40 +238,41 @@ namespace Libreria
                             //Contenido Scroll 2 categoria 2
                             pictureBox3.Image = Image.FromFile("Circle-482.png");
                             pictureBox2.Image = Image.FromFile("Circle-48.png");
-                            imgLibro1.Image = Image.FromFile("La metamorfosis.jpg");
-                            Titulo1.Text = "Titulo" + ": La metamorfosis";
-                            Descripcion1.Text = "Del mito de un escritor enfermo, atormentado y poco exitoso en vida, ha emergido, poco a poco, la figura de un creador apasionado por el mundo, e interesado por las vicisitudes de su comunidad y la política de su tiempo. Así también, para el lector contemporáneo, más habituado que sus predecesores a la crueldad, el relato del exitoso y joven viajero que despierta una mañana como un escarabajo gigante, ha devenido, de sus raíces de pesadilla, en una obra maestra del humor más oscuro. Pero si el lector ríe, es solo para tomar distancia de la horrible situación a la que se enfrenta y así, evitar la repugnancia y el horror. Gregorio Samsa sufre con estoicismo cada página, sin encontrar al final, ni redención ni conocimiento en su mutación, tan inesperada como vergonzante. Se cuenta que las carcajadas de Kafka, mientras leía los episodios más escabrosos de sus relatos, sorprendían a sus amigos hasta el estupor; a lo que él explicaba que su risa era, en realidad, un muro de concreto. ¿Contra qué?, le preguntaban. Y el respondía: contra mí mismo, por supuesto.";
-                            precio1 = 4.95;
+
+                            imgLibro1.Image = Image.FromFile("Los Crímenes Azules.jpg");
+                            Titulo1.Text = "Titulo" + ": Los Crímenes Azules";
+                            Descripcion1.Text = "Los cadáveres de dos jóvenes hallados en la orilla de un lago de forma casi simultánea. Un condado cuyos habitantes guardan oscuros secretos. Un prometedor agente especial de la Unidad de Análisis de Conducta del FBI asignado al caso. Un crimen similar acaecido casi dos décadas antes... Enrique Laso nos deslumbra con su primera incursión en el género policíaco con una novela inquietante, cargada de suspense y misterio. Tras vender cientos de miles de copias de sus libros en todo el mundo gracias al éxito de títulos como" + "El Rumor de los Muertos" + "o" + "Desde el Infierno";
+                            precio1 = 13.95;
                             Precios1.Text = "$" + precio1;
 
-                            imgLibro2.Image = Image.FromFile("Filosofia de Hielo y Fuego.jpg");
-                            Titulo2.Text = "Titulo" + ": " + "Filosofia de Hielo y Fuego";
-                            Descripcion2.Text = "Conoces los secretos detras de los impresionantes personajes, increibles episodios y escenografias asombrosas de Juego de Tronos? Sabes de donde surgio todo el fascinante mundo de esta serie? Descubre que tiene que ver esta increible y exitosa saga de George R. R. Martin con conocidos filosofos como Maquiavelo o Nietzsche, escritores como Shakespeare o Thoreau, personajes historicos de la realeza y algunos terminos del psicoanalisis a traves de este maravilloso libro.";
-                            precio2 = 15.53;
+                            imgLibro2.Image = Image.FromFile("La isla de las tormentas.jpg");
+                            Titulo2.Text = "Titulo" + ": " + "La isla de las tormentas";
+                            Descripcion2.Text = "En el año 1944 los aliados preparan en secreto una de las mayores operaciones militares de la historia: la invasión de la Europa ocupada por los nazis. Henry Faber, espía alemán, descubre que el desembarco se efectuará en Normadía e intenta llevar la noticia al Alto Mando alemán, pero nunca llegará a su destino...";
+                            precio2 = 11.95;
                             Precios2.Text = "$" + precio2;
 
-                            imgLibro3.Image = Image.FromFile("Estoy bien.jpg");
-                            Titulo3.Text = "Titulo" + ": " + "Estoy bien";
-                            Descripcion3.Text = "El «más allá» nunca estuvo tan cerca. Si creía conocer las investigaciones de J. J. Benítez, se equivoca. Estoy bien es otra vuelta de tuerca en la producción literaria del autor navarro. Veamos algunos pensamientos de Juanjo Benítez sobre el delicado asunto de los «resucitados», como llama él a los muertos que han vuelto: «Estoy bien es tan increíble como cierto».«Se trata de 160 casos “al sur de la razón ». «Quizá este libro sea mucho más de lo que parece». «Estoy bien debe ser leído despacio, muy despacio». «El padre Azul (y su “gente ) se han sentado conmigo a la hora de escribirlo». «Si usted tiene miedo a la muerte, éste es su libro; si no es así, con más razón». «Algún día seremos esféricos». Al abrir Estoy bien, usted debería ver una luz. El concepto “vivo necesita ser revisado».";
-                            precio3 = 21.70;
+                            imgLibro3.Image = Image.FromFile("El perfume Historia de un asesino.jpg");
+                            Titulo3.Text = "Titulo" + ": " + "El perfume: Historia de un asesino";
+                            Descripcion3.Text = "Uno de los grandes fenómenos editoriales a escala mundial llevado al cine\nPara conseguir el favor de las damas y el dominio de los poderosos, Baptiste elabora un raro perfume que subyuga la voluntad de quien lo huele. La esencia proviene de los fluidos de jovencitas vírgenes y para conseguirla deberá convertirse en un asesino...";
+                            precio3 = 10.95;
                             Precios3.Text = "$" + precio3;
 
-                            imgLibro4.Image = Image.FromFile("La Naranja Mecanica.jpg");
-                            Titulo4.Text = "Titulo" + ": " + "La Naranja Mecanica";
-                            Descripcion4.Text = "La historia del nadsat-adolescente Alex y sus tres drugos-amigos en un mundo de crueldad y destruccion. Alex tiene, segun Burgess, los principales atributos humanos; amor a la agresion, amor al lenguaje, amor a la belleza. Pero es joven y no ha entendido aun la verdadera importancia de la libertad, la que disfruta de un modo tan violento. En cierto sentido vive en el Eden, y solo cuando cae (como en verdad le ocurre, desde una ventana) parece capaz de llegar a transformase en un verdadero ser humano.";
-                            precio4 = 13.29;
+                            imgLibro4.Image = Image.FromFile("Falcó.jpg");
+                            Titulo4.Text = "Titulo" + ": " + "Falcó";
+                            Descripcion4.Text = "La Europa turbulenta de los años treinta y cuarenta del siglo XX es el escenario de las andanzas de Lorenzo Falcó, ex contrabandista de armas, espía sin escrúpulos, agente de los servicios de inteligencia. Durante el otoño de 1936, mientras la frontera entre amigos y enemigos se reduce a una línea imprecisa y peligrosa, Falcó recibe el encargo de infiltrarse en una difícil misión que podría cambiar el curso de la historia de España. Un hombre y dos mujeres -los hermanos Montero y Eva Rengel- serán sus compañeros de aventura y tal vez sus víctimas, en un tiempo en el que la vida se escribe a golpe de traiciones y nada es lo que parece.";
+                            precio4 = 19.95;
                             Precios4.Text = "$" + precio4;
 
-                            imgLibro5.Image = Image.FromFile("Juego de Ender.jpg");
-                            Titulo5.Text = "Titulo" + ": " + "Juego de Ender";
-                            Descripcion5.Text = "In order to develop a secure defense against a hostile alien race's next attack, government agencies breed child geniuses and train them as soldiers. A brilliant young boy, Andrew " + "Ender" + " Wiggin lives with his kind but distant parents, his sadistic brother Peter, and the person he loves more than anyone else, his sister Valentine. Peter and Valentine were candidates for the soldier-training program but didn't make the cutyoung Ender is the Wiggin drafted to the orbiting Battle School for rigorous military training. Ender's skills make him a leader in school and respected in the Battle Room, where children play at mock battles in zero gravity. Yet growing up in an artificial community of young soldiers Ender suffers greatly from isolation, rivalry from his peers, pressure from the adult teachers, and an unsettling fear of the alien invaders. His psychological battles include loneliness, fear that he is becoming like the cruel brother he remembers, and fanning the flames of devotion to his beloved sister. Is Ender the general Earth needs? But Ender is not the only result of the genetic experiments. The war with the Buggers has been raging for a hundred years, and the quest for the perfect general has been underway for almost as long.";
-                            precio5 = 15.95;
+                            imgLibro5.Image = Image.FromFile("Perdida.jpg");
+                            Titulo5.Text = "Titulo" + ": " + "Perdida";
+                            Descripcion5.Text = "En un caluroso día de verano, Amy y Nick se disponen a celebrar su quinto aniversario de bodas en North Carthage, a orillas del río Mississippi. Pero Amy desaparece esa misma mañana sin dejar rastro. A medida que la investigación policial avanza, las sospechas recaen sobre Nick. Sin embargo, Nick insiste en su inocencia. Es cierto que se muestra extrañamente evasivo y frío, pero ¿es un asesino?";
+                            precio5 = 14.34;
                             Precios5.Text = "$" + precio5;
 
-                            imgLibro6.Image = Image.FromFile("De la Tierra a la Luna.jpg");
-                            Titulo6.Text = "Titulo" + ": " + "De la Tierra a la Luna";
-                            Descripcion6.Text = "De la Tierra a la Luna es una novela «científica» y «satírica» del escritor Julio Verne. La obra, que comienza como una sátira del estereotipo estadounidense de la época, es un intento de describir por primera vez con minuciosidad científica los problemas que hay que resolver para lograr enviar un objeto a la Luna. Un intrépido proyecto aviva los corazones de los miembros del Gun-Club. Se trata de enviar a la Luna un proyectil que, auxiliado por el monstruoso cañón Columbiad, hará la función de una auténtica nave espacial para hacer realidad en el siglo XIX un viejo sueño: atravesar el espacio y descubrir un mundo lunar hasta entonces en penumbras. Tanto esta novela como " + "Alrededor de la Luna" + " sorprenden por el número de anticipaciones que presenta Julio Verne como el lugar del lanzamiento del proyectil, muy cercano al Cabo Cañaveral, lugar de lanzamiento de la NASA hoy en día. Otra novela espacial es " + "Héctor Servadac" + ".";
-                            precio6 = 5.95;
+                            imgLibro6.Image = Image.FromFile("En La Cuerda Floja.jpg");
+                            Titulo6.Text = "Titulo" + ": " + "En La Cuerda Floja";
+                            Descripcion6.Text = "Augusto se rebela ante la sociedad y sus normas ante su incapacidad de adaptarse a ellas. El dinero, el amor, la vida adulta, son cosas para él irrelevantes, lo que desea es la libertad total más allá de la evasión que encuentra en el alcohol, el sexo y las drogas... Una misteriosa mujer llamada Lucky parece ser la encarnación perfecta de esa libertad primigenia, pero antes de alcanzar la felicidad, Augusto debe enfrentarse a su peor enemigo: el miedo.";
+                            precio6 = 9.99;
                             Precios6.Text = "$" + precio6;
 
                             break;
