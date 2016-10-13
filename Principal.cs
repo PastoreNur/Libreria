@@ -199,6 +199,7 @@ namespace Libreria
                             break;
 
                         case 2:
+                            ResetearControlesCompra();
                             //Contenido Scroll 2 categoria 2
                             pictureBox3.Image = Image.FromFile("Circle-482.png");
                             pictureBox2.Image = Image.FromFile("Circle-48.png");
@@ -216,6 +217,7 @@ namespace Libreria
                             break;
 
                         case 2:
+                            ResetearControlesCompra();
                             //Contenido Scroll 2 Categoria 3
                             pictureBox3.Image = Image.FromFile("Circle-482.png");
                             pictureBox2.Image = Image.FromFile("Circle-48.png");
@@ -232,6 +234,7 @@ namespace Libreria
                             break;
 
                         case 2:
+                            ResetearControlesCompra();
                             //Contenido Scroll 2 Categoria 4
                             pictureBox3.Image = Image.FromFile("Circle-482.png");
                             pictureBox2.Image = Image.FromFile("Circle-48.png");
@@ -248,6 +251,7 @@ namespace Libreria
                             break;
 
                         case 2:
+                            ResetearControlesCompra();
                             //Contenido Scroll 2 Categoria 5
                             pictureBox3.Image = Image.FromFile("Circle-482.png");
                             pictureBox2.Image = Image.FromFile("Circle-48.png");
@@ -263,6 +267,7 @@ namespace Libreria
                             pictureBox2.Image = Image.FromFile("Circle-482.png");
                             break;
                         case 2:
+                            ResetearControlesCompra();
                             //Contenido Scroll 2 Categoria 6
                             pictureBox3.Image = Image.FromFile("Circle-482.png");
                             pictureBox2.Image = Image.FromFile("Circle-48.png");
@@ -279,6 +284,7 @@ namespace Libreria
                             break;
 
                         case 2:
+                            ResetearControlesCompra();
                             //Contemido Scroll 2 Categoria 7
                             pictureBox3.Image = Image.FromFile("Circle-482.png");
                             pictureBox2.Image = Image.FromFile("Circle-48.png");
