@@ -32,51 +32,15 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Principal));
             this.panel1 = new System.Windows.Forms.Panel();
             this.TituloProgram = new System.Windows.Forms.Label();
+            this.BtnMinimizar = new System.Windows.Forms.PictureBox();
+            this.BtnCerrar = new System.Windows.Forms.PictureBox();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.button1 = new System.Windows.Forms.Button();
+            this.BtnUserBar = new System.Windows.Forms.Button();
             this.lblNombreCategoriaBar = new System.Windows.Forms.Label();
             this.lblSaludo = new System.Windows.Forms.Label();
             this.LblUsuario = new System.Windows.Forms.Label();
             this.PanelCategorias = new System.Windows.Forms.Panel();
-            this.panelFondo = new System.Windows.Forms.Panel();
-            this.panelGaleria = new System.Windows.Forms.Panel();
-            this.panelHola = new System.Windows.Forms.Panel();
-            this.panel7 = new System.Windows.Forms.Panel();
-            this.Descripcion6 = new System.Windows.Forms.RichTextBox();
-            this.LblTituloDescrip6 = new System.Windows.Forms.Label();
-            this.Cantidad6 = new System.Windows.Forms.NumericUpDown();
-            this.Precios6 = new System.Windows.Forms.Label();
-            this.Titulo6 = new System.Windows.Forms.Label();
-            this.panel8 = new System.Windows.Forms.Panel();
-            this.Descripcion5 = new System.Windows.Forms.RichTextBox();
-            this.LblTituloDescrip3 = new System.Windows.Forms.Label();
-            this.Cantidad3 = new System.Windows.Forms.NumericUpDown();
-            this.Precios5 = new System.Windows.Forms.Label();
-            this.Titulo5 = new System.Windows.Forms.Label();
-            this.panel5 = new System.Windows.Forms.Panel();
-            this.Descripcion4 = new System.Windows.Forms.RichTextBox();
-            this.LblTituloDescrip5 = new System.Windows.Forms.Label();
-            this.Cantidad5 = new System.Windows.Forms.NumericUpDown();
-            this.Precios4 = new System.Windows.Forms.Label();
-            this.Titulo4 = new System.Windows.Forms.Label();
-            this.panel4 = new System.Windows.Forms.Panel();
-            this.Descripcion2 = new System.Windows.Forms.RichTextBox();
-            this.LblTituloDescrip4 = new System.Windows.Forms.Label();
-            this.Cantidad4 = new System.Windows.Forms.NumericUpDown();
-            this.Precios2 = new System.Windows.Forms.Label();
-            this.Titulo2 = new System.Windows.Forms.Label();
-            this.panel6 = new System.Windows.Forms.Panel();
-            this.Descripcion3 = new System.Windows.Forms.RichTextBox();
-            this.LblTituloDescrip2 = new System.Windows.Forms.Label();
-            this.Cantidad2 = new System.Windows.Forms.NumericUpDown();
-            this.Precios3 = new System.Windows.Forms.Label();
-            this.Titulo3 = new System.Windows.Forms.Label();
-            this.panel10 = new System.Windows.Forms.Panel();
-            this.Descripcion1 = new System.Windows.Forms.RichTextBox();
-            this.LblTituloDescrip1 = new System.Windows.Forms.Label();
-            this.Cantidad1 = new System.Windows.Forms.NumericUpDown();
-            this.Precios1 = new System.Windows.Forms.Label();
-            this.Titulo1 = new System.Windows.Forms.Label();
-            this.TimerMouseWheelRest = new System.Windows.Forms.Timer(this.components);
             this.BtnCat7 = new System.Windows.Forms.Button();
             this.BtnCat6 = new System.Windows.Forms.Button();
             this.BtnCat5 = new System.Windows.Forms.Button();
@@ -84,10 +48,7 @@
             this.BtnCat3 = new System.Windows.Forms.Button();
             this.BtnCat2 = new System.Windows.Forms.Button();
             this.BtnCat1 = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
-            this.BtnUserBar = new System.Windows.Forms.Button();
-            this.BtnMinimizar = new System.Windows.Forms.PictureBox();
-            this.BtnCerrar = new System.Windows.Forms.PictureBox();
+            this.panelFondo = new System.Windows.Forms.Panel();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.LoginPanel = new System.Windows.Forms.Panel();
@@ -97,95 +58,117 @@
             this.BtnMostrarPassword = new System.Windows.Forms.Button();
             this.txtUsuarioLogin = new System.Windows.Forms.TextBox();
             this.PopUpCarrito = new System.Windows.Forms.Panel();
-            this.numericUpDown9 = new System.Windows.Forms.NumericUpDown();
-            this.numericUpDown10 = new System.Windows.Forms.NumericUpDown();
-            this.numericUpDown11 = new System.Windows.Forms.NumericUpDown();
-            this.numericUpDown5 = new System.Windows.Forms.NumericUpDown();
-            this.numericUpDown6 = new System.Windows.Forms.NumericUpDown();
-            this.numericUpDown7 = new System.Windows.Forms.NumericUpDown();
-            this.numericUpDown8 = new System.Windows.Forms.NumericUpDown();
-            this.numericUpDown3 = new System.Windows.Forms.NumericUpDown();
-            this.numericUpDown4 = new System.Windows.Forms.NumericUpDown();
-            this.numericUpDown2 = new System.Windows.Forms.NumericUpDown();
-            this.numericUpDown1 = new System.Windows.Forms.NumericUpDown();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.BtnPagar = new System.Windows.Forms.Button();
-            this.listView1 = new System.Windows.Forms.ListView();
-            this.Descripción = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.Precio = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.Cantidad = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.loginBar = new System.Windows.Forms.Panel();
             this.BtnIngresarBar = new System.Windows.Forms.Button();
             this.txtPAsswordBar = new System.Windows.Forms.TextBox();
             this.txtUsuarioBar = new System.Windows.Forms.TextBox();
+            this.panelGaleria = new System.Windows.Forms.Panel();
+            this.panel7 = new System.Windows.Forms.Panel();
             this.BtnAgregarCarrito6 = new System.Windows.Forms.Button();
+            this.Descripcion6 = new System.Windows.Forms.RichTextBox();
+            this.LblTituloDescrip6 = new System.Windows.Forms.Label();
+            this.Cantidad6 = new System.Windows.Forms.NumericUpDown();
             this.EtiquetaPrecio6 = new System.Windows.Forms.PictureBox();
+            this.Precios6 = new System.Windows.Forms.Label();
+            this.Titulo6 = new System.Windows.Forms.Label();
             this.imgLibro6 = new System.Windows.Forms.PictureBox();
+            this.panel8 = new System.Windows.Forms.Panel();
             this.BtnAgregarCarrito3 = new System.Windows.Forms.Button();
+            this.Descripcion5 = new System.Windows.Forms.RichTextBox();
+            this.LblTituloDescrip3 = new System.Windows.Forms.Label();
+            this.Cantidad3 = new System.Windows.Forms.NumericUpDown();
             this.EtiquetaPrecio3 = new System.Windows.Forms.PictureBox();
+            this.Precios5 = new System.Windows.Forms.Label();
+            this.Titulo5 = new System.Windows.Forms.Label();
             this.imgLibro5 = new System.Windows.Forms.PictureBox();
+            this.panel5 = new System.Windows.Forms.Panel();
             this.BtnAgregarCarrito5 = new System.Windows.Forms.Button();
+            this.Descripcion4 = new System.Windows.Forms.RichTextBox();
+            this.LblTituloDescrip5 = new System.Windows.Forms.Label();
+            this.Cantidad5 = new System.Windows.Forms.NumericUpDown();
             this.EtiquetaPrecio5 = new System.Windows.Forms.PictureBox();
+            this.Precios4 = new System.Windows.Forms.Label();
+            this.Titulo4 = new System.Windows.Forms.Label();
             this.imgLibro4 = new System.Windows.Forms.PictureBox();
+            this.panel4 = new System.Windows.Forms.Panel();
             this.BtnAgregarCarrito4 = new System.Windows.Forms.Button();
+            this.Descripcion2 = new System.Windows.Forms.RichTextBox();
+            this.LblTituloDescrip4 = new System.Windows.Forms.Label();
+            this.Cantidad4 = new System.Windows.Forms.NumericUpDown();
             this.EtiquetaPrecio4 = new System.Windows.Forms.PictureBox();
+            this.Precios2 = new System.Windows.Forms.Label();
+            this.Titulo2 = new System.Windows.Forms.Label();
             this.imgLibro2 = new System.Windows.Forms.PictureBox();
+            this.panel6 = new System.Windows.Forms.Panel();
             this.BtnAgregarCarrito2 = new System.Windows.Forms.Button();
+            this.Descripcion3 = new System.Windows.Forms.RichTextBox();
+            this.LblTituloDescrip2 = new System.Windows.Forms.Label();
+            this.Cantidad2 = new System.Windows.Forms.NumericUpDown();
             this.EtiquetaPrecio2 = new System.Windows.Forms.PictureBox();
+            this.Precios3 = new System.Windows.Forms.Label();
+            this.Titulo3 = new System.Windows.Forms.Label();
             this.imgLibro3 = new System.Windows.Forms.PictureBox();
+            this.panel10 = new System.Windows.Forms.Panel();
             this.BtnAgregarCarrito1 = new System.Windows.Forms.Button();
+            this.Descripcion1 = new System.Windows.Forms.RichTextBox();
+            this.LblTituloDescrip1 = new System.Windows.Forms.Label();
+            this.Cantidad1 = new System.Windows.Forms.NumericUpDown();
             this.EtiquetaPrecio1 = new System.Windows.Forms.PictureBox();
+            this.Precios1 = new System.Windows.Forms.Label();
+            this.Titulo1 = new System.Windows.Forms.Label();
             this.imgLibro1 = new System.Windows.Forms.PictureBox();
+            this.panelHola = new System.Windows.Forms.Panel();
+            this.TimerMouseWheelRest = new System.Windows.Forms.Timer(this.components);
+            this.panel3 = new System.Windows.Forms.Panel();
+            this.Carritopop = new System.Windows.Forms.DataGridView();
+            this.Agregar = new System.Windows.Forms.DataGridViewCheckBoxColumn();
+            this.Descripcion = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Cantidad = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Precio = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Eliminar = new System.Windows.Forms.DataGridViewButtonColumn();
             this.panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.BtnMinimizar)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.BtnCerrar)).BeginInit();
             this.panel2.SuspendLayout();
             this.PanelCategorias.SuspendLayout();
             this.panelFondo.SuspendLayout();
-            this.panelGaleria.SuspendLayout();
-            this.panel7.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.Cantidad6)).BeginInit();
-            this.panel8.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.Cantidad3)).BeginInit();
-            this.panel5.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.Cantidad5)).BeginInit();
-            this.panel4.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.Cantidad4)).BeginInit();
-            this.panel6.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.Cantidad2)).BeginInit();
-            this.panel10.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.Cantidad1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.BtnMinimizar)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.BtnCerrar)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.LoginPanel.SuspendLayout();
             this.PopUpCarrito.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown9)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown10)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown11)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown5)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown6)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown7)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown8)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.loginBar.SuspendLayout();
+            this.panelGaleria.SuspendLayout();
+            this.panel7.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.Cantidad6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.EtiquetaPrecio6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.imgLibro6)).BeginInit();
+            this.panel8.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.Cantidad3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.EtiquetaPrecio3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.imgLibro5)).BeginInit();
+            this.panel5.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.Cantidad5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.EtiquetaPrecio5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.imgLibro4)).BeginInit();
+            this.panel4.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.Cantidad4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.EtiquetaPrecio4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.imgLibro2)).BeginInit();
+            this.panel6.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.Cantidad2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.EtiquetaPrecio2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.imgLibro3)).BeginInit();
+            this.panel10.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.Cantidad1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.EtiquetaPrecio1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.imgLibro1)).BeginInit();
+            this.panel3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.Carritopop)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
@@ -211,6 +194,30 @@
             this.TituloProgram.TabIndex = 4;
             this.TituloProgram.Text = "La Casa del Libro";
             // 
+            // BtnMinimizar
+            // 
+            this.BtnMinimizar.Dock = System.Windows.Forms.DockStyle.Right;
+            this.BtnMinimizar.Image = ((System.Drawing.Image)(resources.GetObject("BtnMinimizar.Image")));
+            this.BtnMinimizar.Location = new System.Drawing.Point(940, 0);
+            this.BtnMinimizar.Name = "BtnMinimizar";
+            this.BtnMinimizar.Size = new System.Drawing.Size(30, 30);
+            this.BtnMinimizar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.BtnMinimizar.TabIndex = 3;
+            this.BtnMinimizar.TabStop = false;
+            this.BtnMinimizar.Click += new System.EventHandler(this.BtnMinimizar_Click);
+            // 
+            // BtnCerrar
+            // 
+            this.BtnCerrar.Dock = System.Windows.Forms.DockStyle.Right;
+            this.BtnCerrar.Image = ((System.Drawing.Image)(resources.GetObject("BtnCerrar.Image")));
+            this.BtnCerrar.Location = new System.Drawing.Point(970, 0);
+            this.BtnCerrar.Name = "BtnCerrar";
+            this.BtnCerrar.Size = new System.Drawing.Size(30, 30);
+            this.BtnCerrar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.BtnCerrar.TabIndex = 2;
+            this.BtnCerrar.TabStop = false;
+            this.BtnCerrar.Click += new System.EventHandler(this.BtnCerrar_Click);
+            // 
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(208)))), ((int)(((byte)(63)))));
@@ -225,6 +232,34 @@
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(1000, 40);
             this.panel2.TabIndex = 2;
+            // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.Transparent;
+            this.button1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button1.BackgroundImage")));
+            this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button1.FlatAppearance.BorderSize = 0;
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button1.Location = new System.Drawing.Point(962, 5);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(30, 30);
+            this.button1.TabIndex = 6;
+            this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // BtnUserBar
+            // 
+            this.BtnUserBar.BackColor = System.Drawing.Color.Transparent;
+            this.BtnUserBar.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("BtnUserBar.BackgroundImage")));
+            this.BtnUserBar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.BtnUserBar.FlatAppearance.BorderSize = 0;
+            this.BtnUserBar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.BtnUserBar.Location = new System.Drawing.Point(835, 5);
+            this.BtnUserBar.Name = "BtnUserBar";
+            this.BtnUserBar.Size = new System.Drawing.Size(30, 30);
+            this.BtnUserBar.TabIndex = 5;
+            this.BtnUserBar.UseVisualStyleBackColor = false;
+            this.BtnUserBar.Click += new System.EventHandler(this.BtnUserBar_Click);
             // 
             // lblNombreCategoriaBar
             // 
@@ -272,442 +307,6 @@
             this.PanelCategorias.TabIndex = 7;
             this.PanelCategorias.MouseLeave += new System.EventHandler(this.PanelCategorias_MouseLeave);
             this.PanelCategorias.MouseHover += new System.EventHandler(this.PanelCategorias_MouseHover);
-            // 
-            // panelFondo
-            // 
-            this.panelFondo.Controls.Add(this.pictureBox3);
-            this.panelFondo.Controls.Add(this.pictureBox2);
-            this.panelFondo.Controls.Add(this.LoginPanel);
-            this.panelFondo.Controls.Add(this.PopUpCarrito);
-            this.panelFondo.Controls.Add(this.loginBar);
-            this.panelFondo.Controls.Add(this.panelGaleria);
-            this.panelFondo.Location = new System.Drawing.Point(60, 69);
-            this.panelFondo.Name = "panelFondo";
-            this.panelFondo.Size = new System.Drawing.Size(940, 631);
-            this.panelFondo.TabIndex = 9;
-            this.panelFondo.Scroll += new System.Windows.Forms.ScrollEventHandler(this.panel9_Scroll);
-            // 
-            // panelGaleria
-            // 
-            this.panelGaleria.Controls.Add(this.panel7);
-            this.panelGaleria.Controls.Add(this.panel8);
-            this.panelGaleria.Controls.Add(this.panel5);
-            this.panelGaleria.Controls.Add(this.panel4);
-            this.panelGaleria.Controls.Add(this.panel6);
-            this.panelGaleria.Controls.Add(this.panel10);
-            this.panelGaleria.Controls.Add(this.panelHola);
-            this.panelGaleria.Location = new System.Drawing.Point(23, 6);
-            this.panelGaleria.Name = "panelGaleria";
-            this.panelGaleria.Size = new System.Drawing.Size(869, 576);
-            this.panelGaleria.TabIndex = 36;
-            // 
-            // panelHola
-            // 
-            this.panelHola.Location = new System.Drawing.Point(8, 8);
-            this.panelHola.Name = "panelHola";
-            this.panelHola.Size = new System.Drawing.Size(869, 576);
-            this.panelHola.TabIndex = 41;
-            // 
-            // panel7
-            // 
-            this.panel7.BackColor = System.Drawing.Color.Gainsboro;
-            this.panel7.Controls.Add(this.BtnAgregarCarrito6);
-            this.panel7.Controls.Add(this.Descripcion6);
-            this.panel7.Controls.Add(this.LblTituloDescrip6);
-            this.panel7.Controls.Add(this.Cantidad6);
-            this.panel7.Controls.Add(this.EtiquetaPrecio6);
-            this.panel7.Controls.Add(this.Precios6);
-            this.panel7.Controls.Add(this.Titulo6);
-            this.panel7.Controls.Add(this.imgLibro6);
-            this.panel7.Location = new System.Drawing.Point(438, 400);
-            this.panel7.Name = "panel7";
-            this.panel7.Size = new System.Drawing.Size(425, 190);
-            this.panel7.TabIndex = 39;
-            // 
-            // Descripcion6
-            // 
-            this.Descripcion6.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.Descripcion6.Location = new System.Drawing.Point(148, 80);
-            this.Descripcion6.MaxLength = 80;
-            this.Descripcion6.Name = "Descripcion6";
-            this.Descripcion6.ReadOnly = true;
-            this.Descripcion6.Size = new System.Drawing.Size(268, 52);
-            this.Descripcion6.TabIndex = 26;
-            this.Descripcion6.Text = "";
-            // 
-            // LblTituloDescrip6
-            // 
-            this.LblTituloDescrip6.AutoSize = true;
-            this.LblTituloDescrip6.Location = new System.Drawing.Point(145, 58);
-            this.LblTituloDescrip6.Name = "LblTituloDescrip6";
-            this.LblTituloDescrip6.Size = new System.Drawing.Size(66, 13);
-            this.LblTituloDescrip6.TabIndex = 24;
-            this.LblTituloDescrip6.Text = "Descripción:";
-            // 
-            // Cantidad6
-            // 
-            this.Cantidad6.Location = new System.Drawing.Point(327, 147);
-            this.Cantidad6.Name = "Cantidad6";
-            this.Cantidad6.Size = new System.Drawing.Size(50, 20);
-            this.Cantidad6.TabIndex = 23;
-            this.Cantidad6.Value = new decimal(new int[] {
-            1,
-            0,
-            0,
-            0});
-            // 
-            // Precios6
-            // 
-            this.Precios6.AutoSize = true;
-            this.Precios6.Location = new System.Drawing.Point(184, 155);
-            this.Precios6.Name = "Precios6";
-            this.Precios6.Size = new System.Drawing.Size(13, 13);
-            this.Precios6.TabIndex = 21;
-            this.Precios6.Text = "$";
-            // 
-            // Titulo6
-            // 
-            this.Titulo6.AutoSize = true;
-            this.Titulo6.Location = new System.Drawing.Point(145, 23);
-            this.Titulo6.Name = "Titulo6";
-            this.Titulo6.Size = new System.Drawing.Size(35, 13);
-            this.Titulo6.TabIndex = 19;
-            this.Titulo6.Text = "Título";
-            // 
-            // panel8
-            // 
-            this.panel8.BackColor = System.Drawing.Color.Gainsboro;
-            this.panel8.Controls.Add(this.BtnAgregarCarrito3);
-            this.panel8.Controls.Add(this.Descripcion5);
-            this.panel8.Controls.Add(this.LblTituloDescrip3);
-            this.panel8.Controls.Add(this.Cantidad3);
-            this.panel8.Controls.Add(this.EtiquetaPrecio3);
-            this.panel8.Controls.Add(this.Precios5);
-            this.panel8.Controls.Add(this.Titulo5);
-            this.panel8.Controls.Add(this.imgLibro5);
-            this.panel8.Location = new System.Drawing.Point(6, 400);
-            this.panel8.Name = "panel8";
-            this.panel8.Size = new System.Drawing.Size(425, 190);
-            this.panel8.TabIndex = 38;
-            // 
-            // Descripcion5
-            // 
-            this.Descripcion5.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.Descripcion5.Location = new System.Drawing.Point(148, 80);
-            this.Descripcion5.MaxLength = 80;
-            this.Descripcion5.Name = "Descripcion5";
-            this.Descripcion5.ReadOnly = true;
-            this.Descripcion5.Size = new System.Drawing.Size(268, 52);
-            this.Descripcion5.TabIndex = 26;
-            this.Descripcion5.Text = "";
-            // 
-            // LblTituloDescrip3
-            // 
-            this.LblTituloDescrip3.AutoSize = true;
-            this.LblTituloDescrip3.Location = new System.Drawing.Point(145, 58);
-            this.LblTituloDescrip3.Name = "LblTituloDescrip3";
-            this.LblTituloDescrip3.Size = new System.Drawing.Size(66, 13);
-            this.LblTituloDescrip3.TabIndex = 24;
-            this.LblTituloDescrip3.Text = "Descripción:";
-            // 
-            // Cantidad3
-            // 
-            this.Cantidad3.Location = new System.Drawing.Point(330, 147);
-            this.Cantidad3.Name = "Cantidad3";
-            this.Cantidad3.Size = new System.Drawing.Size(50, 20);
-            this.Cantidad3.TabIndex = 23;
-            this.Cantidad3.Value = new decimal(new int[] {
-            1,
-            0,
-            0,
-            0});
-            // 
-            // Precios5
-            // 
-            this.Precios5.AutoSize = true;
-            this.Precios5.Location = new System.Drawing.Point(184, 155);
-            this.Precios5.Name = "Precios5";
-            this.Precios5.Size = new System.Drawing.Size(13, 13);
-            this.Precios5.TabIndex = 21;
-            this.Precios5.Text = "$";
-            // 
-            // Titulo5
-            // 
-            this.Titulo5.AutoSize = true;
-            this.Titulo5.Location = new System.Drawing.Point(145, 23);
-            this.Titulo5.Name = "Titulo5";
-            this.Titulo5.Size = new System.Drawing.Size(35, 13);
-            this.Titulo5.TabIndex = 19;
-            this.Titulo5.Text = "Título";
-            // 
-            // panel5
-            // 
-            this.panel5.BackColor = System.Drawing.Color.Gainsboro;
-            this.panel5.Controls.Add(this.BtnAgregarCarrito5);
-            this.panel5.Controls.Add(this.Descripcion4);
-            this.panel5.Controls.Add(this.LblTituloDescrip5);
-            this.panel5.Controls.Add(this.Cantidad5);
-            this.panel5.Controls.Add(this.EtiquetaPrecio5);
-            this.panel5.Controls.Add(this.Precios4);
-            this.panel5.Controls.Add(this.Titulo4);
-            this.panel5.Controls.Add(this.imgLibro4);
-            this.panel5.Location = new System.Drawing.Point(438, 206);
-            this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(425, 190);
-            this.panel5.TabIndex = 40;
-            // 
-            // Descripcion4
-            // 
-            this.Descripcion4.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.Descripcion4.Location = new System.Drawing.Point(148, 80);
-            this.Descripcion4.MaxLength = 80;
-            this.Descripcion4.Name = "Descripcion4";
-            this.Descripcion4.ReadOnly = true;
-            this.Descripcion4.Size = new System.Drawing.Size(268, 52);
-            this.Descripcion4.TabIndex = 26;
-            this.Descripcion4.Text = "";
-            // 
-            // LblTituloDescrip5
-            // 
-            this.LblTituloDescrip5.AutoSize = true;
-            this.LblTituloDescrip5.Location = new System.Drawing.Point(145, 58);
-            this.LblTituloDescrip5.Name = "LblTituloDescrip5";
-            this.LblTituloDescrip5.Size = new System.Drawing.Size(66, 13);
-            this.LblTituloDescrip5.TabIndex = 24;
-            this.LblTituloDescrip5.Text = "Descripción:";
-            // 
-            // Cantidad5
-            // 
-            this.Cantidad5.Location = new System.Drawing.Point(327, 149);
-            this.Cantidad5.Name = "Cantidad5";
-            this.Cantidad5.Size = new System.Drawing.Size(50, 20);
-            this.Cantidad5.TabIndex = 23;
-            this.Cantidad5.Value = new decimal(new int[] {
-            1,
-            0,
-            0,
-            0});
-            // 
-            // Precios4
-            // 
-            this.Precios4.AutoSize = true;
-            this.Precios4.Location = new System.Drawing.Point(184, 155);
-            this.Precios4.Name = "Precios4";
-            this.Precios4.Size = new System.Drawing.Size(13, 13);
-            this.Precios4.TabIndex = 21;
-            this.Precios4.Text = "$";
-            // 
-            // Titulo4
-            // 
-            this.Titulo4.AutoSize = true;
-            this.Titulo4.Location = new System.Drawing.Point(145, 23);
-            this.Titulo4.Name = "Titulo4";
-            this.Titulo4.Size = new System.Drawing.Size(35, 13);
-            this.Titulo4.TabIndex = 19;
-            this.Titulo4.Text = "Título";
-            // 
-            // panel4
-            // 
-            this.panel4.BackColor = System.Drawing.Color.Gainsboro;
-            this.panel4.Controls.Add(this.BtnAgregarCarrito4);
-            this.panel4.Controls.Add(this.Descripcion2);
-            this.panel4.Controls.Add(this.LblTituloDescrip4);
-            this.panel4.Controls.Add(this.Cantidad4);
-            this.panel4.Controls.Add(this.EtiquetaPrecio4);
-            this.panel4.Controls.Add(this.Precios2);
-            this.panel4.Controls.Add(this.Titulo2);
-            this.panel4.Controls.Add(this.imgLibro2);
-            this.panel4.Location = new System.Drawing.Point(438, 10);
-            this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(425, 190);
-            this.panel4.TabIndex = 36;
-            // 
-            // Descripcion2
-            // 
-            this.Descripcion2.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.Descripcion2.Location = new System.Drawing.Point(148, 80);
-            this.Descripcion2.MaxLength = 80;
-            this.Descripcion2.Name = "Descripcion2";
-            this.Descripcion2.ReadOnly = true;
-            this.Descripcion2.Size = new System.Drawing.Size(268, 52);
-            this.Descripcion2.TabIndex = 25;
-            this.Descripcion2.Text = "";
-            // 
-            // LblTituloDescrip4
-            // 
-            this.LblTituloDescrip4.AutoSize = true;
-            this.LblTituloDescrip4.Location = new System.Drawing.Point(145, 58);
-            this.LblTituloDescrip4.Name = "LblTituloDescrip4";
-            this.LblTituloDescrip4.Size = new System.Drawing.Size(66, 13);
-            this.LblTituloDescrip4.TabIndex = 24;
-            this.LblTituloDescrip4.Text = "Descripción:";
-            // 
-            // Cantidad4
-            // 
-            this.Cantidad4.Location = new System.Drawing.Point(327, 149);
-            this.Cantidad4.Name = "Cantidad4";
-            this.Cantidad4.Size = new System.Drawing.Size(50, 20);
-            this.Cantidad4.TabIndex = 23;
-            this.Cantidad4.Value = new decimal(new int[] {
-            1,
-            0,
-            0,
-            0});
-            // 
-            // Precios2
-            // 
-            this.Precios2.AutoSize = true;
-            this.Precios2.Location = new System.Drawing.Point(184, 155);
-            this.Precios2.Name = "Precios2";
-            this.Precios2.Size = new System.Drawing.Size(13, 13);
-            this.Precios2.TabIndex = 21;
-            this.Precios2.Text = "$";
-            // 
-            // Titulo2
-            // 
-            this.Titulo2.AutoSize = true;
-            this.Titulo2.Location = new System.Drawing.Point(145, 23);
-            this.Titulo2.Name = "Titulo2";
-            this.Titulo2.Size = new System.Drawing.Size(35, 13);
-            this.Titulo2.TabIndex = 19;
-            this.Titulo2.Text = "Título";
-            // 
-            // panel6
-            // 
-            this.panel6.BackColor = System.Drawing.Color.Gainsboro;
-            this.panel6.Controls.Add(this.BtnAgregarCarrito2);
-            this.panel6.Controls.Add(this.Descripcion3);
-            this.panel6.Controls.Add(this.LblTituloDescrip2);
-            this.panel6.Controls.Add(this.Cantidad2);
-            this.panel6.Controls.Add(this.EtiquetaPrecio2);
-            this.panel6.Controls.Add(this.Precios3);
-            this.panel6.Controls.Add(this.Titulo3);
-            this.panel6.Controls.Add(this.imgLibro3);
-            this.panel6.Location = new System.Drawing.Point(6, 206);
-            this.panel6.Name = "panel6";
-            this.panel6.Size = new System.Drawing.Size(425, 190);
-            this.panel6.TabIndex = 37;
-            // 
-            // Descripcion3
-            // 
-            this.Descripcion3.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.Descripcion3.Location = new System.Drawing.Point(148, 80);
-            this.Descripcion3.MaxLength = 80;
-            this.Descripcion3.Name = "Descripcion3";
-            this.Descripcion3.ReadOnly = true;
-            this.Descripcion3.Size = new System.Drawing.Size(268, 52);
-            this.Descripcion3.TabIndex = 26;
-            this.Descripcion3.Text = "";
-            // 
-            // LblTituloDescrip2
-            // 
-            this.LblTituloDescrip2.AutoSize = true;
-            this.LblTituloDescrip2.Location = new System.Drawing.Point(145, 58);
-            this.LblTituloDescrip2.Name = "LblTituloDescrip2";
-            this.LblTituloDescrip2.Size = new System.Drawing.Size(66, 13);
-            this.LblTituloDescrip2.TabIndex = 24;
-            this.LblTituloDescrip2.Text = "Descripción:";
-            // 
-            // Cantidad2
-            // 
-            this.Cantidad2.Location = new System.Drawing.Point(330, 148);
-            this.Cantidad2.Name = "Cantidad2";
-            this.Cantidad2.Size = new System.Drawing.Size(50, 20);
-            this.Cantidad2.TabIndex = 23;
-            this.Cantidad2.Value = new decimal(new int[] {
-            1,
-            0,
-            0,
-            0});
-            // 
-            // Precios3
-            // 
-            this.Precios3.AutoSize = true;
-            this.Precios3.Location = new System.Drawing.Point(184, 155);
-            this.Precios3.Name = "Precios3";
-            this.Precios3.Size = new System.Drawing.Size(13, 13);
-            this.Precios3.TabIndex = 21;
-            this.Precios3.Text = "$";
-            // 
-            // Titulo3
-            // 
-            this.Titulo3.AutoSize = true;
-            this.Titulo3.Location = new System.Drawing.Point(145, 23);
-            this.Titulo3.Name = "Titulo3";
-            this.Titulo3.Size = new System.Drawing.Size(35, 13);
-            this.Titulo3.TabIndex = 19;
-            this.Titulo3.Text = "Título";
-            // 
-            // panel10
-            // 
-            this.panel10.BackColor = System.Drawing.Color.Gainsboro;
-            this.panel10.Controls.Add(this.BtnAgregarCarrito1);
-            this.panel10.Controls.Add(this.Descripcion1);
-            this.panel10.Controls.Add(this.LblTituloDescrip1);
-            this.panel10.Controls.Add(this.Cantidad1);
-            this.panel10.Controls.Add(this.EtiquetaPrecio1);
-            this.panel10.Controls.Add(this.Precios1);
-            this.panel10.Controls.Add(this.Titulo1);
-            this.panel10.Controls.Add(this.imgLibro1);
-            this.panel10.Location = new System.Drawing.Point(6, 10);
-            this.panel10.Name = "panel10";
-            this.panel10.Size = new System.Drawing.Size(425, 190);
-            this.panel10.TabIndex = 35;
-            // 
-            // Descripcion1
-            // 
-            this.Descripcion1.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.Descripcion1.Location = new System.Drawing.Point(148, 80);
-            this.Descripcion1.MaxLength = 5;
-            this.Descripcion1.Name = "Descripcion1";
-            this.Descripcion1.ReadOnly = true;
-            this.Descripcion1.Size = new System.Drawing.Size(268, 52);
-            this.Descripcion1.TabIndex = 26;
-            this.Descripcion1.Text = "";
-            // 
-            // LblTituloDescrip1
-            // 
-            this.LblTituloDescrip1.AutoSize = true;
-            this.LblTituloDescrip1.Location = new System.Drawing.Point(145, 58);
-            this.LblTituloDescrip1.Name = "LblTituloDescrip1";
-            this.LblTituloDescrip1.Size = new System.Drawing.Size(66, 13);
-            this.LblTituloDescrip1.TabIndex = 24;
-            this.LblTituloDescrip1.Text = "Descripción:";
-            // 
-            // Cantidad1
-            // 
-            this.Cantidad1.Location = new System.Drawing.Point(330, 153);
-            this.Cantidad1.Name = "Cantidad1";
-            this.Cantidad1.Size = new System.Drawing.Size(50, 20);
-            this.Cantidad1.TabIndex = 23;
-            this.Cantidad1.Value = new decimal(new int[] {
-            1,
-            0,
-            0,
-            0});
-            // 
-            // Precios1
-            // 
-            this.Precios1.AutoSize = true;
-            this.Precios1.Location = new System.Drawing.Point(184, 155);
-            this.Precios1.Name = "Precios1";
-            this.Precios1.Size = new System.Drawing.Size(13, 13);
-            this.Precios1.TabIndex = 21;
-            this.Precios1.Text = "$";
-            // 
-            // Titulo1
-            // 
-            this.Titulo1.AutoSize = true;
-            this.Titulo1.Location = new System.Drawing.Point(145, 23);
-            this.Titulo1.Name = "Titulo1";
-            this.Titulo1.Size = new System.Drawing.Size(35, 13);
-            this.Titulo1.TabIndex = 19;
-            this.Titulo1.Text = "Título";
-            // 
-            // TimerMouseWheelRest
-            // 
-            this.TimerMouseWheelRest.Interval = 1000;
-            this.TimerMouseWheelRest.Tick += new System.EventHandler(this.TimerMouseWheelRest_Tick);
             // 
             // BtnCat7
             // 
@@ -843,57 +442,19 @@
             this.BtnCat1.MouseLeave += new System.EventHandler(this.BtnCat7_MouseLeave_1);
             this.BtnCat1.MouseHover += new System.EventHandler(this.BtnCat7_MouseHover);
             // 
-            // button1
+            // panelFondo
             // 
-            this.button1.BackColor = System.Drawing.Color.Transparent;
-            this.button1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button1.BackgroundImage")));
-            this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button1.FlatAppearance.BorderSize = 0;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Location = new System.Drawing.Point(962, 5);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(30, 30);
-            this.button1.TabIndex = 6;
-            this.button1.UseVisualStyleBackColor = false;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
-            // 
-            // BtnUserBar
-            // 
-            this.BtnUserBar.BackColor = System.Drawing.Color.Transparent;
-            this.BtnUserBar.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("BtnUserBar.BackgroundImage")));
-            this.BtnUserBar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.BtnUserBar.FlatAppearance.BorderSize = 0;
-            this.BtnUserBar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.BtnUserBar.Location = new System.Drawing.Point(835, 5);
-            this.BtnUserBar.Name = "BtnUserBar";
-            this.BtnUserBar.Size = new System.Drawing.Size(30, 30);
-            this.BtnUserBar.TabIndex = 5;
-            this.BtnUserBar.UseVisualStyleBackColor = false;
-            this.BtnUserBar.Click += new System.EventHandler(this.BtnUserBar_Click);
-            // 
-            // BtnMinimizar
-            // 
-            this.BtnMinimizar.Dock = System.Windows.Forms.DockStyle.Right;
-            this.BtnMinimizar.Image = ((System.Drawing.Image)(resources.GetObject("BtnMinimizar.Image")));
-            this.BtnMinimizar.Location = new System.Drawing.Point(940, 0);
-            this.BtnMinimizar.Name = "BtnMinimizar";
-            this.BtnMinimizar.Size = new System.Drawing.Size(30, 30);
-            this.BtnMinimizar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.BtnMinimizar.TabIndex = 3;
-            this.BtnMinimizar.TabStop = false;
-            this.BtnMinimizar.Click += new System.EventHandler(this.BtnMinimizar_Click);
-            // 
-            // BtnCerrar
-            // 
-            this.BtnCerrar.Dock = System.Windows.Forms.DockStyle.Right;
-            this.BtnCerrar.Image = ((System.Drawing.Image)(resources.GetObject("BtnCerrar.Image")));
-            this.BtnCerrar.Location = new System.Drawing.Point(970, 0);
-            this.BtnCerrar.Name = "BtnCerrar";
-            this.BtnCerrar.Size = new System.Drawing.Size(30, 30);
-            this.BtnCerrar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.BtnCerrar.TabIndex = 2;
-            this.BtnCerrar.TabStop = false;
-            this.BtnCerrar.Click += new System.EventHandler(this.BtnCerrar_Click);
+            this.panelFondo.Controls.Add(this.PopUpCarrito);
+            this.panelFondo.Controls.Add(this.pictureBox3);
+            this.panelFondo.Controls.Add(this.pictureBox2);
+            this.panelFondo.Controls.Add(this.LoginPanel);
+            this.panelFondo.Controls.Add(this.loginBar);
+            this.panelFondo.Controls.Add(this.panelGaleria);
+            this.panelFondo.Location = new System.Drawing.Point(60, 69);
+            this.panelFondo.Name = "panelFondo";
+            this.panelFondo.Size = new System.Drawing.Size(940, 631);
+            this.panelFondo.TabIndex = 9;
+            this.panelFondo.Scroll += new System.Windows.Forms.ScrollEventHandler(this.panel9_Scroll);
             // 
             // pictureBox3
             // 
@@ -1004,116 +565,17 @@
             this.PopUpCarrito.BackColor = System.Drawing.Color.Transparent;
             this.PopUpCarrito.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("PopUpCarrito.BackgroundImage")));
             this.PopUpCarrito.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.PopUpCarrito.Controls.Add(this.numericUpDown9);
-            this.PopUpCarrito.Controls.Add(this.numericUpDown10);
-            this.PopUpCarrito.Controls.Add(this.numericUpDown11);
-            this.PopUpCarrito.Controls.Add(this.numericUpDown5);
-            this.PopUpCarrito.Controls.Add(this.numericUpDown6);
-            this.PopUpCarrito.Controls.Add(this.numericUpDown7);
-            this.PopUpCarrito.Controls.Add(this.numericUpDown8);
-            this.PopUpCarrito.Controls.Add(this.numericUpDown3);
-            this.PopUpCarrito.Controls.Add(this.numericUpDown4);
-            this.PopUpCarrito.Controls.Add(this.numericUpDown2);
-            this.PopUpCarrito.Controls.Add(this.numericUpDown1);
+            this.PopUpCarrito.Controls.Add(this.panel3);
             this.PopUpCarrito.Controls.Add(this.label2);
             this.PopUpCarrito.Controls.Add(this.label1);
             this.PopUpCarrito.Controls.Add(this.BtnPagar);
-            this.PopUpCarrito.Controls.Add(this.listView1);
             this.PopUpCarrito.Controls.Add(this.pictureBox1);
             this.PopUpCarrito.Enabled = false;
-            this.PopUpCarrito.Location = new System.Drawing.Point(888, 74);
+            this.PopUpCarrito.Location = new System.Drawing.Point(910, 73);
             this.PopUpCarrito.Name = "PopUpCarrito";
-            this.PopUpCarrito.Size = new System.Drawing.Size(52, 0);
+            this.PopUpCarrito.Size = new System.Drawing.Size(54, 100);
             this.PopUpCarrito.TabIndex = 35;
             this.PopUpCarrito.Visible = false;
-            // 
-            // numericUpDown9
-            // 
-            this.numericUpDown9.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.numericUpDown9.Location = new System.Drawing.Point(357, 181);
-            this.numericUpDown9.Name = "numericUpDown9";
-            this.numericUpDown9.Size = new System.Drawing.Size(40, 16);
-            this.numericUpDown9.TabIndex = 16;
-            // 
-            // numericUpDown10
-            // 
-            this.numericUpDown10.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.numericUpDown10.Location = new System.Drawing.Point(357, 250);
-            this.numericUpDown10.Name = "numericUpDown10";
-            this.numericUpDown10.Size = new System.Drawing.Size(40, 16);
-            this.numericUpDown10.TabIndex = 15;
-            // 
-            // numericUpDown11
-            // 
-            this.numericUpDown11.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.numericUpDown11.Location = new System.Drawing.Point(357, 232);
-            this.numericUpDown11.Name = "numericUpDown11";
-            this.numericUpDown11.Size = new System.Drawing.Size(40, 16);
-            this.numericUpDown11.TabIndex = 14;
-            // 
-            // numericUpDown5
-            // 
-            this.numericUpDown5.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.numericUpDown5.Location = new System.Drawing.Point(357, 215);
-            this.numericUpDown5.Name = "numericUpDown5";
-            this.numericUpDown5.Size = new System.Drawing.Size(40, 16);
-            this.numericUpDown5.TabIndex = 13;
-            // 
-            // numericUpDown6
-            // 
-            this.numericUpDown6.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.numericUpDown6.Location = new System.Drawing.Point(357, 199);
-            this.numericUpDown6.Name = "numericUpDown6";
-            this.numericUpDown6.Size = new System.Drawing.Size(40, 16);
-            this.numericUpDown6.TabIndex = 12;
-            // 
-            // numericUpDown7
-            // 
-            this.numericUpDown7.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.numericUpDown7.Location = new System.Drawing.Point(357, 165);
-            this.numericUpDown7.Name = "numericUpDown7";
-            this.numericUpDown7.Size = new System.Drawing.Size(40, 16);
-            this.numericUpDown7.TabIndex = 11;
-            // 
-            // numericUpDown8
-            // 
-            this.numericUpDown8.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.numericUpDown8.Location = new System.Drawing.Point(357, 149);
-            this.numericUpDown8.Name = "numericUpDown8";
-            this.numericUpDown8.Size = new System.Drawing.Size(40, 16);
-            this.numericUpDown8.TabIndex = 10;
-            // 
-            // numericUpDown3
-            // 
-            this.numericUpDown3.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.numericUpDown3.Location = new System.Drawing.Point(357, 132);
-            this.numericUpDown3.Name = "numericUpDown3";
-            this.numericUpDown3.Size = new System.Drawing.Size(40, 16);
-            this.numericUpDown3.TabIndex = 9;
-            // 
-            // numericUpDown4
-            // 
-            this.numericUpDown4.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.numericUpDown4.Location = new System.Drawing.Point(357, 114);
-            this.numericUpDown4.Name = "numericUpDown4";
-            this.numericUpDown4.Size = new System.Drawing.Size(40, 16);
-            this.numericUpDown4.TabIndex = 8;
-            // 
-            // numericUpDown2
-            // 
-            this.numericUpDown2.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.numericUpDown2.Location = new System.Drawing.Point(357, 96);
-            this.numericUpDown2.Name = "numericUpDown2";
-            this.numericUpDown2.Size = new System.Drawing.Size(40, 16);
-            this.numericUpDown2.TabIndex = 7;
-            // 
-            // numericUpDown1
-            // 
-            this.numericUpDown1.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.numericUpDown1.Location = new System.Drawing.Point(357, 77);
-            this.numericUpDown1.Name = "numericUpDown1";
-            this.numericUpDown1.Size = new System.Drawing.Size(40, 16);
-            this.numericUpDown1.TabIndex = 6;
             // 
             // label2
             // 
@@ -1151,42 +613,13 @@
             this.BtnPagar.UseVisualStyleBackColor = false;
             this.BtnPagar.Click += new System.EventHandler(this.BtnPagar_Click);
             // 
-            // listView1
-            // 
-            this.listView1.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.listView1.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
-            this.Descripción,
-            this.Precio,
-            this.Cantidad});
-            this.listView1.GridLines = true;
-            this.listView1.Location = new System.Drawing.Point(17, 54);
-            this.listView1.Name = "listView1";
-            this.listView1.Size = new System.Drawing.Size(334, 212);
-            this.listView1.TabIndex = 2;
-            this.listView1.UseCompatibleStateImageBehavior = false;
-            this.listView1.View = System.Windows.Forms.View.Details;
-            // 
-            // Descripción
-            // 
-            this.Descripción.Text = "Descripción";
-            this.Descripción.Width = 216;
-            // 
-            // Precio
-            // 
-            this.Precio.Text = "Precio";
-            // 
-            // Cantidad
-            // 
-            this.Cantidad.Text = "Cantidad";
-            this.Cantidad.Width = 57;
-            // 
             // pictureBox1
             // 
             this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Top;
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
             this.pictureBox1.Location = new System.Drawing.Point(0, 0);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(52, 42);
+            this.pictureBox1.Size = new System.Drawing.Size(54, 42);
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             // 
@@ -1244,6 +677,36 @@
             this.txtUsuarioBar.TabIndex = 0;
             this.txtUsuarioBar.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
+            // panelGaleria
+            // 
+            this.panelGaleria.Controls.Add(this.panel7);
+            this.panelGaleria.Controls.Add(this.panel8);
+            this.panelGaleria.Controls.Add(this.panel5);
+            this.panelGaleria.Controls.Add(this.panel4);
+            this.panelGaleria.Controls.Add(this.panel6);
+            this.panelGaleria.Controls.Add(this.panel10);
+            this.panelGaleria.Controls.Add(this.panelHola);
+            this.panelGaleria.Location = new System.Drawing.Point(23, 6);
+            this.panelGaleria.Name = "panelGaleria";
+            this.panelGaleria.Size = new System.Drawing.Size(869, 576);
+            this.panelGaleria.TabIndex = 36;
+            // 
+            // panel7
+            // 
+            this.panel7.BackColor = System.Drawing.Color.Gainsboro;
+            this.panel7.Controls.Add(this.BtnAgregarCarrito6);
+            this.panel7.Controls.Add(this.Descripcion6);
+            this.panel7.Controls.Add(this.LblTituloDescrip6);
+            this.panel7.Controls.Add(this.Cantidad6);
+            this.panel7.Controls.Add(this.EtiquetaPrecio6);
+            this.panel7.Controls.Add(this.Precios6);
+            this.panel7.Controls.Add(this.Titulo6);
+            this.panel7.Controls.Add(this.imgLibro6);
+            this.panel7.Location = new System.Drawing.Point(438, 400);
+            this.panel7.Name = "panel7";
+            this.panel7.Size = new System.Drawing.Size(425, 190);
+            this.panel7.TabIndex = 39;
+            // 
             // BtnAgregarCarrito6
             // 
             this.BtnAgregarCarrito6.BackColor = System.Drawing.Color.Transparent;
@@ -1256,6 +719,49 @@
             this.BtnAgregarCarrito6.Size = new System.Drawing.Size(30, 30);
             this.BtnAgregarCarrito6.TabIndex = 32;
             this.BtnAgregarCarrito6.UseVisualStyleBackColor = false;
+            this.BtnAgregarCarrito6.Click += new System.EventHandler(this.BtnAgregarCarrito6_Click);
+            // 
+            // Descripcion6
+            // 
+            this.Descripcion6.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.Descripcion6.Location = new System.Drawing.Point(148, 80);
+            this.Descripcion6.MaxLength = 80;
+            this.Descripcion6.Name = "Descripcion6";
+            this.Descripcion6.ReadOnly = true;
+            this.Descripcion6.Size = new System.Drawing.Size(268, 52);
+            this.Descripcion6.TabIndex = 26;
+            this.Descripcion6.Text = "";
+            // 
+            // LblTituloDescrip6
+            // 
+            this.LblTituloDescrip6.AutoSize = true;
+            this.LblTituloDescrip6.Location = new System.Drawing.Point(145, 58);
+            this.LblTituloDescrip6.Name = "LblTituloDescrip6";
+            this.LblTituloDescrip6.Size = new System.Drawing.Size(66, 13);
+            this.LblTituloDescrip6.TabIndex = 24;
+            this.LblTituloDescrip6.Text = "Descripción:";
+            // 
+            // Cantidad6
+            // 
+            this.Cantidad6.Location = new System.Drawing.Point(327, 147);
+            this.Cantidad6.Maximum = new decimal(new int[] {
+            12,
+            0,
+            0,
+            0});
+            this.Cantidad6.Minimum = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
+            this.Cantidad6.Name = "Cantidad6";
+            this.Cantidad6.Size = new System.Drawing.Size(50, 20);
+            this.Cantidad6.TabIndex = 23;
+            this.Cantidad6.Value = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             // 
             // EtiquetaPrecio6
             // 
@@ -1267,6 +773,24 @@
             this.EtiquetaPrecio6.TabIndex = 22;
             this.EtiquetaPrecio6.TabStop = false;
             // 
+            // Precios6
+            // 
+            this.Precios6.AutoSize = true;
+            this.Precios6.Location = new System.Drawing.Point(184, 155);
+            this.Precios6.Name = "Precios6";
+            this.Precios6.Size = new System.Drawing.Size(13, 13);
+            this.Precios6.TabIndex = 21;
+            this.Precios6.Text = "$";
+            // 
+            // Titulo6
+            // 
+            this.Titulo6.AutoSize = true;
+            this.Titulo6.Location = new System.Drawing.Point(145, 23);
+            this.Titulo6.Name = "Titulo6";
+            this.Titulo6.Size = new System.Drawing.Size(35, 13);
+            this.Titulo6.TabIndex = 19;
+            this.Titulo6.Text = "Título";
+            // 
             // imgLibro6
             // 
             this.imgLibro6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
@@ -1277,6 +801,22 @@
             this.imgLibro6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.imgLibro6.TabIndex = 18;
             this.imgLibro6.TabStop = false;
+            // 
+            // panel8
+            // 
+            this.panel8.BackColor = System.Drawing.Color.Gainsboro;
+            this.panel8.Controls.Add(this.BtnAgregarCarrito3);
+            this.panel8.Controls.Add(this.Descripcion5);
+            this.panel8.Controls.Add(this.LblTituloDescrip3);
+            this.panel8.Controls.Add(this.Cantidad3);
+            this.panel8.Controls.Add(this.EtiquetaPrecio3);
+            this.panel8.Controls.Add(this.Precios5);
+            this.panel8.Controls.Add(this.Titulo5);
+            this.panel8.Controls.Add(this.imgLibro5);
+            this.panel8.Location = new System.Drawing.Point(6, 400);
+            this.panel8.Name = "panel8";
+            this.panel8.Size = new System.Drawing.Size(425, 190);
+            this.panel8.TabIndex = 38;
             // 
             // BtnAgregarCarrito3
             // 
@@ -1290,6 +830,49 @@
             this.BtnAgregarCarrito3.Size = new System.Drawing.Size(30, 30);
             this.BtnAgregarCarrito3.TabIndex = 30;
             this.BtnAgregarCarrito3.UseVisualStyleBackColor = false;
+            this.BtnAgregarCarrito3.Click += new System.EventHandler(this.BtnAgregarCarrito3_Click);
+            // 
+            // Descripcion5
+            // 
+            this.Descripcion5.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.Descripcion5.Location = new System.Drawing.Point(148, 80);
+            this.Descripcion5.MaxLength = 80;
+            this.Descripcion5.Name = "Descripcion5";
+            this.Descripcion5.ReadOnly = true;
+            this.Descripcion5.Size = new System.Drawing.Size(268, 52);
+            this.Descripcion5.TabIndex = 26;
+            this.Descripcion5.Text = "";
+            // 
+            // LblTituloDescrip3
+            // 
+            this.LblTituloDescrip3.AutoSize = true;
+            this.LblTituloDescrip3.Location = new System.Drawing.Point(145, 58);
+            this.LblTituloDescrip3.Name = "LblTituloDescrip3";
+            this.LblTituloDescrip3.Size = new System.Drawing.Size(66, 13);
+            this.LblTituloDescrip3.TabIndex = 24;
+            this.LblTituloDescrip3.Text = "Descripción:";
+            // 
+            // Cantidad3
+            // 
+            this.Cantidad3.Location = new System.Drawing.Point(330, 147);
+            this.Cantidad3.Maximum = new decimal(new int[] {
+            12,
+            0,
+            0,
+            0});
+            this.Cantidad3.Minimum = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
+            this.Cantidad3.Name = "Cantidad3";
+            this.Cantidad3.Size = new System.Drawing.Size(50, 20);
+            this.Cantidad3.TabIndex = 23;
+            this.Cantidad3.Value = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             // 
             // EtiquetaPrecio3
             // 
@@ -1301,6 +884,24 @@
             this.EtiquetaPrecio3.TabIndex = 22;
             this.EtiquetaPrecio3.TabStop = false;
             // 
+            // Precios5
+            // 
+            this.Precios5.AutoSize = true;
+            this.Precios5.Location = new System.Drawing.Point(184, 155);
+            this.Precios5.Name = "Precios5";
+            this.Precios5.Size = new System.Drawing.Size(13, 13);
+            this.Precios5.TabIndex = 21;
+            this.Precios5.Text = "$";
+            // 
+            // Titulo5
+            // 
+            this.Titulo5.AutoSize = true;
+            this.Titulo5.Location = new System.Drawing.Point(145, 23);
+            this.Titulo5.Name = "Titulo5";
+            this.Titulo5.Size = new System.Drawing.Size(35, 13);
+            this.Titulo5.TabIndex = 19;
+            this.Titulo5.Text = "Título";
+            // 
             // imgLibro5
             // 
             this.imgLibro5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
@@ -1311,6 +912,22 @@
             this.imgLibro5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.imgLibro5.TabIndex = 18;
             this.imgLibro5.TabStop = false;
+            // 
+            // panel5
+            // 
+            this.panel5.BackColor = System.Drawing.Color.Gainsboro;
+            this.panel5.Controls.Add(this.BtnAgregarCarrito5);
+            this.panel5.Controls.Add(this.Descripcion4);
+            this.panel5.Controls.Add(this.LblTituloDescrip5);
+            this.panel5.Controls.Add(this.Cantidad5);
+            this.panel5.Controls.Add(this.EtiquetaPrecio5);
+            this.panel5.Controls.Add(this.Precios4);
+            this.panel5.Controls.Add(this.Titulo4);
+            this.panel5.Controls.Add(this.imgLibro4);
+            this.panel5.Location = new System.Drawing.Point(438, 206);
+            this.panel5.Name = "panel5";
+            this.panel5.Size = new System.Drawing.Size(425, 190);
+            this.panel5.TabIndex = 40;
             // 
             // BtnAgregarCarrito5
             // 
@@ -1324,6 +941,49 @@
             this.BtnAgregarCarrito5.Size = new System.Drawing.Size(30, 30);
             this.BtnAgregarCarrito5.TabIndex = 31;
             this.BtnAgregarCarrito5.UseVisualStyleBackColor = false;
+            this.BtnAgregarCarrito5.Click += new System.EventHandler(this.BtnAgregarCarrito5_Click);
+            // 
+            // Descripcion4
+            // 
+            this.Descripcion4.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.Descripcion4.Location = new System.Drawing.Point(148, 80);
+            this.Descripcion4.MaxLength = 80;
+            this.Descripcion4.Name = "Descripcion4";
+            this.Descripcion4.ReadOnly = true;
+            this.Descripcion4.Size = new System.Drawing.Size(268, 52);
+            this.Descripcion4.TabIndex = 26;
+            this.Descripcion4.Text = "";
+            // 
+            // LblTituloDescrip5
+            // 
+            this.LblTituloDescrip5.AutoSize = true;
+            this.LblTituloDescrip5.Location = new System.Drawing.Point(145, 58);
+            this.LblTituloDescrip5.Name = "LblTituloDescrip5";
+            this.LblTituloDescrip5.Size = new System.Drawing.Size(66, 13);
+            this.LblTituloDescrip5.TabIndex = 24;
+            this.LblTituloDescrip5.Text = "Descripción:";
+            // 
+            // Cantidad5
+            // 
+            this.Cantidad5.Location = new System.Drawing.Point(327, 149);
+            this.Cantidad5.Maximum = new decimal(new int[] {
+            12,
+            0,
+            0,
+            0});
+            this.Cantidad5.Minimum = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
+            this.Cantidad5.Name = "Cantidad5";
+            this.Cantidad5.Size = new System.Drawing.Size(50, 20);
+            this.Cantidad5.TabIndex = 23;
+            this.Cantidad5.Value = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             // 
             // EtiquetaPrecio5
             // 
@@ -1335,6 +995,24 @@
             this.EtiquetaPrecio5.TabIndex = 22;
             this.EtiquetaPrecio5.TabStop = false;
             // 
+            // Precios4
+            // 
+            this.Precios4.AutoSize = true;
+            this.Precios4.Location = new System.Drawing.Point(184, 155);
+            this.Precios4.Name = "Precios4";
+            this.Precios4.Size = new System.Drawing.Size(13, 13);
+            this.Precios4.TabIndex = 21;
+            this.Precios4.Text = "$";
+            // 
+            // Titulo4
+            // 
+            this.Titulo4.AutoSize = true;
+            this.Titulo4.Location = new System.Drawing.Point(145, 23);
+            this.Titulo4.Name = "Titulo4";
+            this.Titulo4.Size = new System.Drawing.Size(35, 13);
+            this.Titulo4.TabIndex = 19;
+            this.Titulo4.Text = "Título";
+            // 
             // imgLibro4
             // 
             this.imgLibro4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
@@ -1345,6 +1023,22 @@
             this.imgLibro4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.imgLibro4.TabIndex = 18;
             this.imgLibro4.TabStop = false;
+            // 
+            // panel4
+            // 
+            this.panel4.BackColor = System.Drawing.Color.Gainsboro;
+            this.panel4.Controls.Add(this.BtnAgregarCarrito4);
+            this.panel4.Controls.Add(this.Descripcion2);
+            this.panel4.Controls.Add(this.LblTituloDescrip4);
+            this.panel4.Controls.Add(this.Cantidad4);
+            this.panel4.Controls.Add(this.EtiquetaPrecio4);
+            this.panel4.Controls.Add(this.Precios2);
+            this.panel4.Controls.Add(this.Titulo2);
+            this.panel4.Controls.Add(this.imgLibro2);
+            this.panel4.Location = new System.Drawing.Point(438, 10);
+            this.panel4.Name = "panel4";
+            this.panel4.Size = new System.Drawing.Size(425, 190);
+            this.panel4.TabIndex = 36;
             // 
             // BtnAgregarCarrito4
             // 
@@ -1358,6 +1052,49 @@
             this.BtnAgregarCarrito4.Size = new System.Drawing.Size(30, 30);
             this.BtnAgregarCarrito4.TabIndex = 28;
             this.BtnAgregarCarrito4.UseVisualStyleBackColor = false;
+            this.BtnAgregarCarrito4.Click += new System.EventHandler(this.BtnAgregarCarrito4_Click);
+            // 
+            // Descripcion2
+            // 
+            this.Descripcion2.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.Descripcion2.Location = new System.Drawing.Point(148, 80);
+            this.Descripcion2.MaxLength = 80;
+            this.Descripcion2.Name = "Descripcion2";
+            this.Descripcion2.ReadOnly = true;
+            this.Descripcion2.Size = new System.Drawing.Size(268, 52);
+            this.Descripcion2.TabIndex = 25;
+            this.Descripcion2.Text = "";
+            // 
+            // LblTituloDescrip4
+            // 
+            this.LblTituloDescrip4.AutoSize = true;
+            this.LblTituloDescrip4.Location = new System.Drawing.Point(145, 58);
+            this.LblTituloDescrip4.Name = "LblTituloDescrip4";
+            this.LblTituloDescrip4.Size = new System.Drawing.Size(66, 13);
+            this.LblTituloDescrip4.TabIndex = 24;
+            this.LblTituloDescrip4.Text = "Descripción:";
+            // 
+            // Cantidad4
+            // 
+            this.Cantidad4.Location = new System.Drawing.Point(327, 149);
+            this.Cantidad4.Maximum = new decimal(new int[] {
+            12,
+            0,
+            0,
+            0});
+            this.Cantidad4.Minimum = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
+            this.Cantidad4.Name = "Cantidad4";
+            this.Cantidad4.Size = new System.Drawing.Size(50, 20);
+            this.Cantidad4.TabIndex = 23;
+            this.Cantidad4.Value = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             // 
             // EtiquetaPrecio4
             // 
@@ -1369,6 +1106,24 @@
             this.EtiquetaPrecio4.TabIndex = 22;
             this.EtiquetaPrecio4.TabStop = false;
             // 
+            // Precios2
+            // 
+            this.Precios2.AutoSize = true;
+            this.Precios2.Location = new System.Drawing.Point(184, 155);
+            this.Precios2.Name = "Precios2";
+            this.Precios2.Size = new System.Drawing.Size(13, 13);
+            this.Precios2.TabIndex = 21;
+            this.Precios2.Text = "$";
+            // 
+            // Titulo2
+            // 
+            this.Titulo2.AutoSize = true;
+            this.Titulo2.Location = new System.Drawing.Point(145, 23);
+            this.Titulo2.Name = "Titulo2";
+            this.Titulo2.Size = new System.Drawing.Size(35, 13);
+            this.Titulo2.TabIndex = 19;
+            this.Titulo2.Text = "Título";
+            // 
             // imgLibro2
             // 
             this.imgLibro2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
@@ -1379,6 +1134,22 @@
             this.imgLibro2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.imgLibro2.TabIndex = 18;
             this.imgLibro2.TabStop = false;
+            // 
+            // panel6
+            // 
+            this.panel6.BackColor = System.Drawing.Color.Gainsboro;
+            this.panel6.Controls.Add(this.BtnAgregarCarrito2);
+            this.panel6.Controls.Add(this.Descripcion3);
+            this.panel6.Controls.Add(this.LblTituloDescrip2);
+            this.panel6.Controls.Add(this.Cantidad2);
+            this.panel6.Controls.Add(this.EtiquetaPrecio2);
+            this.panel6.Controls.Add(this.Precios3);
+            this.panel6.Controls.Add(this.Titulo3);
+            this.panel6.Controls.Add(this.imgLibro3);
+            this.panel6.Location = new System.Drawing.Point(6, 206);
+            this.panel6.Name = "panel6";
+            this.panel6.Size = new System.Drawing.Size(425, 190);
+            this.panel6.TabIndex = 37;
             // 
             // BtnAgregarCarrito2
             // 
@@ -1392,6 +1163,49 @@
             this.BtnAgregarCarrito2.Size = new System.Drawing.Size(30, 30);
             this.BtnAgregarCarrito2.TabIndex = 29;
             this.BtnAgregarCarrito2.UseVisualStyleBackColor = false;
+            this.BtnAgregarCarrito2.Click += new System.EventHandler(this.BtnAgregarCarrito2_Click);
+            // 
+            // Descripcion3
+            // 
+            this.Descripcion3.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.Descripcion3.Location = new System.Drawing.Point(148, 80);
+            this.Descripcion3.MaxLength = 80;
+            this.Descripcion3.Name = "Descripcion3";
+            this.Descripcion3.ReadOnly = true;
+            this.Descripcion3.Size = new System.Drawing.Size(268, 52);
+            this.Descripcion3.TabIndex = 26;
+            this.Descripcion3.Text = "";
+            // 
+            // LblTituloDescrip2
+            // 
+            this.LblTituloDescrip2.AutoSize = true;
+            this.LblTituloDescrip2.Location = new System.Drawing.Point(145, 58);
+            this.LblTituloDescrip2.Name = "LblTituloDescrip2";
+            this.LblTituloDescrip2.Size = new System.Drawing.Size(66, 13);
+            this.LblTituloDescrip2.TabIndex = 24;
+            this.LblTituloDescrip2.Text = "Descripción:";
+            // 
+            // Cantidad2
+            // 
+            this.Cantidad2.Location = new System.Drawing.Point(330, 148);
+            this.Cantidad2.Maximum = new decimal(new int[] {
+            12,
+            0,
+            0,
+            0});
+            this.Cantidad2.Minimum = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
+            this.Cantidad2.Name = "Cantidad2";
+            this.Cantidad2.Size = new System.Drawing.Size(50, 20);
+            this.Cantidad2.TabIndex = 23;
+            this.Cantidad2.Value = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             // 
             // EtiquetaPrecio2
             // 
@@ -1403,6 +1217,24 @@
             this.EtiquetaPrecio2.TabIndex = 22;
             this.EtiquetaPrecio2.TabStop = false;
             // 
+            // Precios3
+            // 
+            this.Precios3.AutoSize = true;
+            this.Precios3.Location = new System.Drawing.Point(184, 155);
+            this.Precios3.Name = "Precios3";
+            this.Precios3.Size = new System.Drawing.Size(13, 13);
+            this.Precios3.TabIndex = 21;
+            this.Precios3.Text = "$";
+            // 
+            // Titulo3
+            // 
+            this.Titulo3.AutoSize = true;
+            this.Titulo3.Location = new System.Drawing.Point(145, 23);
+            this.Titulo3.Name = "Titulo3";
+            this.Titulo3.Size = new System.Drawing.Size(35, 13);
+            this.Titulo3.TabIndex = 19;
+            this.Titulo3.Text = "Título";
+            // 
             // imgLibro3
             // 
             this.imgLibro3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
@@ -1413,6 +1245,22 @@
             this.imgLibro3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.imgLibro3.TabIndex = 18;
             this.imgLibro3.TabStop = false;
+            // 
+            // panel10
+            // 
+            this.panel10.BackColor = System.Drawing.Color.Gainsboro;
+            this.panel10.Controls.Add(this.BtnAgregarCarrito1);
+            this.panel10.Controls.Add(this.Descripcion1);
+            this.panel10.Controls.Add(this.LblTituloDescrip1);
+            this.panel10.Controls.Add(this.Cantidad1);
+            this.panel10.Controls.Add(this.EtiquetaPrecio1);
+            this.panel10.Controls.Add(this.Precios1);
+            this.panel10.Controls.Add(this.Titulo1);
+            this.panel10.Controls.Add(this.imgLibro1);
+            this.panel10.Location = new System.Drawing.Point(6, 10);
+            this.panel10.Name = "panel10";
+            this.panel10.Size = new System.Drawing.Size(425, 190);
+            this.panel10.TabIndex = 35;
             // 
             // BtnAgregarCarrito1
             // 
@@ -1426,6 +1274,49 @@
             this.BtnAgregarCarrito1.Size = new System.Drawing.Size(30, 30);
             this.BtnAgregarCarrito1.TabIndex = 27;
             this.BtnAgregarCarrito1.UseVisualStyleBackColor = false;
+            this.BtnAgregarCarrito1.Click += new System.EventHandler(this.BtnAgregarCarrito1_Click);
+            // 
+            // Descripcion1
+            // 
+            this.Descripcion1.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.Descripcion1.Location = new System.Drawing.Point(148, 80);
+            this.Descripcion1.MaxLength = 5;
+            this.Descripcion1.Name = "Descripcion1";
+            this.Descripcion1.ReadOnly = true;
+            this.Descripcion1.Size = new System.Drawing.Size(268, 52);
+            this.Descripcion1.TabIndex = 26;
+            this.Descripcion1.Text = "";
+            // 
+            // LblTituloDescrip1
+            // 
+            this.LblTituloDescrip1.AutoSize = true;
+            this.LblTituloDescrip1.Location = new System.Drawing.Point(145, 58);
+            this.LblTituloDescrip1.Name = "LblTituloDescrip1";
+            this.LblTituloDescrip1.Size = new System.Drawing.Size(66, 13);
+            this.LblTituloDescrip1.TabIndex = 24;
+            this.LblTituloDescrip1.Text = "Descripción:";
+            // 
+            // Cantidad1
+            // 
+            this.Cantidad1.Location = new System.Drawing.Point(330, 153);
+            this.Cantidad1.Maximum = new decimal(new int[] {
+            12,
+            0,
+            0,
+            0});
+            this.Cantidad1.Minimum = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
+            this.Cantidad1.Name = "Cantidad1";
+            this.Cantidad1.Size = new System.Drawing.Size(50, 20);
+            this.Cantidad1.TabIndex = 23;
+            this.Cantidad1.Value = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             // 
             // EtiquetaPrecio1
             // 
@@ -1437,6 +1328,24 @@
             this.EtiquetaPrecio1.TabIndex = 22;
             this.EtiquetaPrecio1.TabStop = false;
             // 
+            // Precios1
+            // 
+            this.Precios1.AutoSize = true;
+            this.Precios1.Location = new System.Drawing.Point(184, 155);
+            this.Precios1.Name = "Precios1";
+            this.Precios1.Size = new System.Drawing.Size(13, 13);
+            this.Precios1.TabIndex = 21;
+            this.Precios1.Text = "$";
+            // 
+            // Titulo1
+            // 
+            this.Titulo1.AutoSize = true;
+            this.Titulo1.Location = new System.Drawing.Point(145, 23);
+            this.Titulo1.Name = "Titulo1";
+            this.Titulo1.Size = new System.Drawing.Size(35, 13);
+            this.Titulo1.TabIndex = 19;
+            this.Titulo1.Text = "Título";
+            // 
             // imgLibro1
             // 
             this.imgLibro1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
@@ -1447,6 +1356,78 @@
             this.imgLibro1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.imgLibro1.TabIndex = 18;
             this.imgLibro1.TabStop = false;
+            // 
+            // panelHola
+            // 
+            this.panelHola.Location = new System.Drawing.Point(8, 8);
+            this.panelHola.Name = "panelHola";
+            this.panelHola.Size = new System.Drawing.Size(869, 576);
+            this.panelHola.TabIndex = 41;
+            // 
+            // TimerMouseWheelRest
+            // 
+            this.TimerMouseWheelRest.Interval = 1000;
+            this.TimerMouseWheelRest.Tick += new System.EventHandler(this.TimerMouseWheelRest_Tick);
+            // 
+            // panel3
+            // 
+            this.panel3.Controls.Add(this.Carritopop);
+            this.panel3.Location = new System.Drawing.Point(8, 49);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(380, 230);
+            this.panel3.TabIndex = 6;
+            // 
+            // Carritopop
+            // 
+            this.Carritopop.AllowUserToAddRows = false;
+            this.Carritopop.AllowUserToDeleteRows = false;
+            this.Carritopop.BackgroundColor = System.Drawing.Color.White;
+            this.Carritopop.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.Carritopop.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.Carritopop.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.Agregar,
+            this.Descripcion,
+            this.Cantidad,
+            this.Precio,
+            this.Eliminar});
+            this.Carritopop.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.Carritopop.GridColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.Carritopop.Location = new System.Drawing.Point(0, 0);
+            this.Carritopop.Name = "Carritopop";
+            this.Carritopop.Size = new System.Drawing.Size(380, 230);
+            this.Carritopop.TabIndex = 5;
+            this.Carritopop.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.Carritopop_CellClick);
+            // 
+            // Agregar
+            // 
+            this.Agregar.HeaderText = "";
+            this.Agregar.Name = "Agregar";
+            this.Agregar.Width = 20;
+            // 
+            // Descripcion
+            // 
+            this.Descripcion.HeaderText = "Descripción";
+            this.Descripcion.Name = "Descripcion";
+            this.Descripcion.ReadOnly = true;
+            this.Descripcion.Width = 170;
+            // 
+            // Cantidad
+            // 
+            this.Cantidad.HeaderText = "Cantidad";
+            this.Cantidad.Name = "Cantidad";
+            this.Cantidad.Width = 53;
+            // 
+            // Precio
+            // 
+            this.Precio.HeaderText = "Precio";
+            this.Precio.Name = "Precio";
+            this.Precio.Width = 45;
+            // 
+            // Eliminar
+            // 
+            this.Eliminar.HeaderText = "";
+            this.Eliminar.Name = "Eliminar";
+            this.Eliminar.Width = 20;
             // 
             // Principal
             // 
@@ -1466,63 +1447,54 @@
             this.Load += new System.EventHandler(this.Principal_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.BtnMinimizar)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.BtnCerrar)).EndInit();
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
             this.PanelCategorias.ResumeLayout(false);
             this.panelFondo.ResumeLayout(false);
-            this.panelGaleria.ResumeLayout(false);
-            this.panel7.ResumeLayout(false);
-            this.panel7.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.Cantidad6)).EndInit();
-            this.panel8.ResumeLayout(false);
-            this.panel8.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.Cantidad3)).EndInit();
-            this.panel5.ResumeLayout(false);
-            this.panel5.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.Cantidad5)).EndInit();
-            this.panel4.ResumeLayout(false);
-            this.panel4.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.Cantidad4)).EndInit();
-            this.panel6.ResumeLayout(false);
-            this.panel6.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.Cantidad2)).EndInit();
-            this.panel10.ResumeLayout(false);
-            this.panel10.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.Cantidad1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.BtnMinimizar)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.BtnCerrar)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.LoginPanel.ResumeLayout(false);
             this.LoginPanel.PerformLayout();
             this.PopUpCarrito.ResumeLayout(false);
             this.PopUpCarrito.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown9)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown10)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown11)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown5)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown6)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown7)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown8)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.loginBar.ResumeLayout(false);
             this.loginBar.PerformLayout();
+            this.panelGaleria.ResumeLayout(false);
+            this.panel7.ResumeLayout(false);
+            this.panel7.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.Cantidad6)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.EtiquetaPrecio6)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.imgLibro6)).EndInit();
+            this.panel8.ResumeLayout(false);
+            this.panel8.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.Cantidad3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.EtiquetaPrecio3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.imgLibro5)).EndInit();
+            this.panel5.ResumeLayout(false);
+            this.panel5.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.Cantidad5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.EtiquetaPrecio5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.imgLibro4)).EndInit();
+            this.panel4.ResumeLayout(false);
+            this.panel4.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.Cantidad4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.EtiquetaPrecio4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.imgLibro2)).EndInit();
+            this.panel6.ResumeLayout(false);
+            this.panel6.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.Cantidad2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.EtiquetaPrecio2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.imgLibro3)).EndInit();
+            this.panel10.ResumeLayout(false);
+            this.panel10.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.Cantidad1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.EtiquetaPrecio1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.imgLibro1)).EndInit();
+            this.panel3.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.Carritopop)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -1552,24 +1524,9 @@
         public System.Windows.Forms.Label LblUsuario;
         public System.Windows.Forms.Panel loginBar;
         public System.Windows.Forms.Panel PopUpCarrito;
-        private System.Windows.Forms.NumericUpDown numericUpDown9;
-        private System.Windows.Forms.NumericUpDown numericUpDown10;
-        private System.Windows.Forms.NumericUpDown numericUpDown11;
-        private System.Windows.Forms.NumericUpDown numericUpDown5;
-        private System.Windows.Forms.NumericUpDown numericUpDown6;
-        private System.Windows.Forms.NumericUpDown numericUpDown7;
-        private System.Windows.Forms.NumericUpDown numericUpDown8;
-        private System.Windows.Forms.NumericUpDown numericUpDown3;
-        private System.Windows.Forms.NumericUpDown numericUpDown4;
-        private System.Windows.Forms.NumericUpDown numericUpDown2;
-        private System.Windows.Forms.NumericUpDown numericUpDown1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button BtnPagar;
-        private System.Windows.Forms.ListView listView1;
-        private System.Windows.Forms.ColumnHeader Descripción;
-        private System.Windows.Forms.ColumnHeader Precio;
-        private System.Windows.Forms.ColumnHeader Cantidad;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Panel panelGaleria;
         private System.Windows.Forms.Panel panel7;
@@ -1637,6 +1594,13 @@
         private System.Windows.Forms.Panel panelHola;
         private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.Panel panel3;
+        private System.Windows.Forms.DataGridView Carritopop;
+        private System.Windows.Forms.DataGridViewCheckBoxColumn Agregar;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Descripcion;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Cantidad;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Precio;
+        private System.Windows.Forms.DataGridViewButtonColumn Eliminar;
 
     }
 }

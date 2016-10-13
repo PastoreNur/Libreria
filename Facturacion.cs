@@ -144,7 +144,9 @@ namespace Libreria
 
         private void BtnPagar_Click(object sender, EventArgs e)
         {
-            
+
+            int pos = Carrito.CurrentCell.ColumnIndex;
+            MessageBox.Show(pos.ToString());
 
             if (System.IO.File.Exists("Factura" + NumFact.ToString() + ".pdf"))
             {
@@ -171,7 +173,23 @@ namespace Libreria
 
         private void Facturacion_Load(object sender, EventArgs e)
         {
+            
+                Carrito.Rows.Add(true, "Luna de Pluton", 1, 2, "Eliminar");
+                Carrito.Rows.Add(true, "Luna de Pluton", 1, 2, "Eliminar");
+                Carrito.Rows.Add(true, "Luna de Pluton", 1, 2, "Eliminar");
 
+           
+
+
+        }
+
+        private void ClickEliminar(object sender, DataGridViewCellEventArgs e)
+        {
+            if (Carrito.CurrentCell.ColumnIndex == 4)
+            {
+                var row = Carrito.CurrentRow;
+                Carrito.Rows.Remove(row);
+            }
         }
     }
 }

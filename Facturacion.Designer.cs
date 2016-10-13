@@ -31,14 +31,17 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Facturacion));
             this.Bar = new System.Windows.Forms.Panel();
             this.BtnCerrar = new System.Windows.Forms.Button();
-            this.ListProductos = new System.Windows.Forms.ListView();
-            this.columnHeader5 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader4 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader1 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader3 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader2 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.BtnPagar = new System.Windows.Forms.Button();
+            this.Carrito = new System.Windows.Forms.DataGridView();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.Agregar = new System.Windows.Forms.DataGridViewCheckBoxColumn();
+            this.Descripcion = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Cantidad = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Precio = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Eliminar = new System.Windows.Forms.DataGridViewButtonColumn();
             this.Bar.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.Carrito)).BeginInit();
+            this.panel2.SuspendLayout();
             this.SuspendLayout();
             // 
             // Bar
@@ -65,51 +68,6 @@
             this.BtnCerrar.UseVisualStyleBackColor = false;
             this.BtnCerrar.Click += new System.EventHandler(this.BtnCerrar_Click);
             // 
-            // ListProductos
-            // 
-            this.ListProductos.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.ListProductos.CheckBoxes = true;
-            this.ListProductos.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
-            this.columnHeader5,
-            this.columnHeader4,
-            this.columnHeader1,
-            this.columnHeader3,
-            this.columnHeader2});
-            this.ListProductos.GridLines = true;
-            this.ListProductos.Location = new System.Drawing.Point(40, 134);
-            this.ListProductos.Name = "ListProductos";
-            this.ListProductos.Size = new System.Drawing.Size(687, 259);
-            this.ListProductos.TabIndex = 1;
-            this.ListProductos.UseCompatibleStateImageBehavior = false;
-            this.ListProductos.View = System.Windows.Forms.View.Details;
-            // 
-            // columnHeader5
-            // 
-            this.columnHeader5.Text = "";
-            this.columnHeader5.Width = 18;
-            // 
-            // columnHeader4
-            // 
-            this.columnHeader4.Text = "Código";
-            this.columnHeader4.Width = 82;
-            // 
-            // columnHeader1
-            // 
-            this.columnHeader1.Text = "Descripción";
-            this.columnHeader1.Width = 429;
-            // 
-            // columnHeader3
-            // 
-            this.columnHeader3.DisplayIndex = 4;
-            this.columnHeader3.Text = "Precio";
-            this.columnHeader3.Width = 79;
-            // 
-            // columnHeader2
-            // 
-            this.columnHeader2.DisplayIndex = 3;
-            this.columnHeader2.Text = "Cantidad";
-            this.columnHeader2.Width = 75;
-            // 
             // BtnPagar
             // 
             this.BtnPagar.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("BtnPagar.BackgroundImage")));
@@ -117,7 +75,7 @@
             this.BtnPagar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BtnPagar.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnPagar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.BtnPagar.Location = new System.Drawing.Point(636, 399);
+            this.BtnPagar.Location = new System.Drawing.Point(668, 397);
             this.BtnPagar.Name = "BtnPagar";
             this.BtnPagar.Size = new System.Drawing.Size(111, 49);
             this.BtnPagar.TabIndex = 2;
@@ -126,13 +84,70 @@
             this.BtnPagar.UseVisualStyleBackColor = true;
             this.BtnPagar.Click += new System.EventHandler(this.BtnPagar_Click);
             // 
+            // Carrito
+            // 
+            this.Carrito.AllowUserToAddRows = false;
+            this.Carrito.AllowUserToDeleteRows = false;
+            this.Carrito.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.Carrito.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.Agregar,
+            this.Descripcion,
+            this.Cantidad,
+            this.Precio,
+            this.Eliminar});
+            this.Carrito.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.Carrito.Location = new System.Drawing.Point(0, 0);
+            this.Carrito.Name = "Carrito";
+            this.Carrito.Size = new System.Drawing.Size(745, 280);
+            this.Carrito.TabIndex = 4;
+            this.Carrito.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.ClickEliminar);
+            // 
+            // panel2
+            // 
+            this.panel2.Controls.Add(this.Carrito);
+            this.panel2.Location = new System.Drawing.Point(34, 88);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(745, 280);
+            this.panel2.TabIndex = 5;
+            // 
+            // Agregar
+            // 
+            this.Agregar.HeaderText = "";
+            this.Agregar.Name = "Agregar";
+            this.Agregar.Width = 25;
+            // 
+            // Descripcion
+            // 
+            this.Descripcion.HeaderText = "Descripción";
+            this.Descripcion.Name = "Descripcion";
+            this.Descripcion.ReadOnly = true;
+            this.Descripcion.Width = 452;
+            // 
+            // Cantidad
+            // 
+            this.Cantidad.HeaderText = "Cantidad";
+            this.Cantidad.Name = "Cantidad";
+            this.Cantidad.Width = 75;
+            // 
+            // Precio
+            // 
+            this.Precio.HeaderText = "Precio";
+            this.Precio.Name = "Precio";
+            this.Precio.Width = 75;
+            // 
+            // Eliminar
+            // 
+            this.Eliminar.HeaderText = "Eliminar";
+            this.Eliminar.Name = "Eliminar";
+            this.Eliminar.Width = 75;
+            // 
             // Facturacion
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(815, 470);
+            this.Controls.Add(this.panel2);
             this.Controls.Add(this.BtnPagar);
-            this.Controls.Add(this.ListProductos);
             this.Controls.Add(this.Bar);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Facturacion";
@@ -140,6 +155,8 @@
             this.Text = "Facturacion";
             this.Load += new System.EventHandler(this.Facturacion_Load);
             this.Bar.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.Carrito)).EndInit();
+            this.panel2.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -148,12 +165,13 @@
 
         private System.Windows.Forms.Panel Bar;
         private System.Windows.Forms.Button BtnCerrar;
-        private System.Windows.Forms.ColumnHeader columnHeader4;
-        private System.Windows.Forms.ColumnHeader columnHeader1;
-        private System.Windows.Forms.ColumnHeader columnHeader3;
         private System.Windows.Forms.Button BtnPagar;
-        public System.Windows.Forms.ListView ListProductos;
-        public System.Windows.Forms.ColumnHeader columnHeader5;
-        public System.Windows.Forms.ColumnHeader columnHeader2;
+        private System.Windows.Forms.DataGridView Carrito;
+        private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.DataGridViewCheckBoxColumn Agregar;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Descripcion;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Cantidad;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Precio;
+        private System.Windows.Forms.DataGridViewButtonColumn Eliminar;
     }
 }

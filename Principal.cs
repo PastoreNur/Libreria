@@ -833,6 +833,125 @@ namespace Libreria
         }
 
 
+        //Codigo para agregar libros al carrito
+
+        int rows;
+
+        private void BtnAgregarCarrito1_Click(object sender, EventArgs e)
+        {
+            Carritopop.Rows.Add(true,Titulo1.Text, Cantidad1.Value,"$"+precio1,"X");
+            Cantidad1.Maximum = Cantidad1.Maximum - Cantidad1.Value;
+
+            if (Cantidad1.Maximum > 0)
+            {
+                Cantidad1.Value = 1;
+            }
+            else 
+            {
+                Cantidad1.Value = 0;
+                BtnAgregarCarrito1.Enabled = false;
+                Cantidad1.Enabled = false;
+            }
+        }
+
+        public void Carritopop_CellClick(object sender, DataGridViewCellEventArgs e)
+        {
+            if(Carritopop.CurrentCell.ColumnIndex == 4)
+            {
+                var row = Carritopop.CurrentRow;
+                Carritopop.Rows.Remove(row);
+
+            }
+        }
+
+        private void BtnAgregarCarrito4_Click(object sender, EventArgs e)
+        {
+            Carritopop.Rows.Add(true, Titulo4.Text, Cantidad4.Value, "$" + precio4, "X");
+            Cantidad4.Maximum = Cantidad4.Maximum - Cantidad4.Value;
+
+            if (Cantidad4.Maximum > 0)
+            {
+                Cantidad4.Value = 1;
+            }
+            else
+            {
+                Cantidad4.Value = 0;
+                BtnAgregarCarrito4.Enabled = false;
+                Cantidad4.Enabled = false;
+            }
+        }
+
+        private void BtnAgregarCarrito2_Click(object sender, EventArgs e)
+        {
+            Carritopop.Rows.Add(true, Titulo2.Text, Cantidad2.Value, "$" + precio2, "X");
+            Cantidad2.Maximum = Cantidad2.Maximum - Cantidad2.Value;
+
+            if (Cantidad2.Maximum > 0)
+            {
+                Cantidad2.Value = 1;
+            }
+            else
+            {
+                Cantidad2.Value = 0;
+                BtnAgregarCarrito2.Enabled = false;
+                Cantidad2.Enabled = false;
+            }
+        }
+
+        private void BtnAgregarCarrito5_Click(object sender, EventArgs e)
+        {
+            Carritopop.Rows.Add(true, Titulo5.Text, Cantidad5.Value, "$" + precio5, "X");
+            Cantidad5.Maximum = Cantidad5.Maximum - Cantidad5.Value;
+
+            if (Cantidad5.Maximum > 0)
+            {
+                Cantidad5.Value = 1;
+            }
+            else
+            {
+                Cantidad5.Value = 0;
+                BtnAgregarCarrito5.Enabled = false;
+                Cantidad5.Enabled = false;
+            }
+        }
+
+        private void BtnAgregarCarrito3_Click(object sender, EventArgs e)
+        {
+            Carritopop.Rows.Add(true, Titulo3.Text, Cantidad3.Value, "$" + precio3, "X");
+            Cantidad3.Maximum = Cantidad3.Maximum - Cantidad3.Value;
+
+            if (Cantidad3.Maximum > 0)
+            {
+                Cantidad3.Value = 1;
+            }
+            else
+            {
+                Cantidad3.Value = 0;
+                BtnAgregarCarrito3.Enabled = false;
+                Cantidad3.Enabled = false;
+            }
+        }
+
+        private void BtnAgregarCarrito6_Click(object sender, EventArgs e)
+        {
+            Carritopop.Rows.Add(true, Titulo6.Text, Cantidad6.Value, "$" + precio6, "X");
+            Cantidad6.Maximum = Cantidad6.Maximum - Cantidad6.Value;
+
+            if (Cantidad6.Maximum > 0)
+            {
+                Cantidad6.Value = 1;
+            }
+            else
+            {
+                Cantidad6.Value = 0;
+                BtnAgregarCarrito6.Enabled = false;
+                Cantidad6.Enabled = false;
+            }
+        }
+
+
+
+
         /*
           try
             {
